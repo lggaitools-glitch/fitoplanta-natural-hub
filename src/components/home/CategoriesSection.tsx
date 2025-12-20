@@ -1,41 +1,41 @@
 import { Link } from 'react-router-dom';
-import { categories } from '@/data/articles';
-import { Leaf, Pill, Heart, BookOpen, ShoppingBag } from 'lucide-react';
+import { Leaf, Pill, Heart, BookOpen, ShoppingBag, Sprout } from 'lucide-react';
 
-const categoryIcons: Record<string, React.ReactNode> = {
-  "Fitoterapia": <Leaf className="w-6 h-6" />,
-  "Plantas Medicinais": <Leaf className="w-6 h-6" />,
-  "Suplementos Naturais": <Pill className="w-6 h-6" />,
-  "Bem-estar": <Heart className="w-6 h-6" />,
-  "Guias de Compra": <ShoppingBag className="w-6 h-6" />,
-};
+const siloCategories = [
+  { name: 'Fitoterapia', href: '/fitoterapia', icon: Leaf, description: 'Ciência das plantas medicinais' },
+  { name: 'Plantas Medicinais', href: '/plantas-medicinais', icon: Sprout, description: 'Guia de plantas e benefícios' },
+  { name: 'Suplementos', href: '/suplementos-naturais', icon: Pill, description: 'Formas e dosagens' },
+  { name: 'Guias de Compra', href: '/guias', icon: ShoppingBag, description: 'Melhores produtos' },
+  { name: 'Bem-estar', href: '/bem-estar', icon: Heart, description: 'Saúde natural no dia a dia' },
+];
 
 export const CategoriesSection = () => {
   return (
-    <section className="py-16 bg-cream-dark">
+    <section className="py-16 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <div className="flex items-center justify-center gap-2 text-secondary mb-4">
+          <div className="flex items-center justify-center gap-2 text-accent mb-4">
             <BookOpen className="w-5 h-5" />
-            <span className="text-sm font-medium">Navegue por Categoria</span>
+            <span className="text-sm font-medium uppercase tracking-wide">Explore Nosso Conteúdo</span>
           </div>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground">
-            Categorias Principais
+            Navegue por Tema
           </h2>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-          {categories.map((category, index) => (
+          {siloCategories.map((category, index) => (
             <Link
-              key={category}
-              to={`/artigos?categoria=${encodeURIComponent(category.toLowerCase().replace(' ', '-'))}`}
-              className="bg-card p-6 rounded-xl text-center shadow-card hover:shadow-elevated transition-all duration-300 group animate-fade-up"
+              key={category.name}
+              to={category.href}
+              className="bg-card p-6 rounded-xl text-center border border-border hover:border-primary/50 hover:shadow-lg transition-all duration-300 group animate-fade-up"
               style={{ animationDelay: `${index * 50}ms` }}
             >
-              <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                {categoryIcons[category] || <Leaf className="w-6 h-6" />}
+              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                <category.icon className="w-7 h-7" />
               </div>
-              <span className="font-medium text-foreground text-sm">{category}</span>
+              <h3 className="font-semibold text-foreground mb-1">{category.name}</h3>
+              <p className="text-xs text-muted-foreground">{category.description}</p>
             </Link>
           ))}
         </div>
