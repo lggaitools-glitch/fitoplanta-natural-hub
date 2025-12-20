@@ -2,21 +2,24 @@ import { Link } from 'react-router-dom';
 import { Leaf, Mail, Instagram, Facebook, Youtube } from 'lucide-react';
 
 const footerLinks = {
-  conteudo: [
-    { name: 'Todos os Artigos', href: '/artigos' },
-    { name: 'Fitoterapia', href: '/artigos?categoria=fitoterapia' },
-    { name: 'Plantas Medicinais', href: '/artigos?categoria=plantas-medicinais' },
+  silos: [
+    { name: 'Fitoterapia', href: '/fitoterapia' },
+    { name: 'Plantas Medicinais', href: '/plantas-medicinais' },
+    { name: 'Suplementos Naturais', href: '/suplementos-naturais' },
     { name: 'Guias de Compra', href: '/guias' },
+    { name: 'Bem-estar', href: '/bem-estar' },
   ],
-  produtos: [
-    { name: 'Produtos Recomendados', href: '/produtos' },
-    { name: 'Valeriana', href: '/produtos/valeriana-beneficios-melhores-marcas' },
-    { name: 'Equinácea', href: '/produtos/equinacea-imunidade-funciona' },
-    { name: 'Guaraná', href: '/produtos/guarana-capsulas-energia-natural-marketing' },
+  plantas: [
+    { name: 'Valeriana', href: '/plantas-medicinais/valeriana' },
+    { name: 'Equinácea', href: '/plantas-medicinais/equinacea' },
+    { name: 'Guaraná', href: '/plantas-medicinais/guarana' },
+    { name: 'Melissa', href: '/plantas-medicinais/melissa' },
+    { name: 'Ginseng', href: '/plantas-medicinais/ginseng' },
   ],
   institucional: [
     { name: 'Sobre Nós', href: '/sobre' },
     { name: 'Transparência', href: '/transparencia' },
+    { name: 'Artigos', href: '/artigos' },
     { name: 'Contato', href: '/contato' },
   ],
 };
@@ -50,11 +53,11 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Conteúdo */}
+          {/* Temas */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Conteúdo</h3>
+            <h3 className="font-display text-lg font-semibold mb-4">Temas</h3>
             <ul className="space-y-3">
-              {footerLinks.conteudo.map((link) => (
+              {footerLinks.silos.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.href}
@@ -67,11 +70,11 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Produtos */}
+          {/* Plantas */}
           <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Produtos</h3>
+            <h3 className="font-display text-lg font-semibold mb-4">Plantas</h3>
             <ul className="space-y-3">
-              {footerLinks.produtos.map((link) => (
+              {footerLinks.plantas.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.href}
