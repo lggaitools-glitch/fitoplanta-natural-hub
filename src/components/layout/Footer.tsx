@@ -1,21 +1,23 @@
 import { Link } from 'react-router-dom';
-import { Leaf, Mail, Phone, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Leaf, Mail, Instagram, Facebook, Youtube } from 'lucide-react';
 
 const footerLinks = {
+  conteudo: [
+    { name: 'Todos os Artigos', href: '/artigos' },
+    { name: 'Fitoterapia', href: '/artigos?categoria=fitoterapia' },
+    { name: 'Plantas Medicinais', href: '/artigos?categoria=plantas-medicinais' },
+    { name: 'Guias de Compra', href: '/guias' },
+  ],
   produtos: [
-    { name: 'FitoCalm', href: '/produtos/fitocalm' },
-    { name: 'ImmunoPlanta', href: '/produtos/immunoplanta' },
-    { name: 'EnergiaVerde', href: '/produtos/energiaverde' },
+    { name: 'Produtos Recomendados', href: '/produtos' },
+    { name: 'Valeriana', href: '/produtos/valeriana-beneficios-melhores-marcas' },
+    { name: 'Equinácea', href: '/produtos/equinacea-imunidade-funciona' },
+    { name: 'Guaraná', href: '/produtos/guarana-capsulas-energia-natural-marketing' },
   ],
   institucional: [
     { name: 'Sobre Nós', href: '/sobre' },
-    { name: 'Artigos', href: '/artigos' },
+    { name: 'Transparência', href: '/transparencia' },
     { name: 'Contato', href: '/contato' },
-  ],
-  ajuda: [
-    { name: 'Política de Privacidade', href: '#' },
-    { name: 'Termos de Uso', href: '#' },
-    { name: 'FAQ', href: '#' },
   ],
 };
 
@@ -33,7 +35,7 @@ export const Footer = () => {
               <span className="font-display text-xl font-semibold">FitoPlantaMed</span>
             </Link>
             <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">
-              Saúde natural com ciência e eficácia. Produtos fitoterápicos premium para seu bem-estar.
+              Informação confiável sobre fitoterapia e saúde natural. Conteúdo educativo baseado em evidências científicas.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors" aria-label="Instagram">
@@ -46,6 +48,23 @@ export const Footer = () => {
                 <Youtube className="w-5 h-5" />
               </a>
             </div>
+          </div>
+
+          {/* Conteúdo */}
+          <div>
+            <h3 className="font-display text-lg font-semibold mb-4">Conteúdo</h3>
+            <ul className="space-y-3">
+              {footerLinks.conteudo.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.href}
+                    className="text-primary-foreground/70 hover:text-primary-foreground text-sm transition-colors"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Produtos */}
@@ -79,26 +98,11 @@ export const Footer = () => {
                   </Link>
                 </li>
               ))}
-            </ul>
-          </div>
-
-          {/* Contato */}
-          <div>
-            <h3 className="font-display text-lg font-semibold mb-4">Contato</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                <span className="text-primary-foreground/70 text-sm">
-                  Av. Paulista, 1000 - São Paulo, SP
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-accent flex-shrink-0" />
-                <span className="text-primary-foreground/70 text-sm">(11) 3000-0000</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-accent flex-shrink-0" />
-                <span className="text-primary-foreground/70 text-sm">contato@fitoplantamed.com.br</span>
+              <li className="pt-4">
+                <a href="mailto:contato@fitoplantamed.com.br" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground text-sm transition-colors">
+                  <Mail className="w-4 h-4" />
+                  contato@fitoplantamed.com.br
+                </a>
               </li>
             </ul>
           </div>
@@ -110,8 +114,9 @@ export const Footer = () => {
             <p className="text-primary-foreground/60 text-sm">
               © 2024 FitoPlantaMed. Todos os direitos reservados.
             </p>
-            <p className="text-primary-foreground/60 text-xs">
-              Os produtos não substituem orientação médica profissional.
+            <p className="text-primary-foreground/60 text-xs text-center md:text-right max-w-xl">
+              Este site contém links de afiliados. Se você comprar através deles, podemos receber uma comissão, sem custo adicional para você. 
+              O conteúdo não substitui orientação médica profissional.
             </p>
           </div>
         </div>
