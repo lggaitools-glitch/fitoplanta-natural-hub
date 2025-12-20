@@ -1,5 +1,6 @@
 import { Layout } from '@/components/layout/Layout';
-import { Leaf, Target, Eye, Heart, Award, Users, Globe } from 'lucide-react';
+import { Leaf, Target, Eye, Heart, BookOpen, Users, Shield } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -10,13 +11,13 @@ const About = () => {
           <div className="max-w-2xl text-primary-foreground animate-fade-up">
             <div className="flex items-center gap-2 text-accent mb-4">
               <Leaf className="w-5 h-5" />
-              <span className="text-sm font-medium">Nossa História</span>
+              <span className="text-sm font-medium">Quem Somos</span>
             </div>
             <h1 className="font-display text-4xl sm:text-5xl font-bold mb-4">
               Sobre a FitoPlantaMed
             </h1>
             <p className="text-lg text-primary-foreground/80">
-              Conheça nossa jornada de compromisso com a saúde natural e descubra por que somos referência em fitoterápicos premium.
+              Um portal dedicado a oferecer informação confiável e baseada em evidências sobre fitoterapia e saúde natural.
             </p>
           </div>
         </div>
@@ -32,21 +33,19 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  A FitoPlantaMed nasceu da paixão por unir o conhecimento ancestral das plantas medicinais com a ciência moderna. Fundada por profissionais de saúde e pesquisadores, nossa empresa surgiu da necessidade de oferecer ao mercado brasileiro produtos fitoterápicos de qualidade verdadeiramente premium.
+                  A FitoPlantaMed nasceu da necessidade de criar um espaço onde pessoas interessadas em saúde natural pudessem encontrar informação de qualidade, baseada em ciência — não em promessas milagrosas ou marketing agressivo.
                 </p>
                 <p>
-                  Desde o início, nossa missão foi clara: democratizar o acesso à fitoterapia de qualidade, sem comprometer a eficácia ou a segurança. Cada produto é resultado de extensiva pesquisa, desenvolvido com extratos padronizados que garantem a concentração exata de princípios ativos.
+                  Somos um time de profissionais de saúde, pesquisadores e entusiastas da fitoterapia que acredita no poder das plantas medicinais, mas também no rigor científico. Não defendemos que "natural é sempre melhor" — defendemos que informação bem embasada permite melhores escolhas.
                 </p>
                 <p>
-                  Hoje, a FitoPlantaMed é reconhecida pela excelência de seus produtos e pelo compromisso inabalável com a saúde e o bem-estar de nossos clientes.
+                  Nosso compromisso é ser transparentes: quando há evidências fortes, dizemos. Quando há limitações, também. Nosso objetivo é empoderar você a tomar decisões informadas sobre sua saúde.
                 </p>
               </div>
             </div>
             <div className="animate-fade-up delay-100">
-              <div className="aspect-[4/3] rounded-2xl bg-green-soft overflow-hidden">
-                <div className="w-full h-full flex items-center justify-center">
-                  <Leaf className="w-32 h-32 text-primary/30" />
-                </div>
+              <div className="aspect-[4/3] rounded-2xl bg-green-soft overflow-hidden flex items-center justify-center">
+                <BookOpen className="w-32 h-32 text-primary/30" />
               </div>
             </div>
           </div>
@@ -70,7 +69,7 @@ const About = () => {
                 Missão
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Oferecer produtos naturais com eficácia e segurança comprovadas, promovendo saúde e bem-estar através da fitoterapia baseada em evidências científicas rigorosas.
+                Oferecer informação confiável sobre fitoterapia e produtos naturais, com foco em eficácia, segurança e evidências científicas — sem promessas milagrosas.
               </p>
             </div>
             <div className="bg-card p-8 rounded-2xl shadow-card animate-fade-up delay-100">
@@ -81,7 +80,7 @@ const About = () => {
                 Visão
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Tornar-se referência internacional no mercado de fitoterápicos e produtos naturais, sendo reconhecida pela excelência, inovação e compromisso com a qualidade.
+                Tornar-se referência em conteúdo educativo sobre fitoterápicos e saúde natural no Brasil e no mundo lusófono.
               </p>
             </div>
             <div className="bg-card p-8 rounded-2xl shadow-card animate-fade-up delay-200">
@@ -92,72 +91,105 @@ const About = () => {
                 Valores
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Qualidade, segurança, transparência, ciência e compromisso genuíno com o bem-estar de nossos clientes e a preservação do meio ambiente.
+                Transparência, rigor científico, honestidade editorial, respeito ao leitor e compromisso genuíno com a saúde.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Differentials */}
-      <section className="py-20 bg-primary text-primary-foreground">
+      {/* What We Do */}
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="font-display text-3xl sm:text-4xl font-bold mb-4">
-              Nossos Diferenciais
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
+              O Que Fazemos
             </h2>
-            <p className="text-primary-foreground/80 max-w-2xl mx-auto">
-              O que nos torna únicos no mercado de fitoterápicos
+            <p className="text-muted-foreground">
+              Conteúdo educativo e recomendações baseadas em critérios rigorosos
             </p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="text-center animate-fade-up">
-              <div className="w-16 h-16 bg-primary-foreground/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-accent" />
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="flex gap-4 animate-fade-up">
+              <div className="w-12 h-12 bg-secondary/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                <BookOpen className="w-6 h-6 text-secondary" />
               </div>
-              <h3 className="font-display text-lg font-semibold mb-2">Extratos Padronizados</h3>
-              <p className="text-primary-foreground/70 text-sm">
-                Concentração garantida de princípios ativos em cada lote
-              </p>
+              <div>
+                <h3 className="font-display text-lg font-semibold text-foreground mb-2">
+                  Artigos Educativos
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  Conteúdo aprofundado sobre plantas medicinais, fitoterápicos e suplementos naturais, sempre com referências científicas.
+                </p>
+              </div>
             </div>
-            <div className="text-center animate-fade-up delay-100">
-              <div className="w-16 h-16 bg-primary-foreground/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-accent" />
+            <div className="flex gap-4 animate-fade-up delay-100">
+              <div className="w-12 h-12 bg-secondary/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Shield className="w-6 h-6 text-secondary" />
               </div>
-              <h3 className="font-display text-lg font-semibold mb-2">Equipe Especializada</h3>
-              <p className="text-primary-foreground/70 text-sm">
-                Farmacêuticos e nutricionistas em nosso time
-              </p>
+              <div>
+                <h3 className="font-display text-lg font-semibold text-foreground mb-2">
+                  Análises de Produtos
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  Reviews imparciais com pontos positivos e negativos, para que você tome decisões informadas.
+                </p>
+              </div>
             </div>
-            <div className="text-center animate-fade-up delay-200">
-              <div className="w-16 h-16 bg-primary-foreground/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Globe className="w-8 h-8 text-accent" />
+            <div className="flex gap-4 animate-fade-up delay-200">
+              <div className="w-12 h-12 bg-secondary/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Users className="w-6 h-6 text-secondary" />
               </div>
-              <h3 className="font-display text-lg font-semibold mb-2">Fornecedores Globais</h3>
-              <p className="text-primary-foreground/70 text-sm">
-                Ingredientes dos melhores produtores do mundo
-              </p>
+              <div>
+                <h3 className="font-display text-lg font-semibold text-foreground mb-2">
+                  Guias Práticos
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  Orientações sobre como escolher, usar e avaliar a qualidade de produtos naturais.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4 animate-fade-up delay-300">
+              <div className="w-12 h-12 bg-secondary/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                <Leaf className="w-6 h-6 text-secondary" />
+              </div>
+              <div>
+                <h3 className="font-display text-lg font-semibold text-foreground mb-2">
+                  Transparência Total
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  Disclosure claro sobre monetização por afiliados e nossos critérios editoriais.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="font-display text-3xl font-bold text-foreground mb-4">
-              Faça Parte da Nossa História
+            <h2 className="font-display text-3xl font-bold mb-4">
+              Conheça Nosso Conteúdo
             </h2>
-            <p className="text-muted-foreground mb-8">
-              Milhares de pessoas já transformaram sua saúde com nossos produtos. Que tal começar sua jornada de bem-estar hoje?
+            <p className="text-primary-foreground/80 mb-8">
+              Explore nossos artigos e guias para aprender mais sobre fitoterapia e saúde natural.
             </p>
-            <a
-              href="/produtos"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
-            >
-              Conhecer Produtos
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                to="/artigos"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-colors"
+              >
+                Explorar Artigos
+              </Link>
+              <Link
+                to="/transparencia"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-foreground/10 text-primary-foreground rounded-lg font-medium hover:bg-primary-foreground/20 transition-colors"
+              >
+                Nossa Política de Transparência
+              </Link>
+            </div>
           </div>
         </div>
       </section>
