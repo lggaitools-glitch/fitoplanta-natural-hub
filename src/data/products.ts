@@ -1,213 +1,196 @@
-export interface Product {
+export interface ProductReview {
   id: string;
   name: string;
   slug: string;
   tagline: string;
   description: string;
-  price: number;
-  originalPrice?: number;
   image: string;
   category: string;
   benefits: string[];
   ingredients: string[];
   howToUse: string;
+  pros: string[];
+  cons: string[];
+  forWhom: string[];
   technicalInfo: {
     quantity: string;
     form: string;
     dosage: string;
   };
   contraindications: string;
-  faqs: { question: string; answer: string }[];
-  testimonials: { name: string; text: string; rating: number }[];
+  affiliateUrl: string;
   featured: boolean;
-  badge?: string;
+  rating: number;
 }
 
-export const products: Product[] = [
+export const productReviews: ProductReview[] = [
   {
     id: "1",
-    name: "FitoCalm",
-    slug: "fitocalm",
-    tagline: "Tranquilidade e sono natural",
-    description: "FitoCalm é uma fórmula premium desenvolvida com extratos padronizados de Valeriana e Melissa, duas plantas tradicionais reconhecidas por suas propriedades calmantes. Nossa tecnologia de extração preserva os compostos ativos em sua forma mais biodisponível, garantindo eficácia comprovada para noites de sono restaurador e dias mais tranquilos.",
-    price: 89.90,
-    originalPrice: 119.90,
+    name: "Valeriana",
+    slug: "valeriana-beneficios-melhores-marcas",
+    tagline: "Benefícios, Como Funciona e Melhores Marcas",
+    description: `A valeriana (Valeriana officinalis) é uma das plantas medicinais mais estudadas e utilizadas no mundo para tratamento de insônia e ansiedade. Originária da Europa e Ásia, esta planta contém compostos únicos que atuam nos receptores GABA do cérebro, promovendo relaxamento sem os efeitos colaterais de medicamentos sintéticos.
+
+Estudos clínicos demonstram que a valeriana pode reduzir significativamente o tempo necessário para adormecer e melhorar a qualidade do sono, especialmente quando usada de forma contínua por algumas semanas.`,
     image: "/products/fitocalm.jpg",
-    category: "Relaxamento",
+    category: "Relaxamento e Sono",
     benefits: [
-      "Promove relaxamento natural sem sonolência diurna",
+      "Reduz o tempo para adormecer naturalmente",
       "Melhora a qualidade do sono profundo",
-      "Reduz a ansiedade e o estresse do dia a dia",
-      "Auxilia no equilíbrio emocional",
-      "Não causa dependência"
+      "Não causa dependência física ou psicológica",
+      "Diminui sintomas de ansiedade leve",
+      "Não causa sonolência residual matinal",
+      "Pode ser combinada com outras plantas relaxantes"
     ],
     ingredients: [
-      "Extrato seco de Valeriana (Valeriana officinalis) 250mg",
-      "Extrato seco de Melissa (Melissa officinalis) 150mg",
-      "Vitamina B6 1,3mg",
-      "Magnésio quelado 65mg"
+      "Raiz de Valeriana (Valeriana officinalis)",
+      "Ácidos valerênicos (0,8% em extratos padronizados)",
+      "Valeranona e outros sesquiterpenos",
+      "Flavonoides e lignanas"
     ],
-    howToUse: "Tomar 2 cápsulas ao dia, preferencialmente 30 minutos antes de dormir. Para ansiedade diurna, tomar 1 cápsula pela manhã e 1 à noite.",
+    howToUse: "Tomar 300-600mg de extrato padronizado (0,8% de ácido valerênico) 30 minutos a 2 horas antes de dormir. Para ansiedade, pode-se dividir a dose em 2-3 tomadas ao dia.",
+    pros: [
+      "Eficácia comprovada em centenas de estudos",
+      "Não causa dependência",
+      "Perfil de segurança excelente",
+      "Pode ser usada a longo prazo",
+      "Boa tolerabilidade"
+    ],
+    cons: [
+      "Efeito pode demorar 2-4 semanas para se consolidar",
+      "Odor característico desagradável",
+      "Não indicada para grávidas/lactantes",
+      "Pode interagir com sedativos"
+    ],
+    forWhom: [
+      "Pessoas com dificuldade para adormecer",
+      "Quem busca alternativa natural aos soníferos",
+      "Pessoas com ansiedade leve a moderada",
+      "Quem deseja evitar dependência de medicamentos"
+    ],
     technicalInfo: {
-      quantity: "60 cápsulas",
-      form: "Cápsulas vegetais",
-      dosage: "2 cápsulas ao dia"
+      quantity: "60 cápsulas (comum)",
+      form: "Cápsulas de extrato seco padronizado",
+      dosage: "300-600mg ao dia"
     },
-    contraindications: "Não recomendado para gestantes, lactantes e menores de 18 anos sem orientação médica. Consulte um profissional de saúde antes do uso se estiver tomando medicamentos para ansiedade ou depressão.",
-    faqs: [
-      {
-        question: "FitoCalm causa dependência?",
-        answer: "Não. Por ser um produto 100% natural à base de plantas, FitoCalm não causa dependência física ou psicológica, podendo ser usado de forma contínua com segurança."
-      },
-      {
-        question: "Posso tomar durante o dia?",
-        answer: "Sim. Embora promova relaxamento, FitoCalm não causa sonolência excessiva, podendo ser utilizado durante o dia para controle do estresse."
-      },
-      {
-        question: "Em quanto tempo verei resultados?",
-        answer: "Os efeitos podem ser percebidos já nas primeiras doses. Para resultados ótimos no sono, recomendamos uso contínuo por pelo menos 2 semanas."
-      }
-    ],
-    testimonials: [
-      {
-        name: "Maria S.",
-        text: "Finalmente consegui dormir bem depois de anos de insônia. FitoCalm mudou minha qualidade de vida!",
-        rating: 5
-      },
-      {
-        name: "Carlos R.",
-        text: "Uso há 3 meses e a diferença é incrível. Acordo disposto e sem aquela sensação de cansaço.",
-        rating: 5
-      }
-    ],
+    contraindications: "Não usar durante gravidez e amamentação. Evitar combinar com álcool, benzodiazepínicos ou outros sedativos. Suspender uso 2 semanas antes de cirurgias.",
+    affiliateUrl: "#",
     featured: true,
-    badge: "Mais Vendido"
+    rating: 4.7
   },
   {
     id: "2",
-    name: "ImmunoPlanta",
-    slug: "immunoplanta",
-    tagline: "Fortalecimento diário da imunidade",
-    description: "ImmunoPlanta combina o poder da Equinácea com Gengibre e Zinco quelatado em uma fórmula sinérgica para fortalecimento do sistema imunológico. Desenvolvido com extratos padronizados de alta concentração, oferece proteção natural e suporte às defesas do organismo durante todo o ano.",
-    price: 79.90,
+    name: "Equinácea",
+    slug: "equinacea-imunidade-funciona",
+    tagline: "Para Imunidade Funciona Mesmo?",
+    description: `A equinácea (Echinacea purpurea) é uma das plantas medicinais mais pesquisadas para suporte imunológico. Nativa da América do Norte, foi utilizada por séculos pelos povos indígenas e hoje é um dos fitoterápicos mais vendidos no mundo ocidental.
+
+A grande pergunta que muitos fazem: ela realmente funciona? A resposta baseada em evidências é nuanceada. Estudos mostram que a equinácea pode sim ajudar a reduzir a duração e gravidade de resfriados, especialmente quando iniciada nos primeiros sinais de sintomas. No entanto, seu uso preventivo a longo prazo tem resultados menos consistentes.`,
     image: "/products/immunoplanta.jpg",
     category: "Imunidade",
     benefits: [
-      "Fortalece o sistema imunológico naturalmente",
-      "Ação antioxidante potente",
-      "Auxilia na prevenção de gripes e resfriados",
-      "Acelera a recuperação do organismo",
-      "Suporte para mudanças de estação"
+      "Pode reduzir duração de resfriados em 1-2 dias",
+      "Estimula células do sistema imunológico",
+      "Ação anti-inflamatória das vias respiratórias",
+      "Efeito antiviral contra vírus respiratórios",
+      "Propriedades antioxidantes"
     ],
     ingredients: [
-      "Extrato seco de Equinácea (Echinacea purpurea) 300mg",
-      "Extrato seco de Gengibre (Zingiber officinale) 150mg",
-      "Zinco quelado 15mg",
-      "Vitamina C 500mg",
-      "Vitamina D3 2000UI"
+      "Raiz e/ou partes aéreas de Echinacea purpurea",
+      "Polissacarídeos imunomoduladores",
+      "Alquilamidas (marcadores de qualidade)",
+      "Derivados do ácido cafeico",
+      "Flavonoides"
     ],
-    howToUse: "Tomar 2 cápsulas ao dia, preferencialmente com as principais refeições. Em períodos de maior exposição, pode-se aumentar para 3 cápsulas ao dia por até 2 semanas.",
+    howToUse: "Ao primeiro sinal de resfriado: 500-1000mg de extrato padronizado, 3x ao dia, por 5-10 dias. Para prevenção: doses menores em ciclos (ex: 3 semanas sim, 1 semana não).",
+    pros: [
+      "Evidências científicas moderadas a boas",
+      "Pode encurtar duração de gripes",
+      "Geralmente bem tolerada",
+      "Disponível em diversas formas"
+    ],
+    cons: [
+      "Resultados variam entre estudos",
+      "Uso preventivo contínuo não é ideal",
+      "Contraindicada em doenças autoimunes",
+      "Possível alergia em sensíveis a asteráceas"
+    ],
+    forWhom: [
+      "Pessoas que pegam resfriados frequentemente",
+      "Quem busca suporte imunológico natural",
+      "Para uso nos primeiros sinais de gripe",
+      "Pessoas saudáveis em épocas de risco (inverno)"
+    ],
     technicalInfo: {
-      quantity: "60 cápsulas",
-      form: "Cápsulas vegetais",
-      dosage: "2 cápsulas ao dia"
+      quantity: "60 cápsulas (comum)",
+      form: "Cápsulas ou tintura",
+      dosage: "500-1000mg, 1-3x ao dia"
     },
-    contraindications: "Não recomendado para pessoas com doenças autoimunes, gestantes e lactantes sem orientação médica. Pessoas em uso de imunossupressores devem consultar um médico.",
-    faqs: [
-      {
-        question: "Posso tomar ImmunoPlanta todo dia?",
-        answer: "Sim, ImmunoPlanta foi desenvolvido para uso contínuo e seguro. Recomendamos ciclos de 3 meses de uso com 1 mês de pausa."
-      },
-      {
-        question: "É indicado para crianças?",
-        answer: "ImmunoPlanta é formulado para adultos. Para crianças, consulte um pediatra para orientação adequada."
-      },
-      {
-        question: "Pode ser tomado com outros suplementos?",
-        answer: "Sim, mas evite combinar com outros produtos que contenham Zinco ou Vitamina D para não exceder as doses diárias recomendadas."
-      }
-    ],
-    testimonials: [
-      {
-        name: "Ana P.",
-        text: "Desde que comecei a usar ImmunoPlanta, não peguei mais gripe. Recomendo a todos!",
-        rating: 5
-      },
-      {
-        name: "Roberto M.",
-        text: "Excelente produto! Sinto que meu corpo está mais resistente às mudanças de clima.",
-        rating: 5
-      }
-    ],
+    contraindications: "Não usar em doenças autoimunes (lúpus, artrite reumatoide, esclerose múltipla). Evitar em alérgicos a plantas da família Asteraceae (margaridas, crisântemos). Não usar por mais de 8 semanas contínuas.",
+    affiliateUrl: "#",
     featured: true,
-    badge: "Novidade"
+    rating: 4.3
   },
   {
     id: "3",
-    name: "EnergiaVerde",
-    slug: "energiaverde",
-    tagline: "Energia natural e foco prolongado",
-    description: "EnergiaVerde é a escolha inteligente para quem busca energia sustentada sem os efeitos colaterais de estimulantes artificiais. Nossa fórmula exclusiva combina Guaraná brasileiro premium com Ginseng coreano, oferecendo disposição física e mental que dura o dia todo, sem picos ou crashes.",
-    price: 94.90,
-    originalPrice: 114.90,
+    name: "Guaraná em Cápsulas",
+    slug: "guarana-capsulas-energia-natural-marketing",
+    tagline: "Energia Natural ou Marketing?",
+    description: `O guaraná (Paullinia cupana) é uma planta amazônica famosa mundialmente por seu efeito energético. As sementes de guaraná contêm cerca de 4-6% de cafeína — aproximadamente o dobro do café — além de outros compostos como teobromina e teofilina.
+
+Mas será que o guaraná em cápsulas é realmente superior ao café comum? Ou é apenas marketing aproveitando o apelo do "natural"? Vamos analisar as evidências de forma imparcial.`,
     image: "/products/energiaverde.jpg",
-    category: "Energia",
+    category: "Energia e Foco",
     benefits: [
-      "Energia sustentada ao longo do dia",
-      "Melhora o foco e concentração mental",
-      "Combate a fadiga física e mental",
-      "Não causa nervosismo ou insônia",
-      "Suporte para atividades físicas intensas"
+      "Aumento de energia e alerta mental",
+      "Melhora da concentração e foco",
+      "Liberação mais gradual de cafeína que café",
+      "Propriedades antioxidantes",
+      "Pode auxiliar na performance física",
+      "Efeito termogênico suave"
     ],
     ingredients: [
-      "Extrato seco de Guaraná (Paullinia cupana) 350mg",
-      "Extrato seco de Ginseng Coreano (Panax ginseng) 200mg",
-      "Vitamina B12 methylcobalamina 500mcg",
-      "Coenzima Q10 50mg",
-      "Taurina 100mg"
+      "Semente de Guaraná (Paullinia cupana)",
+      "Cafeína natural (4-6%)",
+      "Teobromina",
+      "Teofilina",
+      "Taninos e saponinas"
     ],
-    howToUse: "Tomar 1 a 2 cápsulas pela manhã, preferencialmente com o café da manhã. Evitar o uso após as 16h para não interferir no sono.",
+    howToUse: "500-1000mg de pó de guaraná (equivale a 20-60mg de cafeína) pela manhã ou antes de atividades que exijam foco. Evitar após as 16h para não interferir no sono.",
+    pros: [
+      "Energia sustentada, menos \"pico e queda\"",
+      "Compostos adicionais além da cafeína",
+      "Tradicionalmente usado há séculos",
+      "Conveniente em forma de cápsulas"
+    ],
+    cons: [
+      "Efeitos similares a outras fontes de cafeína",
+      "Custo maior que café comum",
+      "Pode causar dependência da cafeína",
+      "Não indicado para sensíveis a estimulantes"
+    ],
+    forWhom: [
+      "Pessoas que buscam energia sem excesso de café",
+      "Quem prefere suplementação em cápsulas",
+      "Atletas e praticantes de exercícios",
+      "Profissionais que precisam de foco prolongado"
+    ],
     technicalInfo: {
-      quantity: "60 cápsulas",
-      form: "Cápsulas vegetais",
-      dosage: "1-2 cápsulas ao dia"
+      quantity: "60-120 cápsulas (comum)",
+      form: "Cápsulas de pó ou extrato",
+      dosage: "500-1000mg ao dia"
     },
-    contraindications: "Não recomendado para pessoas sensíveis à cafeína, hipertensos, gestantes e lactantes. Não exceder a dose recomendada. Consulte um médico se estiver em uso de medicamentos.",
-    faqs: [
-      {
-        question: "EnergiaVerde contém cafeína?",
-        answer: "Sim, o Guaraná naturalmente contém cafeína. Cada cápsula fornece aproximadamente 40mg de cafeína natural, equivalente a meia xícara de café."
-      },
-      {
-        question: "Posso usar para treinos?",
-        answer: "Sim! EnergiaVerde é excelente como pré-treino natural, fornecendo energia sustentada e foco para suas atividades físicas."
-      },
-      {
-        question: "É seguro para uso diário?",
-        answer: "Sim, dentro da dose recomendada. Para uso prolongado, sugerimos ciclos de 8 semanas com pausa de 2 semanas."
-      }
-    ],
-    testimonials: [
-      {
-        name: "Fernando L.",
-        text: "Substitui o excesso de café por EnergiaVerde. Energia constante sem aquela ansiedade!",
-        rating: 5
-      },
-      {
-        name: "Juliana C.",
-        text: "Perfeito para quem trabalha muito. Me sinto focada e produtiva o dia inteiro.",
-        rating: 5
-      }
-    ],
+    contraindications: "Não usar em casos de hipertensão não controlada, arritmias cardíacas, ansiedade severa ou durante a gravidez. Evitar combinar com outros estimulantes. Não exceder 400mg de cafeína/dia de todas as fontes.",
+    affiliateUrl: "#",
     featured: true,
-    badge: "Premium"
+    rating: 4.5
   }
 ];
 
-export const getProductBySlug = (slug: string): Product | undefined => {
-  return products.find(p => p.slug === slug);
+export const getProductBySlug = (slug: string): ProductReview | undefined => {
+  return productReviews.find(p => p.slug === slug);
 };
 
-export const getFeaturedProducts = (): Product[] => {
-  return products.filter(p => p.featured);
+export const getFeaturedProducts = (): ProductReview[] => {
+  return productReviews.filter(p => p.featured);
 };
