@@ -31,6 +31,7 @@ const navigation = [
   { name: 'Guias', href: '/guias' },
   { name: 'Bem-estar', href: '/bem-estar' },
   { name: 'Artigos', href: '/artigos' },
+  { name: 'Contato', href: '/contato' },
 ];
 
 export const Header = () => {
