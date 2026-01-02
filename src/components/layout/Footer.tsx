@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Leaf, Mail, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Mail, Instagram, Facebook, Youtube } from 'lucide-react';
+import logo from '@/assets/logo.png';
 
 const footerLinks = {
   silos: [
@@ -32,10 +33,11 @@ export const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-full bg-primary-foreground/20 flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="font-display text-xl font-semibold">FitoPlantaMed</span>
+              <img 
+                src={logo} 
+                alt="FitoPlantaMed" 
+                className="h-12 w-auto"
+              />
             </Link>
             <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">
               Informação confiável sobre fitoterapia e saúde natural. Conteúdo educativo baseado em evidências científicas.
