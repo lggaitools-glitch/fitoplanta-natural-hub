@@ -254,40 +254,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="py-20 bg-cream-dark">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
-              Perguntas Frequentes
-            </h2>
-            <p className="text-muted-foreground mb-12">
-              Confira as respostas para as dúvidas mais comuns
-            </p>
-            <div className="space-y-4 text-left">
-              {[
-                {
-                  q: 'Qual o prazo de entrega?',
-                  a: 'O prazo de entrega varia de 3 a 10 dias úteis, dependendo da sua região. Após a postagem, você receberá o código de rastreio.'
-                },
-                {
-                  q: 'Os produtos são seguros?',
-                  a: 'Sim! Todos os nossos produtos são desenvolvidos seguindo rigorosos padrões de qualidade e passam por testes laboratoriais.'
-                },
-                {
-                  q: 'Posso usar os produtos junto com medicamentos?',
-                  a: 'Recomendamos sempre consultar seu médico ou farmacêutico antes de combinar fitoterápicos com medicamentos convencionais.'
-                },
-              ].map((faq, index) => (
-                <div key={index} className="bg-card p-6 rounded-xl shadow-card">
-                  <h3 className="font-medium text-foreground mb-2">{faq.q}</h3>
-                  <p className="text-muted-foreground text-sm">{faq.a}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 };
