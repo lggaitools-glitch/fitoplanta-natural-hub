@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Leaf, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import logo from '@/assets/logo.png';
 
 const navigation = [
   { name: 'Início', href: '/' },
@@ -50,12 +51,11 @@ export const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-full bg-primary flex items-center justify-center transition-transform group-hover:scale-110">
-              <Leaf className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <span className="font-display text-lg font-semibold text-primary">
-              FitoPlantaMed
-            </span>
+            <img 
+              src={logo} 
+              alt="FitoPlantaMed" 
+              className="h-10 w-auto transition-transform group-hover:scale-105"
+            />
           </Link>
 
           {/* Desktop Navigation */}
