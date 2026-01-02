@@ -1,10 +1,11 @@
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Mail, Send, Loader2 } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { toast } from 'sonner';
 import { supabase } from '@/integrations/supabase/client';
 import { z } from 'zod';
+import { ConsultationBooking } from '@/components/contact/ConsultationBooking';
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Nome é obrigatório").max(100, "Nome muito longo"),
@@ -15,6 +16,7 @@ const contactSchema = z.object({
 });
 
 const Contact = () => {
+  const formRef = useRef<HTMLDivElement>(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -23,6 +25,11 @@ const Contact = () => {
     message: '',
   });
   const [isLoading, setIsLoading] = useState(false);
+
+  const handleFormClick = () => {
+    setFormData(prev => ({ ...prev, subject: 'Agendamento de Consulta Farmacêutica' }));
+    formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -87,6 +94,9 @@ const Contact = () => {
         </div>
       </section>
 
+      {/* Consultation Booking Section */}
+      <ConsultationBooking onFormClick={handleFormClick} />
+
       {/* Contact Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -116,7 +126,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <div className="animate-fade-up delay-100">
+            <div ref={formRef} className="animate-fade-up delay-100">
               <div className="bg-card p-8 rounded-2xl shadow-card">
                 <h2 className="font-display text-2xl font-bold text-foreground mb-6">
                   Envie sua Mensagem
@@ -187,6 +197,7 @@ const Contact = () => {
                         className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-50"
                       >
                         <option value="">Selecione...</option>
+                        <option value="Agendamento de Consulta Farmacêutica">Agendamento de Consulta Farmacêutica</option>
                         <option value="Dúvidas sobre produtos">Dúvidas sobre produtos</option>
                         <option value="Informações de pedidos">Informações de pedidos</option>
                         <option value="Parcerias">Parcerias</option>
@@ -194,6 +205,17 @@ const Contact = () => {
                       </select>
                     </div>
                   </div>
+
+                  {formData.subject === 'Agendamento de Consulta Farmacêutica' && (
+                    <div className="p-4 bg-gold/10 border border-gold/30 rounded-lg">
+                      <p className="text-sm text-foreground">
+                        <strong>Consulta com Farmacêutica Clínica Marta Leni</strong>
+                      </p>
+                      <p className="text-xs text-muted-foreground mt-1">
+                        Consulta online com duração de 1h30 a 2h. Entraremos em contato para agendar o melhor horário e informar sobre valores.
+                      </p>
+                    </div>
+                  )}
 
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
