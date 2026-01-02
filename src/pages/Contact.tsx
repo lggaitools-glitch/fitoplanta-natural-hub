@@ -1,6 +1,6 @@
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
-import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
+import { Mail, Send } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';
 
@@ -59,52 +59,12 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-medium text-foreground mb-1">Endereço</h3>
-                    <p className="text-muted-foreground text-sm">
-                      Av. Paulista, 1000 - Bela Vista<br />
-                      São Paulo - SP, 01310-100
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-medium text-foreground mb-1">Telefone</h3>
-                    <p className="text-muted-foreground text-sm">
-                      (11) 3000-0000<br />
-                      (11) 99000-0000 (WhatsApp)
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Mail className="w-5 h-5 text-primary" />
                   </div>
                   <div>
                     <h3 className="font-medium text-foreground mb-1">E-mail</h3>
                     <p className="text-muted-foreground text-sm">
-                      contato@fitoplantamed.com.br<br />
-                      suporte@fitoplantamed.com.br
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-medium text-foreground mb-1">Horário de Atendimento</h3>
-                    <p className="text-muted-foreground text-sm">
-                      Segunda a Sexta: 9h às 18h<br />
-                      Sábado: 9h às 13h
+                      fito.planta.med@gmail.com
                     </p>
                   </div>
                 </div>

@@ -102,9 +102,9 @@ export const Footer = () => {
                 </li>
               ))}
               <li className="pt-4">
-                <a href="mailto:contato@fitoplantamed.com.br" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground text-sm transition-colors">
+                <a href="mailto:fito.planta.med@gmail.com" className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground text-sm transition-colors">
                   <Mail className="w-4 h-4" />
-                  contato@fitoplantamed.com.br
+                  fito.planta.med@gmail.com
                 </a>
               </li>
             </ul>
