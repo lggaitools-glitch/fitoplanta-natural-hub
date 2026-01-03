@@ -4,6 +4,7 @@ import { getProductBySlug, productReviews } from '@/data/products';
 import { Button } from '@/components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Leaf, Check, Star, ChevronLeft, ExternalLink, AlertCircle, ThumbsUp, ThumbsDown } from 'lucide-react';
+import ProductSchema from '@/components/seo/ProductSchema';
 
 const ProductDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -26,6 +27,15 @@ const ProductDetail = () => {
 
   return (
     <Layout>
+      <ProductSchema
+        name={product.name}
+        description={product.description.substring(0, 200)}
+        image={product.image}
+        slug={product.slug}
+        rating={product.rating}
+        category={product.category}
+      />
+      
       {/* Breadcrumb */}
       <div className="bg-cream-dark py-4">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

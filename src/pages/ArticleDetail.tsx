@@ -5,6 +5,7 @@ import { ArticleCard } from '@/components/articles/ArticleCard';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ChevronLeft, Clock, User, Calendar, Share2, Facebook, Twitter, Linkedin } from 'lucide-react';
+import ArticleSchema from '@/components/seo/ArticleSchema';
 
 const ArticleDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -35,6 +36,16 @@ const ArticleDetail = () => {
 
   return (
     <Layout>
+      <ArticleSchema
+        title={article.title}
+        description={article.excerpt}
+        image={article.image}
+        author={article.author}
+        publishedAt={article.publishedAt}
+        slug={article.slug}
+        category={article.category}
+      />
+      
       {/* Breadcrumb */}
       <div className="bg-cream-dark py-4">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
