@@ -3,321 +3,321 @@
   
   <!-- Páginas Principais -->
   <url>
-    <loc>https://fitoplantamed.com.br/</loc>
+    <loc>https://fitoplantamed.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/sobre</loc>
+    <loc>https://fitoplantamed.com/sobre</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/contato</loc>
+    <loc>https://fitoplantamed.com/contato</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/transparencia</loc>
+    <loc>https://fitoplantamed.com/transparencia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <!-- SILO 1: Fitoterapia -->
   <url>
-    <loc>https://fitoplantamed.com.br/fitoterapia</loc>
+    <loc>https://fitoplantamed.com/fitoterapia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/fitoterapia/o-que-e-fitoterapia</loc>
+    <loc>https://fitoplantamed.com/fitoterapia/o-que-e-fitoterapia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/fitoterapia/fitoterapia-funciona</loc>
+    <loc>https://fitoplantamed.com/fitoterapia/fitoterapia-funciona</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/fitoterapia/beneficios-e-riscos</loc>
+    <loc>https://fitoplantamed.com/fitoterapia/beneficios-e-riscos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/fitoterapia/fitoterapia-x-suplementos</loc>
+    <loc>https://fitoplantamed.com/fitoterapia/fitoterapia-x-suplementos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- SILO 2: Plantas Medicinais -->
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Valeriana -->
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/valeriana</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/valeriana/beneficios</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana/beneficios</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/valeriana/como-usar</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana/como-usar</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/valeriana/efeitos-colaterais</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana/efeitos-colaterais</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/valeriana/melhores-marcas</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana/melhores-marcas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Equinácea -->
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/equinacea</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/equinacea/beneficios</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea/beneficios</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/equinacea/como-usar</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea/como-usar</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/equinacea/efeitos-colaterais</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea/efeitos-colaterais</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/equinacea/melhores-marcas</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea/melhores-marcas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Guaraná -->
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/guarana</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/guarana</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/guarana/beneficios</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/guarana/beneficios</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/guarana/como-usar</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/guarana/como-usar</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/guarana/efeitos-colaterais</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/guarana/efeitos-colaterais</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/guarana/melhores-marcas</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/guarana/melhores-marcas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Melissa -->
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/melissa</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/melissa</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/melissa/beneficios</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/melissa/beneficios</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/melissa/como-usar</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/melissa/como-usar</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/melissa/efeitos-colaterais</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/melissa/efeitos-colaterais</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/melissa/melhores-marcas</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/melissa/melhores-marcas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Ginseng -->
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/ginseng</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/ginseng/beneficios</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng/beneficios</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/ginseng/como-usar</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng/como-usar</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/ginseng/efeitos-colaterais</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng/efeitos-colaterais</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/plantas-medicinais/ginseng/melhores-marcas</loc>
+    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng/melhores-marcas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <!-- SILO 3: Suplementos Naturais -->
   <url>
-    <loc>https://fitoplantamed.com.br/suplementos-naturais</loc>
+    <loc>https://fitoplantamed.com/suplementos-naturais</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/suplementos-naturais/valeriana-capsulas</loc>
+    <loc>https://fitoplantamed.com/suplementos-naturais/valeriana-capsulas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/suplementos-naturais/guarana-capsulas</loc>
+    <loc>https://fitoplantamed.com/suplementos-naturais/guarana-capsulas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/suplementos-naturais/equinacea-extrato</loc>
+    <loc>https://fitoplantamed.com/suplementos-naturais/equinacea-extrato</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/suplementos-naturais/melissa-cha</loc>
+    <loc>https://fitoplantamed.com/suplementos-naturais/melissa-cha</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- SILO 4: Guias de Compra -->
   <url>
-    <loc>https://fitoplantamed.com.br/guias</loc>
+    <loc>https://fitoplantamed.com/guias</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/guias/melhor-valeriana</loc>
+    <loc>https://fitoplantamed.com/guias/melhor-valeriana</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/guias/melhor-fitoterapico-para-sono</loc>
+    <loc>https://fitoplantamed.com/guias/melhor-fitoterapico-para-sono</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/guias/melhor-suplemento-para-imunidade</loc>
+    <loc>https://fitoplantamed.com/guias/melhor-suplemento-para-imunidade</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/guias/melhor-energia-natural</loc>
+    <loc>https://fitoplantamed.com/guias/melhor-energia-natural</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- SILO 5: Bem-estar -->
   <url>
-    <loc>https://fitoplantamed.com.br/bem-estar</loc>
+    <loc>https://fitoplantamed.com/bem-estar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/bem-estar/sono-natural</loc>
+    <loc>https://fitoplantamed.com/bem-estar/sono-natural</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/bem-estar/imunidade-natural</loc>
+    <loc>https://fitoplantamed.com/bem-estar/imunidade-natural</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/bem-estar/energia-e-foco</loc>
+    <loc>https://fitoplantamed.com/bem-estar/energia-e-foco</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/bem-estar/gestao-do-estresse</loc>
+    <loc>https://fitoplantamed.com/bem-estar/gestao-do-estresse</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- Artigos -->
   <url>
-    <loc>https://fitoplantamed.com.br/artigos</loc>
+    <loc>https://fitoplantamed.com/artigos</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/artigos/o-que-e-fitoterapia-guia-completo</loc>
+    <loc>https://fitoplantamed.com/artigos/o-que-e-fitoterapia-guia-completo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/artigos/plantas-medicinais-mais-usadas-brasil</loc>
+    <loc>https://fitoplantamed.com/artigos/plantas-medicinais-mais-usadas-brasil</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/artigos/fitoterapicos-funcionam-ciencia</loc>
+    <loc>https://fitoplantamed.com/artigos/fitoterapicos-funcionam-ciencia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/artigos/como-escolher-suplementos-naturais-qualidade</loc>
+    <loc>https://fitoplantamed.com/artigos/como-escolher-suplementos-naturais-qualidade</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/artigos/fitoterapicos-vs-suplementos-sinteticos-diferenca</loc>
+    <loc>https://fitoplantamed.com/artigos/fitoterapicos-vs-suplementos-sinteticos-diferenca</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- Produtos Recomendados -->
   <url>
-    <loc>https://fitoplantamed.com.br/produtos</loc>
+    <loc>https://fitoplantamed.com/produtos</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/produtos/valeriana-beneficios-melhores-marcas</loc>
+    <loc>https://fitoplantamed.com/produtos/valeriana-beneficios-melhores-marcas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/produtos/equinacea-imunidade-funciona</loc>
+    <loc>https://fitoplantamed.com/produtos/equinacea-imunidade-funciona</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://fitoplantamed.com.br/produtos/guarana-capsulas-energia-natural-marketing</loc>
+    <loc>https://fitoplantamed.com/produtos/guarana-capsulas-energia-natural-marketing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
