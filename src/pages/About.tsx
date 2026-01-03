@@ -18,6 +18,7 @@ import {
   Sparkles,
   ArrowRight
 } from 'lucide-react';
+import PersonSchema from '@/components/seo/PersonSchema';
 
 const About = () => {
   const scrollToForm = () => {
@@ -29,6 +30,8 @@ const About = () => {
 
   return (
     <Layout>
+      <PersonSchema />
+      
       {/* Hero Section - Apresentação */}
       <section className="relative py-20 lg:py-28 bg-gradient-to-br from-primary via-primary/95 to-green-800 overflow-hidden">
         {/* Decorative elements */}
