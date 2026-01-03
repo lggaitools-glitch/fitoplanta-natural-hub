@@ -119,7 +119,7 @@ const About = () => {
               {
                 icon: GraduationCap,
                 title: "Graduação em Farmácia",
-                description: "Universidade São Judas Tadeu",
+                description: "Universidade Anhanguera",
                 color: "bg-primary"
               },
               {
