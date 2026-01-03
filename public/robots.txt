@@ -16,4 +16,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://fitoplantamed.com.br/sitemap.xml
+Sitemap: https://fitoplantamed.com/sitemap.xml
