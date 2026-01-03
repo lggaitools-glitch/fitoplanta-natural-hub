@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Leaf, Shield, FlaskConical, BookOpen } from 'lucide-react';
+import logo from '@/assets/logo.png';
 
 export const Hero = () => {
   return (
@@ -13,9 +14,9 @@ export const Hero = () => {
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-3xl animate-fade-up">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content */}
-          <div className="text-primary-foreground">
+          <div className="text-primary-foreground animate-fade-up">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-foreground/10 backdrop-blur-sm rounded-full text-sm mb-6">
               <BookOpen className="w-4 h-4" />
               <span>Portal de Conteúdo sobre Fitoterapia</span>
@@ -67,6 +68,18 @@ export const Hero = () => {
                 </div>
                 <span className="text-sm">100% Natural</span>
               </div>
+            </div>
+          </div>
+
+          {/* Logo */}
+          <div className="hidden lg:flex justify-center lg:justify-end">
+            <div className="relative">
+              <div className="absolute inset-0 bg-primary-foreground/5 rounded-full blur-3xl scale-110" />
+              <img 
+                src={logo} 
+                alt="FitoPlantaMed Logo" 
+                className="relative w-72 h-72 xl:w-96 xl:h-96 object-contain animate-float drop-shadow-2xl"
+              />
             </div>
           </div>
         </div>
