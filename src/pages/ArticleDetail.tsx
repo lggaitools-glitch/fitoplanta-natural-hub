@@ -163,12 +163,48 @@ const ArticleDetail = () => {
 
 // Helper function to format markdown-like content to HTML
 function formatContent(content: string): string {
-  return content
+  let html = content
+    // Headers (ordem importa - do maior para o menor)
+    .replace(/#### (.*)/g, '<h4>$1</h4>')
+    .replace(/### (.*)/g, '<h3>$1</h3>')
     .replace(/## (.*)/g, '<h2>$1</h2>')
+    // Bold
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\n\n/g, '</p><p>')
-    .replace(/^/, '<p>')
-    .replace(/$/, '</p>');
+    // Italic (single asterisk, but not inside words)
+    .replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>')
+    // Horizontal rule
+    .replace(/^---$/gm, '<hr>');
+
+  // Processar listas não ordenadas (- item)
+  html = html.replace(/^- (.*)/gm, '<li class="ul-item">$1</li>');
+  
+  // Processar listas numeradas (1. item, 2. item, etc)
+  html = html.replace(/^\d+\. (.*)/gm, '<li class="ol-item">$1</li>');
+  
+  // Agrupar <li class="ul-item"> consecutivos em <ul>
+  html = html.replace(/(<li class="ul-item">.*?<\/li>\n?)+/g, (match) => {
+    const items = match.replace(/class="ul-item"/g, '');
+    return '<ul>' + items + '</ul>';
+  });
+  
+  // Agrupar <li class="ol-item"> consecutivos em <ol>
+  html = html.replace(/(<li class="ol-item">.*?<\/li>\n?)+/g, (match) => {
+    const items = match.replace(/class="ol-item"/g, '');
+    return '<ol>' + items + '</ol>';
+  });
+
+  // Line breaks para parágrafos
+  html = html.replace(/\n\n/g, '</p><p>');
+  
+  // Wrap em parágrafos
+  html = '<p>' + html + '</p>';
+  
+  // Limpar parágrafos vazios e corrigir estrutura
+  html = html.replace(/<p>\s*<\/p>/g, '');
+  html = html.replace(/<p>\s*(<h[2-4]|<ul|<ol|<hr)/g, '$1');
+  html = html.replace(/(<\/h[2-4]>|<\/ul>|<\/ol>|<hr>)\s*<\/p>/g, '$1');
+
+  return html;
 }
 
 export default ArticleDetail;
