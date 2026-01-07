@@ -102,7 +102,16 @@ const ArticleDetail = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <article 
-              className="prose prose-lg max-w-none prose-headings:font-display prose-headings:text-foreground prose-p:text-muted-foreground prose-strong:text-foreground prose-li:text-muted-foreground"
+              className="prose prose-lg max-w-none 
+                prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground
+                prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-5
+                prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4
+                prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-3
+                prose-p:text-muted-foreground prose-p:leading-relaxed
+                prose-strong:text-foreground prose-strong:font-semibold
+                prose-li:text-foreground prose-li:font-medium prose-li:my-2
+                prose-ul:list-disc prose-ul:pl-6 prose-ul:marker:text-primary prose-ul:marker:font-bold
+                prose-ol:list-decimal prose-ol:pl-6 prose-ol:marker:text-primary prose-ol:marker:font-bold"
               dangerouslySetInnerHTML={{ __html: formatContent(article.content) }}
             />
 
@@ -164,10 +173,10 @@ const ArticleDetail = () => {
 // Helper function to format markdown-like content to HTML
 function formatContent(content: string): string {
   let html = content
-    // Headers (ordem importa - do maior para o menor)
-    .replace(/#### (.*)/g, '<h4>$1</h4>')
-    .replace(/### (.*)/g, '<h3>$1</h3>')
-    .replace(/## (.*)/g, '<h2>$1</h2>')
+    // Headers (ordem importa - do maior para o menor) - com classes para destaque
+    .replace(/#### (.*)/g, '<h4><strong>$1</strong></h4>')
+    .replace(/### (.*)/g, '<h3><strong>$1</strong></h3>')
+    .replace(/## (.*)/g, '<h2><strong>$1</strong></h2>')
     // Bold
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     // Italic (single asterisk, but not inside words)
@@ -175,11 +184,11 @@ function formatContent(content: string): string {
     // Horizontal rule
     .replace(/^---$/gm, '<hr>');
 
-  // Processar listas não ordenadas (- item)
-  html = html.replace(/^- (.*)/gm, '<li class="ul-item">$1</li>');
+  // Processar listas não ordenadas (- item) - com texto em negrito
+  html = html.replace(/^- (.*)/gm, '<li class="ul-item"><strong>$1</strong></li>');
   
-  // Processar listas numeradas (1. item, 2. item, etc)
-  html = html.replace(/^\d+\. (.*)/gm, '<li class="ol-item">$1</li>');
+  // Processar listas numeradas (1. item, 2. item, etc) - com texto em negrito
+  html = html.replace(/^\d+\. (.*)/gm, '<li class="ol-item"><strong>$1</strong></li>');
   
   // Agrupar <li class="ul-item"> consecutivos em <ul>
   html = html.replace(/(<li class="ul-item">.*?<\/li>\n?)+/g, (match) => {
