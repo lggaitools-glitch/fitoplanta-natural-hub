@@ -79,7 +79,7 @@ A fitoterapia representa uma opção terapêutica séria e cientificamente funda
     image: "/articles/fitoterapia.jpg",
     category: "Fitoterapia",
     tags: ["fitoterapia", "plantas medicinais", "saúde natural", "medicina integrativa", "evidências científicas"],
-    author: "Dra. Camila Santos",
+    author: "Marta Leni, Farmacêutica Clínica",
     publishedAt: "2024-01-15",
     readTime: 8
   },
@@ -185,7 +185,7 @@ Sempre consulte um profissional de saúde antes de iniciar qualquer tratamento f
     image: "/articles/plantas-ciencia.jpg",
     category: "Plantas Medicinais",
     tags: ["plantas medicinais", "camomila", "valeriana", "guaraná", "melissa", "boldo", "gengibre"],
-    author: "Dr. Ricardo Almeida",
+    author: "Marta Leni, Farmacêutica Clínica",
     publishedAt: "2024-01-20",
     readTime: 10
   },
@@ -271,7 +271,7 @@ Fitoterapia baseada em evidências é uma ferramenta valiosa no arsenal terapêu
     image: "/articles/premium.jpg",
     category: "Fitoterapia",
     tags: ["ciência", "evidências", "estudos clínicos", "eficácia", "fitoterapia"],
-    author: "Farmacêutica Paula Costa",
+    author: "Marta Leni, Farmacêutica Clínica",
     publishedAt: "2024-01-25",
     readTime: 9
   },
@@ -382,7 +382,7 @@ Investir em suplementos de qualidade não é gasto — é economia a longo prazo
     image: "/articles/guia-suplementos.jpg",
     category: "Guias de Compra",
     tags: ["suplementos", "qualidade", "como escolher", "guia de compra", "ANVISA"],
-    author: "Nutricionista Fernanda Oliveira",
+    author: "Marta Leni, Farmacêutica Clínica",
     publishedAt: "2024-02-01",
     readTime: 11
   },
@@ -522,7 +522,7 @@ O mais importante é escolher produtos de qualidade, seguir dosagens recomendada
     image: "/articles/natural-vs-sintetico.jpg",
     category: "Suplementos Naturais",
     tags: ["fitoterápicos", "suplementos", "sintéticos", "naturais", "comparação"],
-    author: "Dr. Ricardo Almeida",
+    author: "Marta Leni, Farmacêutica Clínica",
     publishedAt: "2024-02-10",
     readTime: 10
   }
