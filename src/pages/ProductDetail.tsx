@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Leaf, Check, Star, ChevronLeft, ExternalLink, AlertCircle, ThumbsUp, ThumbsDown } from 'lucide-react';
 import ProductSchema from '@/components/seo/ProductSchema';
+import { AFFILIATE_CONFIG } from '@/config/affiliate';
 
 const ProductDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -110,8 +111,8 @@ const ProductDetail = () => {
 
               {/* CTA */}
               <Button size="lg" variant="premium" className="w-full sm:w-auto" asChild>
-                <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
-                  Ver Preço na BioVittare
+                <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow">
+                  {AFFILIATE_CONFIG.ctaText}
                   <ExternalLink className="w-5 h-5" />
                 </a>
               </Button>
