@@ -110,8 +110,8 @@ const ProductDetail = () => {
 
               {/* CTA */}
               <Button size="lg" variant="premium" className="w-full sm:w-auto" asChild>
-                <a href={product.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow">
-                  Ver Preço no Site Parceiro
+                <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
+                  Ver Preço na BioVittare
                   <ExternalLink className="w-5 h-5" />
                 </a>
               </Button>

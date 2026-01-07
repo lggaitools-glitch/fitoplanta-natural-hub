@@ -82,8 +82,10 @@ const SupplementDetail = () => {
                 <p className="text-muted-foreground mb-4">
                   Encontre as melhores opções de {supplement.name.toLowerCase()} em nossa análise de marcas.
                 </p>
-                <Button variant="gold" className="gap-2">
-                  Ver Melhores Marcas <ExternalLink className="w-4 h-4" />
+                <Button variant="gold" className="gap-2" asChild>
+                  <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
+                    Ver Preço na BioVittare <ExternalLink className="w-4 h-4" />
+                  </a>
                 </Button>
               </div>
             </section>
