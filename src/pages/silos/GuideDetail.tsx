@@ -79,7 +79,7 @@ const GuideDetail = () => {
                         </div>
                         <Button variant="gold" size="sm" className="gap-2" asChild>
                           <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
-                            Ver Preço <ExternalLink className="w-4 h-4" />
+                            Ver Preço na BioVittare <ExternalLink className="w-4 h-4" />
                           </a>
                         </Button>
                       </div>
@@ -137,7 +137,7 @@ const GuideDetail = () => {
                         </div>
                         <Button variant="gold" size="sm" className="gap-2" asChild>
                           <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
-                            Ver Preço <ExternalLink className="w-4 h-4" />
+                            Ver Preço na BioVittare <ExternalLink className="w-4 h-4" />
                           </a>
                         </Button>
                       </div>
