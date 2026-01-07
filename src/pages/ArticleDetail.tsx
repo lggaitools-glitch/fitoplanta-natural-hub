@@ -4,7 +4,7 @@ import { getArticleBySlug, getRecentArticles } from '@/data/articles';
 import { ArticleCard } from '@/components/articles/ArticleCard';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { ChevronLeft, Clock, User, Calendar, Share2, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { ChevronLeft, Clock, User, Calendar, Share2, Facebook, Twitter, Linkedin, List } from 'lucide-react';
 import ArticleSchema from '@/components/seo/ArticleSchema';
 
 const ArticleDetail = () => {
@@ -101,6 +101,9 @@ const ArticleDetail = () => {
       <section className="pb-16 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
+            {/* Table of Contents */}
+            <TableOfContents content={article.content} />
+
             <article 
               className="prose prose-lg max-w-none 
                 prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground
@@ -170,13 +173,86 @@ const ArticleDetail = () => {
   );
 };
 
+// Helper to generate slug from heading text
+function generateSlug(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // Remove accents
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .trim();
+}
+
+// Table of Contents Component
+function TableOfContents({ content }: { content: string }) {
+  const headings: { level: number; text: string; id: string }[] = [];
+  
+  // Extract H2 and H3 headings
+  const h2Regex = /^## (.+)$/gm;
+  const h3Regex = /^### (.+)$/gm;
+  
+  let match;
+  while ((match = h2Regex.exec(content)) !== null) {
+    headings.push({ level: 2, text: match[1], id: generateSlug(match[1]) });
+  }
+  while ((match = h3Regex.exec(content)) !== null) {
+    headings.push({ level: 3, text: match[1], id: generateSlug(match[1]) });
+  }
+  
+  // Sort by position in content
+  headings.sort((a, b) => content.indexOf(`## ${a.text}`) - content.indexOf(`## ${b.text}`));
+  
+  // Re-extract in order
+  const orderedHeadings: { level: number; text: string; id: string }[] = [];
+  const lines = content.split('\n');
+  for (const line of lines) {
+    const h2Match = line.match(/^## (.+)$/);
+    const h3Match = line.match(/^### (.+)$/);
+    if (h2Match) {
+      orderedHeadings.push({ level: 2, text: h2Match[1], id: generateSlug(h2Match[1]) });
+    } else if (h3Match) {
+      orderedHeadings.push({ level: 3, text: h3Match[1], id: generateSlug(h3Match[1]) });
+    }
+  }
+
+  if (orderedHeadings.length < 2) return null;
+
+  return (
+    <nav className="mb-10 p-6 bg-muted/50 rounded-xl border border-border">
+      <div className="flex items-center gap-2 mb-4">
+        <List className="w-5 h-5 text-primary" />
+        <h2 className="font-display font-bold text-lg text-foreground">Neste artigo</h2>
+      </div>
+      <ul className="space-y-2">
+        {orderedHeadings.map((heading, index) => (
+          <li 
+            key={index} 
+            className={heading.level === 3 ? 'ml-4' : ''}
+          >
+            <a 
+              href={`#${heading.id}`}
+              className={`block text-muted-foreground hover:text-primary transition-colors ${
+                heading.level === 2 ? 'font-medium' : 'text-sm'
+              }`}
+            >
+              {heading.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+}
+
 // Helper function to format markdown-like content to HTML
 function formatContent(content: string): string {
   let html = content
-    // Headers (ordem importa - do maior para o menor)
-    .replace(/#### (.*)/g, '<h4>$1</h4>')
-    .replace(/### (.*)/g, '<h3>$1</h3>')
-    .replace(/## (.*)/g, '<h2>$1</h2>')
+    // Headers with IDs for anchor navigation (ordem importa - do maior para o menor)
+    .replace(/#### (.*)/g, (_, text) => `<h4>${text}</h4>`)
+    .replace(/### (.*)/g, (_, text) => `<h3 id="${generateSlug(text)}">${text}</h3>`)
+    .replace(/## (.*)/g, (_, text) => `<h2 id="${generateSlug(text)}">${text}</h2>`)
     // Bold
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     // Italic (single asterisk, but not inside words)
