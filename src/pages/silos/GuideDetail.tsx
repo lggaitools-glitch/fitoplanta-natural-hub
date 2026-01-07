@@ -8,6 +8,7 @@ import { getPlantBySlug } from '@/data/plants';
 import { Button } from '@/components/ui/button';
 import { Check, X, ExternalLink } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
+import { AFFILIATE_CONFIG } from '@/config/affiliate';
 
 const GuideDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -78,8 +79,8 @@ const GuideDetail = () => {
                           <p className="text-muted-foreground">{product.brand}</p>
                         </div>
                         <Button variant="gold" size="sm" className="gap-2" asChild>
-                          <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
-                            Ver Preço na BioVittare <ExternalLink className="w-4 h-4" />
+                          <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow">
+                            {AFFILIATE_CONFIG.ctaText} <ExternalLink className="w-4 h-4" />
                           </a>
                         </Button>
                       </div>
@@ -136,8 +137,8 @@ const GuideDetail = () => {
                           <p className="text-muted-foreground">{product.brand}</p>
                         </div>
                         <Button variant="gold" size="sm" className="gap-2" asChild>
-                          <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
-                            Ver Preço na BioVittare <ExternalLink className="w-4 h-4" />
+                          <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow">
+                            {AFFILIATE_CONFIG.ctaText} <ExternalLink className="w-4 h-4" />
                           </a>
                         </Button>
                       </div>

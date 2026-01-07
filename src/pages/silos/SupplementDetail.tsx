@@ -8,6 +8,7 @@ import { getPlantBySlug } from '@/data/plants';
 import { Button } from '@/components/ui/button';
 import { Check, ExternalLink, Pill } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
+import { AFFILIATE_CONFIG } from '@/config/affiliate';
 
 const SupplementDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -83,8 +84,8 @@ const SupplementDetail = () => {
                   Encontre as melhores opções de {supplement.name.toLowerCase()} em nossa análise de marcas.
                 </p>
                 <Button variant="gold" className="gap-2" asChild>
-                  <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
-                    Ver Preço na BioVittare <ExternalLink className="w-4 h-4" />
+                  <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow">
+                    {AFFILIATE_CONFIG.ctaText} <ExternalLink className="w-4 h-4" />
                   </a>
                 </Button>
               </div>

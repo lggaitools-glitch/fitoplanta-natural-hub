@@ -1,3 +1,5 @@
+import { AFFILIATE_CONFIG } from '@/config/affiliate';
+
 export interface ProductReview {
   id: string;
   name: string;
@@ -74,7 +76,7 @@ Estudos clínicos demonstram que a valeriana pode reduzir significativamente o t
       dosage: "300-600mg ao dia"
     },
     contraindications: "Não usar durante gravidez e amamentação. Evitar combinar com álcool, benzodiazepínicos ou outros sedativos. Suspender uso 2 semanas antes de cirurgias.",
-    affiliateUrl: "https://lmdee.link/wmVbhyOITYsp",
+    affiliateUrl: AFFILIATE_CONFIG.mainLink,
     featured: true,
     rating: 4.7
   },
@@ -127,7 +129,7 @@ A grande pergunta que muitos fazem: ela realmente funciona? A resposta baseada e
       dosage: "500-1000mg, 1-3x ao dia"
     },
     contraindications: "Não usar em doenças autoimunes (lúpus, artrite reumatoide, esclerose múltipla). Evitar em alérgicos a plantas da família Asteraceae (margaridas, crisântemos). Não usar por mais de 8 semanas contínuas.",
-    affiliateUrl: "https://lmdee.link/wmVbhyOITYsp",
+    affiliateUrl: AFFILIATE_CONFIG.mainLink,
     featured: true,
     rating: 4.3
   },
@@ -181,7 +183,7 @@ Mas será que o guaraná em cápsulas é realmente superior ao café comum? Ou �
       dosage: "500-1000mg ao dia"
     },
     contraindications: "Não usar em casos de hipertensão não controlada, arritmias cardíacas, ansiedade severa ou durante a gravidez. Evitar combinar com outros estimulantes. Não exceder 400mg de cafeína/dia de todas as fontes.",
-    affiliateUrl: "https://lmdee.link/wmVbhyOITYsp",
+    affiliateUrl: AFFILIATE_CONFIG.mainLink,
     featured: true,
     rating: 4.5
   }
