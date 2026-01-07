@@ -68,10 +68,10 @@ const ArticleDetail = () => {
             </h1>
             
             <div className="flex flex-wrap items-center gap-6 text-muted-foreground mb-8">
-              <div className="flex items-center gap-2">
+              <Link to="/sobre" className="flex items-center gap-2 hover:text-primary transition-colors">
                 <User className="w-4 h-4" />
-                <span>{article.author}</span>
-              </div>
+                <span className="underline underline-offset-2">{article.author}</span>
+              </Link>
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
                 <span>{formatDate(article.publishedAt)}</span>
