@@ -77,8 +77,10 @@ const GuideDetail = () => {
                           </h3>
                           <p className="text-muted-foreground">{product.brand}</p>
                         </div>
-                        <Button variant="gold" size="sm" className="gap-2">
-                          Ver Preço <ExternalLink className="w-4 h-4" />
+                        <Button variant="gold" size="sm" className="gap-2" asChild>
+                          <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
+                            Ver Preço <ExternalLink className="w-4 h-4" />
+                          </a>
                         </Button>
                       </div>
                       <p className="text-muted-foreground mb-4">{product.description}</p>
@@ -133,8 +135,10 @@ const GuideDetail = () => {
                           </h3>
                           <p className="text-muted-foreground">{product.brand}</p>
                         </div>
-                        <Button variant="gold" size="sm" className="gap-2">
-                          Ver Preço <ExternalLink className="w-4 h-4" />
+                        <Button variant="gold" size="sm" className="gap-2" asChild>
+                          <a href="https://lmdee.link/wmVbhyOITYsp" target="_blank" rel="noopener noreferrer nofollow">
+                            Ver Preço <ExternalLink className="w-4 h-4" />
+                          </a>
                         </Button>
                       </div>
                       <p className="text-muted-foreground mb-4">{product.description}</p>
