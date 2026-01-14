@@ -26,6 +26,7 @@ const navigation = [
       { name: 'Guaraná', href: '/plantas-medicinais/guarana' },
       { name: 'Melissa', href: '/plantas-medicinais/melissa' },
       { name: 'Ginseng', href: '/plantas-medicinais/ginseng' },
+      { name: 'Cúrcuma', href: '/plantas-medicinais/curcuma' },
     ]
   },
   { name: 'Suplementos', href: '/suplementos-naturais' },
