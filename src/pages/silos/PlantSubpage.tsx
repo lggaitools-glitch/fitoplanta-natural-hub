@@ -5,6 +5,9 @@ import { RelatedLinkCard, SiloNavigation } from '@/components/navigation/Interna
 import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { getPlantBySlug } from '@/data/plants';
 import NotFound from '@/pages/NotFound';
+import { Button } from '@/components/ui/button';
+import { AFFILIATE_CONFIG } from '@/config/affiliate';
+import { ExternalLink } from 'lucide-react';
 
 const PlantSubpage = () => {
   const { slug, subSlug } = useParams<{ slug: string; subSlug: string }>();
@@ -143,6 +146,19 @@ const PlantSubpage = () => {
               </h1>
               <p className="text-xl text-muted-foreground">{subpage.description}</p>
             </header>
+
+            <div className="mb-8">
+              <Button size="lg" className="w-full sm:w-auto" asChild>
+                <a 
+                  href={AFFILIATE_CONFIG.mainLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer nofollow"
+                >
+                  {AFFILIATE_CONFIG.plantCtaText}
+                  <ExternalLink className="w-4 h-4 ml-2" />
+                </a>
+              </Button>
+            </div>
 
             <div className="prose prose-lg max-w-none">
               {getSubpageContent()}

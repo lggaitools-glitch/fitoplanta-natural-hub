@@ -4,8 +4,10 @@ import { Breadcrumbs } from '@/components/navigation/Breadcrumbs';
 import { RelatedLinkCard, SiloNavigation } from '@/components/navigation/InternalLinks';
 import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { getPlantBySlug, plants } from '@/data/plants';
-import { Check, AlertTriangle, Sprout } from 'lucide-react';
+import { Check, AlertTriangle, Sprout, ExternalLink } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
+import { Button } from '@/components/ui/button';
+import { AFFILIATE_CONFIG } from '@/config/affiliate';
 
 const PlantDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -46,6 +48,19 @@ const PlantDetail = () => {
               </div>
               <p className="text-xl text-muted-foreground">{plant.description}</p>
             </header>
+
+            <div className="mb-8">
+              <Button size="lg" className="w-full sm:w-auto" asChild>
+                <a 
+                  href={AFFILIATE_CONFIG.mainLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer nofollow"
+                >
+                  {AFFILIATE_CONFIG.plantCtaText}
+                  <ExternalLink className="w-4 h-4 ml-2" />
+                </a>
+              </Button>
+            </div>
 
             <section className="mb-8">
               <h2 className="font-display text-2xl font-bold text-foreground mb-4">
