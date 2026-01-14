@@ -214,6 +214,49 @@ export const plants: Plant[] = [
       { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais do Ginseng', description: 'Efeitos adversos e precauções do ginseng' },
       { slug: 'melhores-marcas', title: 'Melhores Marcas de Ginseng', description: 'Comparativo das melhores marcas de ginseng' }
     ]
+  },
+  {
+    slug: 'curcuma',
+    name: 'Cúrcuma',
+    scientificName: 'Curcuma longa',
+    description: 'A cúrcuma, também conhecida como açafrão-da-terra, é uma especiaria milenar originária da Índia. Rica em curcumina, seu principal composto ativo, é amplamente estudada por suas potentes propriedades anti-inflamatórias e antioxidantes.',
+    heroImage: '/plants/curcuma.jpg',
+    benefits: [
+      'Potente ação anti-inflamatória natural',
+      'Forte propriedade antioxidante',
+      'Pode auxiliar na saúde das articulações',
+      'Suporte à saúde digestiva',
+      'Potencial neuroprotetor',
+      'Pode ajudar na saúde cardiovascular'
+    ],
+    uses: [
+      'Inflamações crônicas e agudas',
+      'Dores articulares e artrite',
+      'Problemas digestivos',
+      'Suporte ao sistema imunológico',
+      'Promoção da saúde cerebral',
+      'Prevenção do envelhecimento celular'
+    ],
+    sideEffects: [
+      'Desconforto gastrointestinal em doses altas',
+      'Pode aumentar risco de sangramento',
+      'Náusea em algumas pessoas',
+      'Diarreia se consumida em excesso',
+      'Reações alérgicas raras'
+    ],
+    contraindications: [
+      'Uso com anticoagulantes',
+      'Cálculos biliares ou obstrução biliar',
+      'Gravidez em doses terapêuticas',
+      'Antes de cirurgias (suspender 2 semanas)',
+      'Diabetes com medicação (monitorar glicemia)'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios da Cúrcuma', description: 'Descubra os benefícios anti-inflamatórios e antioxidantes da cúrcuma para sua saúde' },
+      { slug: 'como-usar', title: 'Como Usar Cúrcuma', description: 'Dosagem, formas de uso e dicas para melhorar a absorção da curcumina' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Cúrcuma', description: 'Possíveis efeitos adversos e contraindicações da cúrcuma' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Cúrcuma', description: 'Análise das melhores marcas de cúrcuma e curcumina no Brasil' }
+    ]
   }
 ];
 
