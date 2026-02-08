@@ -1,18 +1,14 @@
-# FitoPlantaMed Robots.txt
+# FitoPlantaMed - robots.txt
+# Permite acesso total a todos os crawlers
 
-User-agent: Googlebot
+User-agent: *
 Allow: /
 
-User-agent: Bingbot
-Allow: /
-
+# Redes Sociais (para Open Graph e previews)
 User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
-Allow: /
-
-User-agent: *
 Allow: /
 
 # Sitemap
