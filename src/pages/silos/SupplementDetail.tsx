@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Check, ExternalLink, Pill } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
 import { AFFILIATE_CONFIG } from '@/config/affiliate';
+import SEOHead from '@/components/seo/SEOHead';
 
 const SupplementDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -26,6 +27,10 @@ const SupplementDetail = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title={`${supplement.name} - ${supplement.form}`}
+        description={supplement.description}
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs
           items={[

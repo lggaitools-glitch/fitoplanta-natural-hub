@@ -34,7 +34,7 @@ export const Hero = () => {
               Conteúdo educativo baseado em evidências científicas.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button size="xl" variant="heroOutline" asChild className="group">
                 <Link to="/artigos">
                   Explorar Artigos
@@ -46,6 +46,21 @@ export const Hero = () => {
                   Produtos Recomendados
                 </Link>
               </Button>
+            </div>
+
+            {/* Quick Access Links for SEO */}
+            <div className="flex flex-wrap gap-3 mb-8">
+              <Link to="/fitoterapia" className="text-sm text-primary-foreground/70 hover:text-primary-foreground underline underline-offset-2">
+                O que é Fitoterapia?
+              </Link>
+              <span className="text-primary-foreground/40">•</span>
+              <Link to="/plantas-medicinais" className="text-sm text-primary-foreground/70 hover:text-primary-foreground underline underline-offset-2">
+                Plantas Medicinais
+              </Link>
+              <span className="text-primary-foreground/40">•</span>
+              <Link to="/guias" className="text-sm text-primary-foreground/70 hover:text-primary-foreground underline underline-offset-2">
+                Guias de Compra
+              </Link>
             </div>
 
             {/* Trust Badges */}

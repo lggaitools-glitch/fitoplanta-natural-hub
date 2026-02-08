@@ -4,10 +4,15 @@ import { RelatedLinkCard } from '@/components/navigation/InternalLinks';
 import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { guides } from '@/data/guides';
 import { BookMarked } from 'lucide-react';
+import SEOHead from '@/components/seo/SEOHead';
 
 const GuiasPillar = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Guias de Compra - Melhores Fitoterápicos e Suplementos"
+        description="Análises detalhadas e imparciais para ajudar você a escolher os melhores produtos naturais. Comparativos de marcas e recomendações."
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Guias de Compra' }]} />
 

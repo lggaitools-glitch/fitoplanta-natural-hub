@@ -6,6 +6,7 @@ import { toast } from 'sonner';
 import { supabase } from '@/integrations/supabase/client';
 import { z } from 'zod';
 import { ConsultationBooking } from '@/components/contact/ConsultationBooking';
+import SEOHead from '@/components/seo/SEOHead';
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Nome é obrigatório").max(100, "Nome muito longo"),
@@ -76,6 +77,10 @@ const Contact = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Contato - Fale Conosco"
+        description="Entre em contato com a FitoPlantaMed. Dúvidas sobre fitoterapia, plantas medicinais ou agendamento de consulta com a farmacêutica Marta Leni."
+      />
       {/* Hero Section */}
       <section className="bg-gradient-hero py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

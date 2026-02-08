@@ -4,10 +4,15 @@ import { RelatedLinkCard } from '@/components/navigation/InternalLinks';
 import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { supplements } from '@/data/supplements';
 import { Pill } from 'lucide-react';
+import SEOHead from '@/components/seo/SEOHead';
 
 const SuplementosPillar = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Suplementos Naturais - Guia Completo"
+        description="Guia completo sobre suplementos naturais derivados de plantas medicinais: formas de uso, dosagens e como escolher produtos de qualidade."
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Suplementos Naturais' }]} />
 

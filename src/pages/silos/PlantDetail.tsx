@@ -8,6 +8,7 @@ import { Check, AlertTriangle, Sprout, ExternalLink } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
 import { Button } from '@/components/ui/button';
 import { AFFILIATE_CONFIG } from '@/config/affiliate';
+import SEOHead from '@/components/seo/SEOHead';
 
 const PlantDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -26,6 +27,10 @@ const PlantDetail = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title={`${plant.name} - Benefícios, Como Usar e Efeitos Colaterais`}
+        description={plant.description}
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs
           items={[

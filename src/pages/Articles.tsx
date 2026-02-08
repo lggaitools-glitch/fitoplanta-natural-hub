@@ -2,10 +2,15 @@ import { Layout } from '@/components/layout/Layout';
 import { articles } from '@/data/articles';
 import { ArticleCard } from '@/components/articles/ArticleCard';
 import { BookOpen } from 'lucide-react';
+import SEOHead from '@/components/seo/SEOHead';
 
 const Articles = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Artigos sobre Fitoterapia e Saúde Natural"
+        description="Artigos educativos sobre fitoterapia, plantas medicinais e suplementos naturais. Informações baseadas em ciência para sua jornada de bem-estar."
+      />
       {/* Hero Section */}
       <section className="bg-gradient-hero py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

@@ -15,13 +15,13 @@ const ProductSchema = ({ name, description, image, slug, rating, category }: Pro
     "@type": "Product",
     "name": name,
     "description": description,
-    "image": `https://fitoplantamed.com.br${image}`,
+    "image": `https://fitoplantamed.com${image}`,
     "brand": {
       "@type": "Brand",
       "name": "FitoPlantaMed"
     },
     "category": category,
-    "url": `https://fitoplantamed.com.br/produtos/${slug}`,
+    "url": `https://fitoplantamed.com/produtos/${slug}`,
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": rating.toString(),
@@ -39,7 +39,7 @@ const ProductSchema = ({ name, description, image, slug, rating, category }: Pro
       "author": {
         "@type": "Person",
         "name": "Marta Leni",
-        "url": "https://fitoplantamed.com.br/sobre"
+        "url": "https://fitoplantamed.com/sobre"
       }
     }
   };

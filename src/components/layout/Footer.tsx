@@ -16,6 +16,7 @@ const footerLinks = {
     { name: 'Guaraná', href: '/plantas-medicinais/guarana' },
     { name: 'Melissa', href: '/plantas-medicinais/melissa' },
     { name: 'Ginseng', href: '/plantas-medicinais/ginseng' },
+    { name: 'Cúrcuma', href: '/plantas-medicinais/curcuma' },
   ],
   institucional: [
     { name: 'Sobre Nós', href: '/sobre' },

@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ChevronLeft, Clock, User, Calendar, Share2, Facebook, Twitter, Linkedin, List } from 'lucide-react';
 import ArticleSchema from '@/components/seo/ArticleSchema';
+import SEOHead from '@/components/seo/SEOHead';
 
 const ArticleDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -36,6 +37,11 @@ const ArticleDetail = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title={article.title}
+        description={article.excerpt}
+        ogImage={article.image}
+      />
       <ArticleSchema
         title={article.title}
         description={article.excerpt}

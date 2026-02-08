@@ -4,10 +4,15 @@ import { RelatedLinkCard } from '@/components/navigation/InternalLinks';
 import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { wellnessTopics } from '@/data/wellness';
 import { Heart } from 'lucide-react';
+import SEOHead from '@/components/seo/SEOHead';
 
 const BemEstarPillar = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Bem-estar Natural - Sono, Energia e Imunidade"
+        description="Descubra como melhorar sua qualidade de vida com abordagens naturais para sono, energia, imunidade e gestão do estresse."
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Bem-estar' }]} />
 

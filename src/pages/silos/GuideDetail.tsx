@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Check, X, ExternalLink } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
 import { AFFILIATE_CONFIG } from '@/config/affiliate';
+import SEOHead from '@/components/seo/SEOHead';
 
 const GuideDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -25,6 +26,10 @@ const GuideDetail = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title={guide.title}
+        description={guide.description}
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs
           items={[

@@ -16,25 +16,25 @@ const ArticleSchema = ({ title, description, image, author, publishedAt, slug, c
     "@type": "Article",
     "headline": title,
     "description": description,
-    "image": `https://fitoplantamed.com.br${image}`,
+    "image": `https://fitoplantamed.com${image}`,
     "author": {
       "@type": "Person",
       "name": author,
-      "url": "https://fitoplantamed.com.br/sobre"
+      "url": "https://fitoplantamed.com/sobre"
     },
     "publisher": {
       "@type": "Organization",
       "name": "FitoPlantaMed",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://fitoplantamed.com.br/favicon.png"
+        "url": "https://fitoplantamed.com/favicon.png"
       }
     },
     "datePublished": publishedAt,
     "dateModified": publishedAt,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://fitoplantamed.com.br/artigos/${slug}`
+      "@id": `https://fitoplantamed.com/artigos/${slug}`
     },
     "articleSection": category,
     "inLanguage": "pt-BR"
