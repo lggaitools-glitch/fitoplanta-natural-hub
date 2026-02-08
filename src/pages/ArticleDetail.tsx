@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { ChevronLeft, Clock, User, Calendar, Share2, Facebook, Twitter, Linkedin, List } from 'lucide-react';
 import ArticleSchema from '@/components/seo/ArticleSchema';
 import SEOHead from '@/components/seo/SEOHead';
+import DOMPurify from 'dompurify';
 
 const ArticleDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -121,7 +122,7 @@ const ArticleDetail = () => {
                 prose-li:text-muted-foreground prose-li:my-1
                 prose-ul:list-disc prose-ul:pl-6 prose-ul:my-4 prose-ul:marker:text-primary prose-ul:marker:font-bold
                 prose-ol:list-decimal prose-ol:pl-6 prose-ol:my-4 prose-ol:marker:text-primary prose-ol:marker:font-bold"
-              dangerouslySetInnerHTML={{ __html: formatContent(article.content) }}
+              dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(formatContent(article.content)) }}
             />
 
             {/* Tags */}
