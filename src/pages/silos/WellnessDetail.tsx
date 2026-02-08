@@ -8,6 +8,7 @@ import { getPlantBySlug } from '@/data/plants';
 import { getGuideBySlug } from '@/data/guides';
 import { Lightbulb } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
+import SEOHead from '@/components/seo/SEOHead';
 
 const WellnessDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -23,6 +24,10 @@ const WellnessDetail = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title={topic.title}
+        description={topic.description}
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs
           items={[

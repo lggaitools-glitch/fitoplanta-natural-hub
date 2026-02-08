@@ -19,6 +19,7 @@ import {
   ArrowRight
 } from 'lucide-react';
 import PersonSchema from '@/components/seo/PersonSchema';
+import SEOHead from '@/components/seo/SEOHead';
 
 const About = () => {
   const scrollToForm = () => {
@@ -30,6 +31,10 @@ const About = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Sobre Marta Leni - Farmacêutica Clínica Especialista em Fitoterapia"
+        description="Conheça Marta Leni, Farmacêutica Clínica com mais de 20 anos de experiência em fitoterapia e práticas integrativas. CRF-SP 93119."
+      />
       <PersonSchema />
       
       {/* Hero Section - Apresentação */}

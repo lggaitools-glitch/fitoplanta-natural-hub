@@ -1,9 +1,14 @@
 import { Layout } from '@/components/layout/Layout';
 import { Shield, Heart, AlertCircle, CheckCircle } from 'lucide-react';
+import SEOHead from '@/components/seo/SEOHead';
 
 const Transparency = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Transparência e Disclosure - Compromisso Editorial"
+        description="Nosso compromisso com você: honestidade, transparência e informação de qualidade sobre fitoterapia e saúde natural."
+      />
       {/* Hero */}
       <section className="bg-gradient-hero py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

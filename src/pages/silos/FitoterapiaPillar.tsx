@@ -4,6 +4,7 @@ import { RelatedLinkCard } from '@/components/navigation/InternalLinks';
 import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { fitoterapiaSubpages } from '@/data/fitoterapia';
 import { Leaf, BookOpen, Shield, FlaskConical } from 'lucide-react';
+import SEOHead from '@/components/seo/SEOHead';
 
 const FitoterapiaPillar = () => {
   const features = [
@@ -15,6 +16,10 @@ const FitoterapiaPillar = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Fitoterapia - O Guia Completo sobre Plantas Medicinais"
+        description="Aprenda tudo sobre fitoterapia: o que é, como funciona, benefícios e riscos. Guia completo baseado em ciência sobre o uso de plantas medicinais."
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Fitoterapia' }]} />
 

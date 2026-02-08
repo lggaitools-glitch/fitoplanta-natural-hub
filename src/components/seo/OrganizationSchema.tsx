@@ -5,8 +5,8 @@ const OrganizationSchema = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "FitoPlantaMed",
-    "url": "https://fitoplantamed.com.br",
-    "logo": "https://fitoplantamed.com.br/favicon.png",
+    "url": "https://fitoplantamed.com",
+    "logo": "https://fitoplantamed.com/favicon.png",
     "description": "Portal de informações sobre fitoterapia, plantas medicinais e suplementos naturais, com conteúdo revisado por profissionais de saúde.",
     "founder": {
       "@type": "Person",
@@ -18,7 +18,7 @@ const OrganizationSchema = () => {
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
-      "url": "https://fitoplantamed.com.br/contato",
+      "url": "https://fitoplantamed.com/contato",
       "availableLanguage": "Portuguese"
     },
     "address": {

@@ -6,6 +6,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Leaf, Check, Star, ChevronLeft, ExternalLink, AlertCircle, ThumbsUp, ThumbsDown } from 'lucide-react';
 import ProductSchema from '@/components/seo/ProductSchema';
 import { AFFILIATE_CONFIG } from '@/config/affiliate';
+import SEOHead from '@/components/seo/SEOHead';
 
 const ProductDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -28,6 +29,11 @@ const ProductDetail = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title={product.name}
+        description={product.tagline}
+        ogImage={product.image}
+      />
       <ProductSchema
         name={product.name}
         description={product.description.substring(0, 200)}

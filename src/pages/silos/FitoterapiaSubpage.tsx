@@ -7,6 +7,7 @@ import { getFitoterapiaSubpageBySlug, fitoterapiaSubpages } from '@/data/fitoter
 import { getPlantBySlug } from '@/data/plants';
 import { getGuideBySlug } from '@/data/guides';
 import NotFound from '@/pages/NotFound';
+import SEOHead from '@/components/seo/SEOHead';
 
 const FitoterapiaSubpage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -22,6 +23,10 @@ const FitoterapiaSubpage = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title={subpage.title}
+        description={subpage.description}
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs
           items={[

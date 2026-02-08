@@ -8,6 +8,7 @@ import NotFound from '@/pages/NotFound';
 import { Button } from '@/components/ui/button';
 import { AFFILIATE_CONFIG } from '@/config/affiliate';
 import { ExternalLink } from 'lucide-react';
+import SEOHead from '@/components/seo/SEOHead';
 
 const PlantSubpage = () => {
   const { slug, subSlug } = useParams<{ slug: string; subSlug: string }>();
@@ -129,6 +130,10 @@ const PlantSubpage = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title={`${subpage.title} - ${plant.name}`}
+        description={subpage.description}
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs
           items={[

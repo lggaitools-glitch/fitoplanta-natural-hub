@@ -4,10 +4,15 @@ import { RelatedLinkCard } from '@/components/navigation/InternalLinks';
 import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { plants } from '@/data/plants';
 import { Sprout } from 'lucide-react';
+import SEOHead from '@/components/seo/SEOHead';
 
 const PlantasMedicinaisPillar = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Plantas Medicinais - Guia Completo"
+        description="Conheça as principais plantas medicinais, seus benefícios comprovados e como utilizá-las com segurança. Valeriana, equinácea, guaraná e mais."
+      />
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Plantas Medicinais' }]} />
 

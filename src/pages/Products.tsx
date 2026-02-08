@@ -3,10 +3,15 @@ import { productReviews } from '@/data/products';
 import { Link } from 'react-router-dom';
 import { Leaf, Star, ExternalLink, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import SEOHead from '@/components/seo/SEOHead';
 
 const Products = () => {
   return (
     <Layout>
+      <SEOHead
+        title="Produtos Recomendados - Fitoterápicos e Suplementos Naturais"
+        description="Análises detalhadas e imparciais de fitoterápicos e suplementos naturais. Descubra o que realmente funciona baseado em evidências científicas."
+      />
       {/* Hero Section */}
       <section className="bg-gradient-hero py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
