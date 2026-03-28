@@ -257,6 +257,237 @@ export const plants: Plant[] = [
       { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Cúrcuma', description: 'Possíveis efeitos adversos e contraindicações da cúrcuma' },
       { slug: 'melhores-marcas', title: 'Melhores Marcas de Cúrcuma', description: 'Análise das melhores marcas de cúrcuma e curcumina no Brasil' }
     ]
+  },
+  {
+    slug: 'camomila',
+    name: 'Camomila',
+    scientificName: 'Matricaria chamomilla',
+    description: 'A camomila é uma das plantas medicinais mais populares e seguras do mundo. Conhecida por suas delicadas flores brancas com centro amarelo, esta planta aromática é tradicionalmente usada para acalmar o sistema nervoso, melhorar a digestão e promover o relaxamento. Seus compostos ativos, especialmente a apigenina, conferem propriedades ansiolíticas suaves e anti-inflamatórias.',
+    heroImage: '/plants/camomila.jpg',
+    benefits: [
+      'Efeito calmante e relaxante natural',
+      'Melhora a qualidade do sono',
+      'Auxilia na digestão e alívio de gases',
+      'Propriedades anti-inflamatórias suaves',
+      'Pode ajudar com cólicas menstruais',
+      'Efeito antiespasmódico no trato digestivo',
+      'Segura para uso prolongado'
+    ],
+    uses: [
+      'Ansiedade leve e nervosismo',
+      'Insônia e dificuldades para dormir',
+      'Problemas digestivos e gastrite',
+      'Cólicas abdominais e menstruais',
+      'Irritações cutâneas (uso tópico)',
+      'Desconforto em bebês (cólica infantil)',
+      'Estresse e tensão do dia a dia'
+    ],
+    sideEffects: [
+      'Reações alérgicas raras em pessoas sensíveis',
+      'Sonolência em doses altas',
+      'Possível interação com anticoagulantes',
+      'Náusea ocasional em estômago vazio'
+    ],
+    contraindications: [
+      'Alergia a plantas da família Asteraceae',
+      'Uso com medicamentos sedativos (potencialização)',
+      'Gravidez em doses terapêuticas altas',
+      'Antes de cirurgias (suspender 2 semanas)'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios da Camomila', description: 'Propriedades calmantes, digestivas e anti-inflamatórias da camomila' },
+      { slug: 'como-usar', title: 'Como Usar Camomila', description: 'Formas de preparo, dosagem e melhores horários para usar camomila' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Camomila', description: 'Possíveis efeitos adversos e precauções no uso da camomila' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Camomila', description: 'Análise das melhores marcas de camomila em chá, extrato e cápsulas' }
+    ]
+  },
+  {
+    slug: 'ashwagandha',
+    name: 'Ashwagandha',
+    scientificName: 'Withania somnifera',
+    description: 'A ashwagandha, conhecida como "ginseng indiano", é uma das plantas adaptógenas mais estudadas da medicina ayurvédica. Esta raiz aromática tem ganhado reconhecimento mundial por sua capacidade única de ajudar o organismo a se adaptar ao estresse, melhorar os níveis de energia e promover o bem-estar geral. Rica em witanolídeos, compostos bioativos únicos, a ashwagandha oferece benefícios tanto para o corpo quanto para a mente.',
+    heroImage: '/plants/ashwagandha.jpg',
+    benefits: [
+      'Reduz significativamente os níveis de cortisol',
+      'Melhora a adaptação ao estresse físico e mental',
+      'Aumenta energia e vitalidade natural',
+      'Pode melhorar a qualidade do sono',
+      'Suporte à função cognitiva e memória',
+      'Possível aumento da testosterona em homens',
+      'Propriedades anti-inflamatórias e antioxidantes',
+      'Auxilia no controle da ansiedade'
+    ],
+    uses: [
+      'Estresse crônico e burnout',
+      'Fadiga e baixa energia',
+      'Ansiedade e nervosismo',
+      'Insônia e sono não reparador',
+      'Baixa libido e problemas sexuais',
+      'Suporte durante exercícios intensos',
+      'Recuperação pós-doença',
+      'Apoio durante períodos de alta demanda'
+    ],
+    sideEffects: [
+      'Sonolência em algumas pessoas (Sensoril)',
+      'Desconforto gastrointestinal ocasional',
+      'Possível aumento da tireoide (monitorar)',
+      'Dor de cabeça leve em doses altas',
+      'Alterações no humor inicial (adaptação)'
+    ],
+    contraindications: [
+      'Gravidez e amamentação',
+      'Doenças autoimunes (lupus, artrite reumatoide)',
+      'Hipertireoidismo',
+      'Uso com medicamentos para tireoide',
+      'Diabetes (monitorar glicemia)',
+      'Cirurgias (suspender 2 semanas antes)'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios da Ashwagandha', description: 'Como a ashwagandha reduz estresse e melhora energia e vitalidade' },
+      { slug: 'como-usar', title: 'Como Usar Ashwagandha', description: 'Dosagem, timing e diferenças entre KSM-66 e Sensoril' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Ashwagandha', description: 'Precauções, contraindicações e efeitos adversos da ashwagandha' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Ashwagandha', description: 'Comparativo das melhores marcas com KSM-66 e Sensoril no Brasil' }
+    ]
+  },
+  {
+    slug: 'boldo',
+    name: 'Boldo',
+    scientificName: 'Peumus boldus',
+    description: 'O boldo é uma planta nativa do Chile, tradicionalmente utilizada na medicina popular brasileira para problemas digestivos e hepáticos. Rica em boldina, um alcaloide com propriedades hepatoprotetoras, esta planta aromática é reconhecida por sua capacidade de estimular a função biliar e melhorar a digestão de gorduras. É uma das plantas medicinais mais tradicionais para saúde digestiva no Brasil.',
+    heroImage: '/plants/boldo.jpg',
+    benefits: [
+      'Estimula a produção e fluxo de bile',
+      'Melhora a digestão de gorduras',
+      'Propriedades hepatoprotetoras',
+      'Alivia desconforto estomacal',
+      'Ação antioxidante suave',
+      'Pode auxiliar em problemas vesiculares',
+      'Efeito carminativo (reduz gases)',
+      'Tradicionalmente usado para ressaca'
+    ],
+    uses: [
+      'Indigestão e má digestão',
+      'Sensação de estômago pesado',
+      'Flatulência e gases excessivos',
+      'Desconforto após refeições gordurosas',
+      'Apoio à função hepática',
+      'Problemas biliares leves',
+      'Náuseas ocasionais',
+      'Desintoxicação hepática suave'
+    ],
+    sideEffects: [
+      'Irritação gastrointestinal em doses altas',
+      'Possível diarreia com uso excessivo',
+      'Não recomendado uso prolongado',
+      'Pode agravar refluxo gastroesofágico'
+    ],
+    contraindications: [
+      'Obstrução das vias biliares',
+      'Cálculos biliares (pedras na vesícula)',
+      'Gravidez e amamentação',
+      'Doenças hepáticas graves',
+      'Úlcera péptica ativa',
+      'Uso por mais de 4 semanas consecutivas'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios do Boldo', description: 'Como o boldo melhora a digestão e protege o fígado' },
+      { slug: 'como-usar', title: 'Como Usar Boldo', description: 'Formas de preparo, dosagem e duração segura de uso do boldo' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais do Boldo', description: 'Precauções importantes e contraindicações do boldo' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Boldo', description: 'Melhores produtos de boldo em chá, cápsulas e extratos' }
+    ]
+  },
+  {
+    slug: 'maracuja',
+    name: 'Maracujá/Passiflora',
+    scientificName: 'Passiflora incarnata',
+    description: 'A passiflora, conhecida popularmente como maracujá, é uma das plantas calmantes mais reconhecidas mundialmente. Suas propriedades ansiolíticas são amplamente estudadas e comprovadas cientificamente. Rica em flavonoides e alcaloides, a passiflora oferece um efeito tranquilizante natural sem causar dependência ou sonolência residual, sendo uma excelente opção para ansiedade e insônia.',
+    heroImage: '/plants/maracuja.jpg',
+    benefits: [
+      'Potente efeito ansiolítico natural',
+      'Melhora significativa na qualidade do sono',
+      'Reduz agitação e nervosismo',
+      'Não causa dependência física',
+      'Efeito antiespasmódico suave',
+      'Pode auxiliar em síndrome pré-menstrual',
+      'Propriedades levemente sedativas',
+      'Combina bem com outras plantas calmantes'
+    ],
+    uses: [
+      'Transtornos de ansiedade leve a moderada',
+      'Insônia e dificuldades para adormecer',
+      'Inquietação e agitação mental',
+      'Estresse e tensão nervosa',
+      'Síndrome do pânico (como coadjuvante)',
+      'Abstinência de benzodiazepínicos',
+      'Hiperatividade em crianças',
+      'Tensão pré-menstrual'
+    ],
+    sideEffects: [
+      'Sonolência diurna em doses altas',
+      'Tontura ocasional',
+      'Náusea rara em estômago vazio',
+      'Possível interação com sedativos'
+    ],
+    contraindications: [
+      'Uso com medicamentos sedativos',
+      'Gravidez (pode estimular contrações)',
+      'Antes de cirurgias (efeito sedativo)',
+      'Hipotensão severa',
+      'Crianças menores de 12 anos sem supervisão'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios da Passiflora', description: 'Propriedades ansiolíticas e sedativas da passiflora para ansiedade e sono' },
+      { slug: 'como-usar', title: 'Como Usar Passiflora', description: 'Dosagem, formas de uso e combinações da passiflora' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Passiflora', description: 'Efeitos adversos, interações e precauções da passiflora' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Passiflora', description: 'Análise das melhores marcas de passiflora em cápsulas e extratos' }
+    ]
+  },
+  {
+    slug: 'espinheira-santa',
+    name: 'Espinheira-santa',
+    scientificName: 'Maytenus ilicifolia',
+    description: 'A espinheira-santa é uma planta medicinal nativa da América do Sul, especialmente valorizada no Brasil por suas propriedades gastroprotetoras. Conhecida popularmente como "insulina vegetal", esta planta tem sido tradicionalmente usada para tratar problemas estomacais, úlceras e questões digestivas. Rica em taninos e flavonoides, oferece proteção à mucosa gástrica e propriedades anti-inflamatórias.',
+    heroImage: '/plants/espinheira-santa.jpg',
+    benefits: [
+      'Proteção da mucosa gástrica',
+      'Auxilia no tratamento de úlceras',
+      'Propriedades anti-inflamatórias digestivas',
+      'Pode auxiliar no controle da glicemia',
+      'Efeito cicatrizante na parede do estômago',
+      'Reduz acidez estomacal excessiva',
+      'Propriedades antioxidantes',
+      'Tradicionalmente usada como digestiva'
+    ],
+    uses: [
+      'Úlceras gástricas e duodenais',
+      'Gastrite e inflamação estomacal',
+      'Azia e refluxo gastroesofágico',
+      'Dispepsia e má digestão',
+      'Proteção estomacal durante uso de AINEs',
+      'Apoio em diabetes tipo 2 (adjuvante)',
+      'Dores abdominais de origem gástrica',
+      'Prevenção de lesões gástricas'
+    ],
+    sideEffects: [
+      'Boca seca em alguns usuários',
+      'Possível constipação intestinal',
+      'Náusea ocasional em doses altas',
+      'Dor de cabeça leve em pessoas sensíveis'
+    ],
+    contraindications: [
+      'Gravidez e amamentação',
+      'Obstrução intestinal',
+      'Hipoglicemia severa',
+      'Uso com medicamentos hipoglicemiantes (monitorar)',
+      'Cirurgias (pode afetar glicemia)',
+      'Crianças menores de 12 anos'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios da Espinheira-santa', description: 'Como a espinheira-santa protege o estômago e auxilia na digestão' },
+      { slug: 'como-usar', title: 'Como Usar Espinheira-santa', description: 'Formas de preparo, dosagem e duração de uso da espinheira-santa' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Espinheira-santa', description: 'Precauções e contraindicações da espinheira-santa' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Espinheira-santa', description: 'Melhores produtos de espinheira-santa disponíveis no Brasil' }
+    ]
   }
 ];
 

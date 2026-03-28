@@ -75,6 +75,60 @@ export const supplements: Supplement[] = [
     ],
     howToUse: 'Preparar uma infusão com 1-2 colheres de chá de folhas secas em 200ml de água quente. Deixar em infusão por 5-10 minutos. Consumir 2-3 xícaras ao dia.',
     dosage: 'Dosagem típica: 1.5-4.5g de folhas secas por dia, divididas em 2-3 xícaras'
+  },
+  {
+    slug: 'ashwagandha-capsulas',
+    name: 'Ashwagandha KSM-66 em Cápsulas',
+    plant: 'Ashwagandha',
+    form: 'Cápsulas',
+    description: 'As cápsulas de Ashwagandha KSM-66 representam a forma mais estudada e eficaz de suplementar com este poderoso adaptógeno. O extrato KSM-66 é produzido exclusivamente a partir da raiz, garantindo máxima concentração de witanolídeos e eficácia comprovada em mais de 20 estudos clínicos para redução do estresse e cortisol.',
+    benefits: [
+      'Dosagem precisa de extrato padronizado',
+      'Forma mais estudada cientificamente',
+      'Conveniência para uso diário',
+      'Estabilidade e conservação superiores',
+      'Sem sabor amargo da raiz',
+      'Absorção otimizada',
+      'Resultados consistentes e previsíveis'
+    ],
+    howToUse: 'Tomar 1-2 cápsulas por dia com alimentos. Para estresse: 1 cápsula de manhã e 1 à tarde. Para sono: 1-2 cápsulas 1-2 horas antes de dormir. Usar consistentemente por pelo menos 2-4 semanas para avaliar resultados.',
+    dosage: 'Dosagem típica: 300-600mg de extrato KSM-66 por dia (equivalente a 15-30mg de witanolídeos)'
+  },
+  {
+    slug: 'curcuma-piperina-capsulas',
+    name: 'Cúrcuma + Piperina em Cápsulas',
+    plant: 'Cúrcuma',
+    form: 'Cápsulas',
+    description: 'A combinação de cúrcuma com piperina em cápsulas resolve o principal problema da curcumina: sua baixa biodisponibilidade. A piperina aumenta a absorção da curcumina em até 2000%, garantindo que você obtenha os benefícios anti-inflamatórios reais desta especiaria milenar.',
+    benefits: [
+      'Biodisponibilidade 20x maior que cúrcuma isolada',
+      'Dosagem padronizada de curcuminoides',
+      'Praticidade para uso anti-inflamatório',
+      'Concentração muito superior ao tempero culinário',
+      'Sem necessidade de preparação especial',
+      'Ação prolongada no organismo',
+      'Ideal para uso terapêutico'
+    ],
+    howToUse: 'Tomar 1-2 cápsulas por dia com refeições que contenham gordura (melhora absorção). Para inflamação aguda: 2 cápsulas 2x ao dia. Para manutenção: 1 cápsula ao dia. Sempre com alimentos para evitar irritação gástrica.',
+    dosage: 'Dosagem típica: 500-1000mg de curcumina padronizada + 5-10mg de piperina por dia'
+  },
+  {
+    slug: 'ginkgo-biloba-capsulas',
+    name: 'Ginkgo Biloba em Cápsulas',
+    plant: 'Ginkgo Biloba',
+    form: 'Cápsulas',
+    description: 'As cápsulas de Ginkgo Biloba oferecem a forma mais conveniente de obter os benefícios cognitivos desta planta milenar. Com extrato padronizado em ginkgoflavonoides e terpenolactonas, proporcionam suporte científico comprovado para memória, concentração e circulação cerebral.',
+    benefits: [
+      'Extrato padronizado com concentração garantida',
+      'Livre de ácido ginkgólico (substância tóxica)',
+      'Dosagem precisa para benefícios cognitivos',
+      'Estabilidade superior às folhas secas',
+      'Conveniente para uso prolongado',
+      'Concentração 50x maior que chás',
+      'Resultados mensuráveis em testes cognitivos'
+    ],
+    howToUse: 'Tomar 1-2 cápsulas por dia com alimentos, preferencialmente divididas (manhã e tarde). Para estudantes: usar durante períodos de alta demanda cognitiva. Para idosos: uso contínuo com pausas mensais. Resultados aparecem após 4-6 semanas.',
+    dosage: 'Dosagem típica: 120-240mg de extrato padronizado (24% flavonoides, 6% terpenolactonas) por dia'
   }
 ];
 

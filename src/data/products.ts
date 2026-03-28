@@ -186,6 +186,176 @@ Mas será que o guaraná em cápsulas é realmente superior ao café comum? Ou �
     affiliateUrl: AFFILIATE_CONFIG.mainLink,
     featured: true,
     rating: 4.5
+  },
+  {
+    id: "4",
+    name: "Ashwagandha KSM-66",
+    slug: "ashwagandha-ksm66-estresse-ansiedade",
+    tagline: "O Adaptógeno Mais Estudado Para Estresse e Cortisol",
+    description: `A Ashwagandha KSM-66® é considerada o padrão ouro dos extratos de ashwagandha, sendo a forma mais pesquisada e clinicamente testada disponível no mercado. Diferente de extratos genéricos, o KSM-66 utiliza exclusivamente a raiz da planta e possui mais de 20 estudos clínicos que comprovam sua eficácia na redução do cortisol, melhora do estresse e aumento da energia.
+
+Este extrato patenteado e padronizado garante 5% de witanolídeos (os compostos ativos da ashwagandha) através de um processo de extração único que preserva o perfil completo de compostos da raiz, sem uso de álcool ou solventes químicos.`,
+    image: "/products/ashwagandha-ksm66.jpg",
+    category: "Adaptógenos e Estresse",
+    benefits: [
+      "Redução comprovada de 27% nos níveis de cortisol",
+      "Melhora significativa na percepção de estresse",
+      "Aumento de energia e vitalidade sem estimulantes",
+      "Melhora na qualidade do sono e recuperação",
+      "Suporte à função cognitiva e concentração",
+      "Possível aumento da testosterona em homens",
+      "Não causa dependência ou efeitos de rebote"
+    ],
+    ingredients: [
+      "Extrato de raiz de Ashwagandha KSM-66®",
+      "5% de witanolídeos totais padronizados",
+      "Livre de folhas (apenas raiz)",
+      "Sem álcool, sem solventes químicos",
+      "Certificação orgânica disponível"
+    ],
+    howToUse: "Tomar 300-600mg por dia, preferencialmente com alimentos. Para estresse: dividir em 2 doses (manhã e tarde). Para sono: dose única 1-2h antes de dormir. Resultados aparecem entre 2-8 semanas de uso consistente.",
+    pros: [
+      "Padrão ouro com mais estudos clínicos",
+      "Extração pura sem solventes químicos",
+      "Resultados consistentes e previsíveis",
+      "Perfil de segurança excelente",
+      "Certificações de qualidade rigorosas"
+    ],
+    cons: [
+      "Custo superior a extratos genéricos",
+      "Efeitos demoram 2-4 semanas para aparecer",
+      "Sabor amargo característico",
+      "Não recomendado para gestantes"
+    ],
+    forWhom: [
+      "Pessoas com estresse crônico elevado",
+      "Quem busca adaptógeno com respaldo científico sólido",
+      "Profissionais em ambientes de alta pressão",
+      "Atletas em períodos de treino intenso",
+      "Pessoas com níveis altos de cortisol"
+    ],
+    technicalInfo: {
+      quantity: "60 cápsulas (comum)",
+      form: "Cápsulas de extrato KSM-66®",
+      dosage: "300-600mg ao dia"
+    },
+    contraindications: "Não usar durante gravidez e amamentação. Evitar em casos de doenças autoimunes ativas. Pessoas com problemas de tireoide devem monitorar TSH. Suspender 2 semanas antes de cirurgias. Pode interagir com medicamentos para diabetes.",
+    affiliateUrl: AFFILIATE_CONFIG.mainLink,
+    featured: true,
+    rating: 4.6
+  },
+  {
+    id: "5",
+    name: "Cúrcuma com Piperina",
+    slug: "curcuma-piperina-anti-inflamatorio",
+    tagline: "Anti-inflamatório Natural Para Articulações e Dor",
+    description: `A combinação de cúrcuma (curcumina) com piperina representa uma das soluções mais eficazes para inflamação crônica disponível naturalmente. A piperina, extraída da pimenta-do-reino, aumenta a biodisponibilidade da curcumina em até 2000%, resolvendo o principal problema desta especiaria milenar.
+
+Esta formulação oferece benefícios anti-inflamatórios comparáveis ao ibuprofeno para dor articular, mas sem os efeitos colaterais gastrointestinais. Ideal para quem busca alternativa natural aos anti-inflamatórios convencionais ou deseja suporte preventivo para saúde articular.`,
+    image: "/products/curcuma-piperina.jpg",
+    category: "Anti-inflamatórios Naturais",
+    benefits: [
+      "Redução significativa de marcadores inflamatórios",
+      "Alívio da dor articular e muscular",
+      "Melhora da mobilidade e flexibilidade",
+      "Proteção contra danos oxidativos",
+      "Suporte à saúde cerebral e cardiovascular",
+      "Auxilia na recuperação pós-exercício",
+      "Pode reduzir necessidade de AINEs"
+    ],
+    ingredients: [
+      "Extrato de Cúrcuma padronizado (95% curcuminoides)",
+      "Piperina (extrato de pimenta-do-reino)",
+      "Curcumina, demetoxicurcumina, bisdemetoxicurcumina",
+      "Proporção otimizada 100:1 (curcumina:piperina)"
+    ],
+    howToUse: "Tomar 500-1000mg de curcumina + 5-10mg de piperina, 1-2 vezes ao dia com alimentos ricos em gordura. Para dor aguda: dose maior dividida em 2-3 tomadas. Para manutenção: dose menor uma vez ao dia após refeição principal.",
+    pros: [
+      "Biodisponibilidade até 20x maior com piperina",
+      "Eficácia comparável a anti-inflamatórios sintéticos",
+      "Perfil de segurança superior aos AINEs",
+      "Benefícios além da ação anti-inflamatória",
+      "Pode ser usado a longo prazo"
+    ],
+    cons: [
+      "Pode aumentar risco de sangramento",
+      "Contraindicado com cálculos biliares",
+      "Interação com anticoagulantes",
+      "Absorção depende de ingestão com gorduras"
+    ],
+    forWhom: [
+      "Pessoas com artrite ou artrose",
+      "Atletas com inflamação crônica",
+      "Quem tem dor muscular frequente",
+      "Pessoas que querem reduzir uso de AINEs",
+      "Indivíduos com inflamação sistêmica elevada"
+    ],
+    technicalInfo: {
+      quantity: "90 cápsulas (comum)",
+      form: "Cápsulas com extrato padronizado",
+      dosage: "500-1000mg de curcumina + 5-10mg piperina"
+    },
+    contraindications: "Não usar com anticoagulantes sem supervisão médica. Evitar em casos de cálculos biliares ou obstrução biliar. Suspender 2 semanas antes de cirurgias. Gravidez: evitar doses terapêuticas. Monitorar glicemia em diabéticos.",
+    affiliateUrl: AFFILIATE_CONFIG.mainLink,
+    featured: true,
+    rating: 4.4
+  },
+  {
+    id: "6",
+    name: "Ginkgo Biloba",
+    slug: "ginkgo-biloba-memoria-concentracao",
+    tagline: "Para Memória, Concentração e Circulação Cerebral",
+    description: `O Ginkgo Biloba é uma das plantas medicinais mais antigas e estudadas para suporte cognitivo, com mais de 300 estudos clínicos documentando seus benefícios para memória, concentração e circulação cerebral. Esta "árvore da memória" de 200 milhões de anos oferece compostos únicos que melhoram o fluxo sanguíneo cerebral e protegem os neurônios contra danos oxidativos.
+
+Extratos padronizados de Ginkgo (EGb 761) são reconhecidos como medicamento de prescrição em vários países europeus para demência e declínio cognitivo, demonstrando a seriedade científica desta planta milenar.`,
+    image: "/products/ginkgo-biloba.jpg",
+    category: "Cognição e Memória",
+    benefits: [
+      "Melhora da memória de curto e longo prazo",
+      "Aumento da concentração e foco mental",
+      "Melhora da circulação sanguínea cerebral",
+      "Proteção neuronal contra radicais livres",
+      "Pode reduzir sintomas de vertigem",
+      "Suporte à função cognitiva em idosos",
+      "Possível melhora em zumbido no ouvido"
+    ],
+    ingredients: [
+      "Extrato padronizado de Ginkgo biloba",
+      "24% de ginkgoflavonoides (flavonoides)",
+      "6% de terpenolactonas (ginkgolídeos + bilobalídeos)",
+      "Livre de ácido ginkgólico (<5ppm)",
+      "Concentração 50:1 (folha:extrato)"
+    ],
+    howToUse: "Tomar 120-240mg de extrato padronizado por dia, dividido em 2-3 doses com alimentos. Para memória: doses menores (120mg) em uso prolongado. Para circulação: doses maiores (240mg) por períodos específicos. Resultados aparecem após 4-6 semanas de uso.",
+    pros: [
+      "Centenas de estudos clínicos de suporte",
+      "Benefícios cognitivos bem documentados",
+      "Melhora mensurável em testes de memória",
+      "Seguro para uso a longo prazo",
+      "Reconhecido como medicamento na Europa"
+    ],
+    cons: [
+      "Efeitos demoram 4-6 semanas para aparecer",
+      "Pode interagir com anticoagulantes",
+      "Qualidade varia muito entre marcas",
+      "Alguns estudos mostram resultados mistos"
+    ],
+    forWhom: [
+      "Estudantes e profissionais intelectuais",
+      "Pessoas com declínio cognitivo inicial",
+      "Idosos com perda de memória",
+      "Quem tem problemas circulatórios cerebrais",
+      "Pessoas que buscam neuroproteção preventiva"
+    ],
+    technicalInfo: {
+      quantity: "60 cápsulas (comum)",
+      form: "Cápsulas de extrato padronizado",
+      dosage: "120-240mg ao dia"
+    },
+    contraindications: "Não usar com anticoagulantes sem supervisão médica. Evitar antes de cirurgias (risco hemorrágico). Pessoas com epilepsia devem ter cautela. Pode interagir com alguns antidepressivos. Não recomendado em gravidez.",
+    affiliateUrl: AFFILIATE_CONFIG.mainLink,
+    featured: true,
+    rating: 4.2
   }
 ];
 
