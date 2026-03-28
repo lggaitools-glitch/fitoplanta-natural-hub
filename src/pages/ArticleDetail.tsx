@@ -4,6 +4,7 @@ import { getArticleBySlug, getRecentArticles } from '@/data/articles';
 import { ArticleCard } from '@/components/articles/ArticleCard';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { ReadingProgress } from '@/components/ui/reading-progress';
 import { ChevronLeft, Clock, User, Calendar, Share2, Facebook, Twitter, Linkedin, List } from 'lucide-react';
 import ArticleSchema from '@/components/seo/ArticleSchema';
 import SEOHead from '@/components/seo/SEOHead';
@@ -37,7 +38,9 @@ const ArticleDetail = () => {
   const relatedArticles = getRecentArticles(3).filter(a => a.id !== article.id);
 
   return (
-    <Layout>
+    <>
+      <ReadingProgress />
+      <Layout>
       <SEOHead
         title={article.title}
         description={article.excerpt}
@@ -177,6 +180,7 @@ const ArticleDetail = () => {
         </section>
       )}
     </Layout>
+    </>
   );
 };
 

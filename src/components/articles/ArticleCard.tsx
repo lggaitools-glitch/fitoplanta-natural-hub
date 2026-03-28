@@ -20,20 +20,30 @@ const ArticleImage = ({ src, alt, category }: { src: string; alt: string; catego
   const [hasError, setHasError] = useState(false);
 
   return (
-    <div className={`relative aspect-[16/10] bg-green-soft overflow-hidden ${hasError ? 'flex items-center justify-center' : ''}`}>
+    <div className="relative aspect-[16/10] overflow-hidden">
       {!hasError ? (
-        <img
-          src={src}
-          alt={alt}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-          onError={() => setHasError(true)}
-        />
+        <>
+          <img
+            src={src}
+            alt={alt}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            onError={() => setHasError(true)}
+          />
+          <Badge className="absolute top-4 left-4 bg-primary text-primary-foreground">
+            {category}
+          </Badge>
+        </>
       ) : (
-        <FallbackIcon />
+        <div className="relative aspect-[16/10] bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 overflow-hidden flex items-center justify-center">
+          <div className="text-center">
+            <FallbackIcon />
+            <span className="text-xs text-muted-foreground mt-2 block">{category}</span>
+          </div>
+          <Badge className="absolute top-4 left-4 bg-primary text-primary-foreground">
+            {category}
+          </Badge>
+        </div>
       )}
-      <Badge className="absolute top-4 left-4 bg-primary text-primary-foreground">
-        {category}
-      </Badge>
     </div>
   );
 };

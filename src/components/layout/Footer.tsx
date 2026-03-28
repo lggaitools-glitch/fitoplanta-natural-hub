@@ -17,6 +17,11 @@ const footerLinks = {
     { name: 'Melissa', href: '/plantas-medicinais/melissa' },
     { name: 'Ginseng', href: '/plantas-medicinais/ginseng' },
     { name: 'Cúrcuma', href: '/plantas-medicinais/curcuma' },
+    { name: 'Camomila', href: '/plantas-medicinais/camomila' },
+    { name: 'Ashwagandha', href: '/plantas-medicinais/ashwagandha' },
+    { name: 'Boldo', href: '/plantas-medicinais/boldo' },
+    { name: 'Maracujá', href: '/plantas-medicinais/maracuja' },
+    { name: 'Espinheira-santa', href: '/plantas-medicinais/espinheira-santa' },
   ],
   institucional: [
     { name: 'Sobre Nós', href: '/sobre' },
