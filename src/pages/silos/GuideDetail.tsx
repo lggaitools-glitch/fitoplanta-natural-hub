@@ -5,6 +5,7 @@ import { RelatedLinkCard, SiloNavigation } from '@/components/navigation/Interna
 import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { getGuideBySlug, guides } from '@/data/guides';
 import { getPlantBySlug } from '@/data/plants';
+import { getRecentArticles } from '@/data/articles';
 import { Button } from '@/components/ui/button';
 import { Check, X, ExternalLink } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
@@ -203,6 +204,36 @@ const GuideDetail = () => {
                 </div>
               </section>
             )}
+
+            {/* Related Articles */}
+            {(() => {
+              const keywords = guide.relatedPlants.map(p => p.toLowerCase());
+              const titleWords = guide.title.toLowerCase().split(' ').filter(w => w.length > 4);
+              const relatedArticles = getRecentArticles(20).filter(a => 
+                a.tags.some(t => keywords.some(k => t.toLowerCase().includes(k))) ||
+                titleWords.some(w => a.title.toLowerCase().includes(w))
+              ).slice(0, 2);
+              
+              if (relatedArticles.length === 0) return null;
+              
+              return (
+                <section className="mb-8">
+                  <h2 className="font-display text-2xl font-bold text-foreground mb-4">
+                    Leia Também
+                  </h2>
+                  <div className="grid gap-4">
+                    {relatedArticles.map(article => (
+                      <RelatedLinkCard
+                        key={article.slug}
+                        to={`/artigos/${article.slug}`}
+                        title={article.title}
+                        description={`${article.readTime} min de leitura`}
+                      />
+                    ))}
+                  </div>
+                </section>
+              );
+            })()}
 
             <CombinedDisclaimer />
           </article>

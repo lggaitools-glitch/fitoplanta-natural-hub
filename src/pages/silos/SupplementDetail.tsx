@@ -5,6 +5,7 @@ import { RelatedLinkCard, SiloNavigation } from '@/components/navigation/Interna
 import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { getSupplementBySlug, supplements } from '@/data/supplements';
 import { getPlantBySlug } from '@/data/plants';
+import { getRecentArticles } from '@/data/articles';
 import { Button } from '@/components/ui/button';
 import { Check, ExternalLink, Pill } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
@@ -108,6 +109,35 @@ const SupplementDetail = () => {
                 />
               </section>
             )}
+
+            {/* Related Articles */}
+            {(() => {
+              const plantName = supplement.plant.toLowerCase();
+              const relatedArticles = getRecentArticles(20).filter(a => 
+                a.tags.some(t => t.toLowerCase().includes(plantName)) ||
+                a.title.toLowerCase().includes(plantName)
+              ).slice(0, 2);
+              
+              if (relatedArticles.length === 0) return null;
+              
+              return (
+                <section className="mb-8">
+                  <h2 className="font-display text-2xl font-bold text-foreground mb-4">
+                    Artigos Relacionados
+                  </h2>
+                  <div className="grid gap-4">
+                    {relatedArticles.map(article => (
+                      <RelatedLinkCard
+                        key={article.slug}
+                        to={`/artigos/${article.slug}`}
+                        title={article.title}
+                        description={`${article.readTime} min de leitura`}
+                      />
+                    ))}
+                  </div>
+                </section>
+              );
+            })()}
 
             <CombinedDisclaimer />
           </article>

@@ -11,6 +11,7 @@ import SEOHead from '@/components/seo/SEOHead';
 import DOMPurify from 'dompurify';
 import { InArticleCTA } from '@/components/monetization/InArticleCTA';
 import { RelatedProducts } from '@/components/monetization/RelatedProducts';
+import { CrossSiloLinks } from '@/components/navigation/CrossSiloLinks';
 
 const ArticleDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -37,7 +38,15 @@ const ArticleDetail = () => {
     });
   };
 
-  const relatedArticles = getRecentArticles(3).filter(a => a.id !== article.id);
+  // Related articles: prefer same category, then same tags, then recent
+  const allArticles = getRecentArticles(20).filter(a => a.id !== article.id);
+  const sameCategoryArticles = allArticles.filter(a => a.category === article.category);
+  const sameTagArticles = allArticles.filter(a => 
+    a.tags.some(t => article.tags.includes(t)) && a.category !== article.category
+  );
+  const relatedArticles = [...sameCategoryArticles, ...sameTagArticles, ...allArticles]
+    .filter((a, i, arr) => arr.findIndex(x => x.id === a.id) === i)
+    .slice(0, 3);
 
   return (
     <>
@@ -166,6 +175,12 @@ const ArticleDetail = () => {
             <InArticleCTA variant="highlight" />
             
             <RelatedProducts category={article.category} />
+
+            {/* Cross-silo internal links */}
+            <CrossSiloLinks 
+              currentSilo="artigos"
+              tags={article.tags}
+            />
           </div>
         </div>
       </section>
