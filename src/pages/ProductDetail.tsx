@@ -7,6 +7,7 @@ import { Leaf, Check, Star, ChevronLeft, ExternalLink, AlertCircle, ThumbsUp, Th
 import ProductSchema from '@/components/seo/ProductSchema';
 import { AFFILIATE_CONFIG } from '@/config/affiliate';
 import SEOHead from '@/components/seo/SEOHead';
+import { StickyAffiliateCTA } from '@/components/monetization/StickyAffiliateCTA';
 
 const ProductDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -274,6 +275,7 @@ const ProductDetail = () => {
           </div>
         </section>
       )}
+      <StickyAffiliateCTA productName={product.name} />
     </Layout>
   );
 };

@@ -9,6 +9,8 @@ import { ChevronLeft, Clock, User, Calendar, Share2, Facebook, Twitter, Linkedin
 import ArticleSchema from '@/components/seo/ArticleSchema';
 import SEOHead from '@/components/seo/SEOHead';
 import DOMPurify from 'dompurify';
+import { InArticleCTA } from '@/components/monetization/InArticleCTA';
+import { RelatedProducts } from '@/components/monetization/RelatedProducts';
 
 const ArticleDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -160,6 +162,10 @@ const ArticleDetail = () => {
                 </div>
               </div>
             </div>
+
+            <InArticleCTA variant="highlight" />
+            
+            <RelatedProducts category={article.category} />
           </div>
         </div>
       </section>

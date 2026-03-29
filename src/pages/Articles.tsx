@@ -47,28 +47,36 @@ const Articles = () => {
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-16 bg-cream-dark">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
-              Receba Novos Conteúdos
+      <section className="py-20 bg-gradient-hero relative overflow-hidden">
+        <div className="absolute inset-0 bg-leaf-pattern opacity-20" />
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-2xl mx-auto text-center text-primary-foreground">
+            <div className="w-14 h-14 bg-primary-foreground/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <BookOpen className="w-7 h-7" />
+            </div>
+            <h2 className="font-display text-2xl sm:text-3xl font-bold mb-3">
+              E-book Gratuito: 10 Plantas Essenciais
             </h2>
-            <p className="text-muted-foreground mb-8">
-              Inscreva-se para receber artigos exclusivos sobre saúde natural e ofertas especiais.
+            <p className="text-primary-foreground/80 mb-8 text-sm sm:text-base">
+              Receba nosso guia exclusivo com as plantas medicinais mais estudadas pela ciência, 
+              dicas de uso seguro e recomendações de produtos. 100% grátis.
             </p>
-            <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+            <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
               <input
                 type="email"
                 placeholder="Seu melhor e-mail"
-                className="flex-1 px-4 py-3 rounded-lg border border-border bg-card focus:outline-none focus:ring-2 focus:ring-primary"
+                className="flex-1 px-4 py-3 rounded-xl border-0 bg-primary-foreground/10 backdrop-blur-sm text-primary-foreground placeholder:text-primary-foreground/50 focus:outline-none focus:ring-2 focus:ring-accent"
               />
               <button
                 type="submit"
-                className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
+                className="px-6 py-3 bg-accent text-primary rounded-xl font-semibold hover:bg-accent/90 transition-colors whitespace-nowrap shadow-gold"
               >
-                Inscrever
+                Quero Receber
               </button>
             </form>
+            <p className="text-xs text-primary-foreground/50 mt-4">
+              Sem spam • Cancele quando quiser • +2.000 inscritos
+            </p>
           </div>
         </div>
       </section>
