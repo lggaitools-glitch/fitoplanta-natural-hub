@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Video production files
+video/clips/
+video/audio/
+video/output/

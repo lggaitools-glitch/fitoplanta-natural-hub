@@ -113,6 +113,24 @@ export const supplements: Supplement[] = [
     dosage: 'Dosagem típica: 500-1000mg de curcumina padronizada + 5-10mg de piperina por dia'
   },
   {
+    slug: 'passiflora-capsulas',
+    name: 'Passiflora em Cápsulas',
+    plant: 'Maracujá (Passiflora)',
+    form: 'Cápsulas',
+    description: 'As cápsulas de passiflora (Passiflora incarnata) são uma das opções mais populares para quem busca alívio natural da ansiedade e melhora do sono. A passiflora atua nos receptores GABAérgicos do cérebro, promovendo relaxamento sem causar dependência ou efeitos residuais no dia seguinte.',
+    benefits: [
+      'Ação ansiolítica natural comprovada',
+      'Não causa dependência ou tolerância',
+      'Melhora a qualidade do sono',
+      'Sem sonolência excessiva no dia seguinte',
+      'Pode ser combinada com valeriana',
+      'Segura para uso prolongado',
+      'Boa tolerabilidade geral'
+    ],
+    howToUse: 'Tomar 1 a 2 cápsulas 30 a 60 minutos antes de dormir para insônia, ou 1 cápsula 2 vezes ao dia para ansiedade. Pode ser associada à valeriana e melissa para potencializar os efeitos.',
+    dosage: 'Dosagem típica: 200-500mg de extrato padronizado por dia, dividido em 1-2 doses'
+  },
+  {
     slug: 'ginkgo-biloba-capsulas',
     name: 'Ginkgo Biloba em Cápsulas',
     plant: 'Ginkgo Biloba',

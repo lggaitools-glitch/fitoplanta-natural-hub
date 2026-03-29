@@ -27,629 +27,109 @@
     <priority>0.5</priority>
   </url>
   
-  <!-- SILO 1: Fitoterapia (Pillar) -->
+  <!-- SILO 1: Fitoterapia -->
   <url>
     <loc>https://fitoplantamed.com/fitoterapia</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://fitoplantamed.com/fitoterapia/o-que-e-fitoterapia</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/fitoterapia/fitoterapia-funciona</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/fitoterapia/beneficios-e-riscos</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/fitoterapia/fitoterapia-x-suplementos</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
   
-  <!-- SILO 2: Plantas Medicinais (Pillar) -->
+  <!-- SILO 2: Plantas Medicinais -->
   <url>
     <loc>https://fitoplantamed.com/plantas-medicinais</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/valeriana</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/equinacea</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/guarana</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/melissa</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/ginseng</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/curcuma</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/camomila</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/ashwagandha</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/boldo</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/maracuja</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/espinheira-santa</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   
-  <!-- Valeriana -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/valeriana/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Plant Subpages -->
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/valeriana/beneficios</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/valeriana/como-usar</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/valeriana/efeitos-colaterais</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/valeriana/melhores-marcas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/equinacea/beneficios</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/equinacea/como-usar</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/equinacea/efeitos-colaterais</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/equinacea/melhores-marcas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   
-  <!-- Equinácea -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/equinacea/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Guaraná -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/guarana</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/guarana/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/guarana/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/guarana/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/guarana/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Melissa -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/melissa</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/melissa/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/melissa/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/melissa/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/melissa/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Ginseng -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ginseng/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Cúrcuma -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/curcuma</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/curcuma/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/curcuma/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/curcuma/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/curcuma/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- NEW PLANTS -->
-  <!-- Camomila -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/camomila</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/camomila/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/camomila/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/camomila/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/camomila/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Ashwagandha -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ashwagandha</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ashwagandha/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ashwagandha/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ashwagandha/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/ashwagandha/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Boldo -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/boldo</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/boldo/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/boldo/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/boldo/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/boldo/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Maracujá -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/maracuja</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/maracuja/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/maracuja/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/maracuja/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/maracuja/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Espinheira-santa -->
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/espinheira-santa</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/espinheira-santa/beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/espinheira-santa/como-usar</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/espinheira-santa/efeitos-colaterais</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/plantas-medicinais/espinheira-santa/melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- SILO 3: Suplementos Naturais (Pillar) -->
+  <!-- SILO 3: Suplementos Naturais -->
   <url>
     <loc>https://fitoplantamed.com/suplementos-naturais</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://fitoplantamed.com/suplementos-naturais/valeriana-capsulas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/suplementos-naturais/guarana-capsulas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/suplementos-naturais/equinacea-extrato</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/suplementos-naturais/melissa-cha</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <url><loc>https://fitoplantamed.com/suplementos-naturais/valeriana-capsulas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/suplementos-naturais/guarana-capsulas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/suplementos-naturais/equinacea-extrato</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/suplementos-naturais/melissa-cha</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/suplementos-naturais/ashwagandha-capsulas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/suplementos-naturais/curcuma-piperina-capsulas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/suplementos-naturais/passiflora-capsulas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/suplementos-naturais/ginkgo-biloba-capsulas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   
-  <!-- NEW SUPPLEMENTS -->
-  <url>
-    <loc>https://fitoplantamed.com/suplementos-naturais/ashwagandha-capsulas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/suplementos-naturais/curcuma-piperina-capsulas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/suplementos-naturais/ginkgo-biloba-capsulas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- SILO 4: Guias de Compra (Pillar) -->
+  <!-- SILO 4: Guias de Compra -->
   <url>
     <loc>https://fitoplantamed.com/guias</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://fitoplantamed.com/guias/melhor-valeriana</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/guias/melhor-fitoterapico-para-sono</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/guias/melhor-suplemento-para-imunidade</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/guias/melhor-energia-natural</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <url><loc>https://fitoplantamed.com/guias/melhor-valeriana</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/guias/melhor-fitoterapico-para-sono</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/guias/melhor-suplemento-para-imunidade</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/guias/melhor-anti-inflamatorio-natural</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/guias/melhor-fitoterapico-para-ansiedade</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/guias/melhor-energia-natural</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   
-  <!-- SILO 5: Bem-estar (Pillar) -->
+  <!-- SILO 5: Bem-estar -->
   <url>
     <loc>https://fitoplantamed.com/bem-estar</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://fitoplantamed.com/bem-estar/sono-natural</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/bem-estar/imunidade-natural</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/bem-estar/energia-e-foco</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/bem-estar/gestao-do-estresse</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <url><loc>https://fitoplantamed.com/bem-estar/sono-natural</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/bem-estar/imunidade-natural</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/bem-estar/energia-e-foco</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/bem-estar/gestao-do-estresse</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/bem-estar/saude-digestiva-natural</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/bem-estar/saude-cognitiva-memoria</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   
-  <!-- Artigos (Hub) -->
+  <!-- Artigos -->
   <url>
     <loc>https://fitoplantamed.com/artigos</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://fitoplantamed.com/artigos/o-que-e-fitoterapia-guia-completo</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/artigos/plantas-medicinais-mais-usadas-brasil</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/artigos/fitoterapicos-funcionam-ciencia</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/artigos/como-escolher-suplementos-naturais-qualidade</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/artigos/fitoterapicos-vs-suplementos-sinteticos-diferenca</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- NEW ARTICLES -->
-  <url>
-    <loc>https://fitoplantamed.com/artigos/ashwagandha-adaptogeno-beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/artigos/curcuma-curcumina-anti-inflamatorio-natural</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/artigos/melatonina-natural-vs-sintetica</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/artigos/chas-medicinais-guia-preparo-beneficios</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/artigos/probioticos-naturais-saude-intestinal</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Produtos Recomendados -->
-  <url>
-    <loc>https://fitoplantamed.com/produtos</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/produtos/valeriana-beneficios-melhores-marcas</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/produtos/equinacea-imunidade-funciona</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/produtos/guarana-capsulas-energia-natural-marketing</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- NEW PRODUCTS -->
-  <url>
-    <loc>https://fitoplantamed.com/produtos/ashwagandha-ksm66-estresse-ansiedade</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/produtos/curcuma-piperina-anti-inflamatorio</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://fitoplantamed.com/produtos/ginkgo-biloba-memoria-concentracao</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
+  <url><loc>https://fitoplantamed.com/artigos/o-que-e-fitoterapia-guia-completo</loc><lastmod>2024-01-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/plantas-medicinais-mais-usadas-brasil</loc><lastmod>2024-02-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/fitoterapicos-funcionam-ciencia</loc><lastmod>2024-03-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/como-escolher-suplementos-naturais-qualidade</loc><lastmod>2024-03-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/fitoterapicos-vs-suplementos-sinteticos-diferenca</loc><lastmod>2024-04-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/ashwagandha-adaptogeno-beneficios</loc><lastmod>2024-05-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/curcuma-curcumina-anti-inflamatorio-natural</loc><lastmod>2024-05-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/melatonina-natural-vs-sintetica</loc><lastmod>2024-06-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/chas-medicinais-guia-preparo-beneficios</loc><lastmod>2024-07-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/probioticos-naturais-saude-intestinal</loc><lastmod>2024-07-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/espinheira-santa-protetor-gastrico-brasileiro</loc><lastmod>2024-08-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/passiflora-ansiedade-maracuja-medicinal</loc><lastmod>2024-08-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/ginkgo-biloba-memoria-funciona</loc><lastmod>2024-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/adaptogenos-o-que-sao-como-funcionam</loc><lastmod>2024-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/camomila-beneficios-surpreendentes-alem-calmante</loc><lastmod>2024-10-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/boldo-beneficios-figado-digestao-cuidados</loc><lastmod>2024-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
 </urlset>

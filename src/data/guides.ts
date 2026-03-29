@@ -168,6 +168,118 @@ export const guides: Guide[] = [
     relatedPlants: ['equinacea']
   },
   {
+    slug: 'melhor-anti-inflamatorio-natural',
+    title: 'Melhor Anti-inflamatório Natural',
+    subtitle: 'Guia Completo 2024',
+    description: 'Comparativo dos melhores anti-inflamatórios naturais: cúrcuma, gengibre, boswellia e mais. Descubra qual funciona melhor para dores e inflamações.',
+    category: 'anti-inflamatorio',
+    heroImage: '/guides/anti-inflamatorio.jpg',
+    introduction: 'A inflamação crônica é considerada a raiz de diversas doenças modernas, incluindo artrite, doenças cardíacas e até depressão. Os anti-inflamatórios naturais oferecem uma alternativa com menos efeitos colaterais gastrointestinais que os AINEs convencionais. Neste guia, comparamos os mais eficazes.',
+    criteria: [
+      'Potência anti-inflamatória comprovada em estudos clínicos',
+      'Biodisponibilidade do princípio ativo',
+      'Perfil de segurança a longo prazo',
+      'Versatilidade de aplicações terapêuticas',
+      'Relação custo-benefício',
+      'Disponibilidade no mercado brasileiro'
+    ],
+    productsBR: [
+      {
+        name: 'Cúrcuma + Piperina 500mg',
+        brand: 'Vitafor',
+        country: 'BR',
+        description: 'Cúrcuma com 95% de curcuminoides e piperina para máxima absorção.',
+        pros: ['Extrato padronizado', 'Piperina inclusa', 'Boa concentração', 'Marca respeitada'],
+        cons: ['Preço médio-alto', 'Cápsulas grandes']
+      },
+      {
+        name: 'Curcuma Longa',
+        brand: 'Herbarium',
+        country: 'BR',
+        description: 'Extrato padronizado da cúrcuma com registro fitoterápico.',
+        pros: ['Registro ANVISA', 'Marca tradicional', 'Preço acessível'],
+        cons: ['Sem piperina na fórmula', 'Absorção limitada']
+      }
+    ],
+    productsUS: [
+      {
+        name: 'Turmeric Supreme',
+        brand: 'Gaia Herbs',
+        country: 'US',
+        description: 'Fórmula líquida de alta absorção com cúrcuma orgânica.',
+        pros: ['Orgânico', 'Phyto-Caps líquidas', 'Absorção superior', 'Rastreável'],
+        cons: ['Preço premium', 'Necessita importação']
+      },
+      {
+        name: 'CurcuminRich Theracurmin',
+        brand: 'Natural Factors',
+        country: 'US',
+        description: 'Forma micronizada de curcumina com 27x mais absorção.',
+        pros: ['Tecnologia Theracurmin', 'Absorção 27x superior', 'Estudado clinicamente'],
+        cons: ['Preço elevado', 'Poucas cápsulas por embalagem']
+      }
+    ],
+    conclusion: 'A cúrcuma com piperina é a opção mais acessível e eficaz para uso geral. Para casos que exigem maior potência, as formulações com tecnologia de absorção avançada (como Theracurmin) são superiores.',
+    relatedGuides: ['melhor-suplemento-para-imunidade'],
+    relatedPlants: ['curcuma']
+  },
+  {
+    slug: 'melhor-fitoterapico-para-ansiedade',
+    title: 'Melhor Fitoterápico Para Ansiedade',
+    subtitle: 'Guia Completo 2024',
+    description: 'Os melhores fitoterápicos para ansiedade: passiflora, ashwagandha, valeriana e melissa. Comparativo com base em evidências científicas.',
+    category: 'ansiedade',
+    heroImage: '/guides/ansiedade.jpg',
+    introduction: 'A ansiedade é um dos transtornos mentais mais prevalentes no Brasil, que lidera o ranking mundial. Muitas pessoas buscam alternativas naturais aos ansiolíticos convencionais, que podem causar dependência. Os fitoterápicos oferecem opções seguras e eficazes para ansiedade leve a moderada.',
+    criteria: [
+      'Eficácia ansiolítica comprovada em ensaios clínicos',
+      'Rapidez de ação (aguda vs acumulativa)',
+      'Ausência de dependência ou tolerância',
+      'Segurança no uso prolongado',
+      'Compatibilidade com a rotina diária',
+      'Disponibilidade e custo no Brasil'
+    ],
+    productsBR: [
+      {
+        name: 'Passiflora Composta',
+        brand: 'Herbarium',
+        country: 'BR',
+        description: 'Combinação de passiflora com outras plantas calmantes.',
+        pros: ['Ação sinérgica', 'Marca confiável', 'Registro ANVISA', 'Preço acessível'],
+        cons: ['Pode causar leve sonolência', 'Efeito demora alguns dias']
+      },
+      {
+        name: 'Calman',
+        brand: 'Aspen Pharma',
+        country: 'BR',
+        description: 'Fitoterápico clássico à base de passiflora, valeriana e crataegus.',
+        pros: ['Fórmula clássica brasileira', 'Amplamente estudado', 'Fácil acesso'],
+        cons: ['Fórmula antiga', 'Pode interagir com sedativos']
+      }
+    ],
+    productsUS: [
+      {
+        name: 'Ashwagandha KSM-66',
+        brand: 'Jarrow Formulas',
+        country: 'US',
+        description: 'Extrato patenteado de ashwagandha com mais de 20 estudos clínicos.',
+        pros: ['Extrato KSM-66 patenteado', 'Reduz cortisol comprovadamente', 'Ação adaptogênica', 'Non-GMO'],
+        cons: ['Importação necessária', 'Resultados após 4-8 semanas']
+      },
+      {
+        name: 'Calm Support',
+        brand: 'Gaia Herbs',
+        country: 'US',
+        description: 'Blend com ashwagandha, lavanda e aveia verde para alívio da ansiedade.',
+        pros: ['Fórmula completa', 'Orgânico', 'Ação rápida e sustentada'],
+        cons: ['Preço elevado', 'Muitos ingredientes ativos']
+      }
+    ],
+    conclusion: 'Para ansiedade aguda, a passiflora e a melissa oferecem alívio mais rápido. Para ansiedade crônica e estresse prolongado, a ashwagandha é superior por sua ação adaptogênica que reduz o cortisol ao longo do tempo. A combinação de ambas as abordagens pode ser ideal.',
+    relatedGuides: ['melhor-fitoterapico-para-sono', 'melhor-valeriana'],
+    relatedPlants: ['maracuja', 'ashwagandha', 'valeriana', 'melissa']
+  },
+  {
     slug: 'melhor-energia-natural',
     title: 'Melhor Suplemento Para Energia Natural',
     subtitle: 'Alternativas Saudáveis ao Café',
