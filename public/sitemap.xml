@@ -53,7 +53,8 @@
   <url><loc>https://fitoplantamed.com/plantas-medicinais/boldo</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/plantas-medicinais/maracuja</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/plantas-medicinais/espinheira-santa</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/gengibre</loc><lastmod>2026-03-31</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
   <!-- Plant Subpages -->
   <url><loc>https://fitoplantamed.com/plantas-medicinais/valeriana/beneficios</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://fitoplantamed.com/plantas-medicinais/valeriana/como-usar</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -63,7 +64,11 @@
   <url><loc>https://fitoplantamed.com/plantas-medicinais/equinacea/como-usar</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://fitoplantamed.com/plantas-medicinais/equinacea/efeitos-colaterais</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://fitoplantamed.com/plantas-medicinais/equinacea/melhores-marcas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/gengibre/beneficios</loc><lastmod>2026-03-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/gengibre/como-usar</loc><lastmod>2026-03-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/gengibre/efeitos-colaterais</loc><lastmod>2026-03-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/gengibre/melhores-marcas</loc><lastmod>2026-03-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
   <!-- SILO 3: Suplementos Naturais -->
   <url>
     <loc>https://fitoplantamed.com/suplementos-naturais</loc>
@@ -131,5 +136,6 @@
   <url><loc>https://fitoplantamed.com/artigos/adaptogenos-o-que-sao-como-funcionam</loc><lastmod>2024-09-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/artigos/camomila-beneficios-surpreendentes-alem-calmante</loc><lastmod>2024-10-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/artigos/boldo-beneficios-figado-digestao-cuidados</loc><lastmod>2024-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/gengibre-beneficios-usos-evidencias</loc><lastmod>2024-06-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
 </urlset>

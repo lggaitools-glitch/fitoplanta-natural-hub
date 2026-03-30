@@ -22,6 +22,7 @@ const footerLinks = {
     { name: 'Boldo', href: '/plantas-medicinais/boldo' },
     { name: 'Maracujá', href: '/plantas-medicinais/maracuja' },
     { name: 'Espinheira-santa', href: '/plantas-medicinais/espinheira-santa' },
+    { name: 'Gengibre', href: '/plantas-medicinais/gengibre' },
   ],
   institucional: [
     { name: 'Sobre Nós', href: '/sobre' },

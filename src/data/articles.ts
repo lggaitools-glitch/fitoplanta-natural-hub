@@ -1891,6 +1891,111 @@ O boldo é uma planta medicinal valiosa quando usada corretamente. Para desconfo
     author: "Dr. Marcos Vinicius Souza, Hepatologista",
     publishedAt: "2024-10-25",
     readTime: 12
+  },
+  {
+    id: "17",
+    title: "Gengibre: O Guia Completo sobre Benefícios, Usos e Evidências Científicas",
+    slug: "gengibre-beneficios-usos-evidencias",
+    excerpt: "Descubra todos os benefícios do gengibre comprovados pela ciência. Guia completo sobre usos medicinais, formas de consumo, dosagem e contraindicações.",
+    content: `
+## O Que é o Gengibre?
+
+O gengibre (Zingiber officinale) é uma das plantas medicinais mais estudadas e utilizadas no mundo. Com mais de 5.000 anos de uso na medicina tradicional chinesa e indiana (Ayurveda), esta raiz aromática conquistou um lugar de destaque tanto na culinária quanto na fitoterapia moderna.
+
+A parte utilizada medicinalmente é o rizoma (caule subterrâneo), rico em compostos bioativos como:
+
+- **Gingeróis** — principais responsáveis pelas propriedades anti-inflamatórias e antioxidantes
+- **Shogaóis** — formados durante a desidratação, com potência anti-inflamatória ainda maior
+- **Zingerona** — responsável pelo aroma característico
+- **Paradóis** — compostos com atividade antitumoral em estudos preliminares
+
+## Benefícios Comprovados pela Ciência
+
+### 1. Alívio de Náuseas e Vômitos
+
+O uso mais bem documentado do gengibre. Múltiplos estudos clínicos confirmam sua eficácia para:
+
+- Náusea matinal na gravidez (seguro no primeiro trimestre, conforme orientação médica)
+- Enjoo de movimento
+- Náusea pós-operatória
+- Náusea induzida por quimioterapia
+
+*Dosagem estudada: 250mg a 1g de gengibre em pó, 3-4x ao dia*
+
+### 2. Propriedades Anti-inflamatórias
+
+Os gingeróis inibem a síntese de prostaglandinas e leucotrienos, mediadores-chave do processo inflamatório. Estudos mostram benefícios para:
+
+- Osteoartrite (redução significativa de dor em meta-análises)
+- Dores musculares pós-exercício
+- Inflamação crônica de baixo grau
+
+### 3. Saúde Digestiva
+
+O gengibre acelera o esvaziamento gástrico em até 50% em pessoas com dispepsia funcional, aliviando:
+
+- Indigestão
+- Distensão abdominal
+- Desconforto pós-refeição
+
+### 4. Suporte Imunológico
+
+Compostos do gengibre demonstram atividade antimicrobiana contra diversas bactérias e vírus. Seu efeito termogênico também estimula a circulação, contribuindo para a resposta imune.
+
+### 5. Controle Glicêmico
+
+Estudos recentes indicam que 2g de gengibre em pó por dia pode reduzir a glicemia de jejum em até 12% em pacientes com diabetes tipo 2.
+
+## Gengibre e Cúrcuma: Uma Sinergia Poderosa
+
+A combinação de gengibre com cúrcuma potencializa os efeitos anti-inflamatórios de ambas as plantas. Enquanto o gengibre atua principalmente via gingeróis, a cúrcuma age através da curcumina — e juntos, cobrem múltiplas vias inflamatórias simultaneamente.
+
+**Dica:** Adicione uma pitada de pimenta-preta à combinação para aumentar a biodisponibilidade da curcumina em até 2.000%.
+
+## Formas de Consumo
+
+- **Fresco** — ralado em chás, sucos, pratos (mais gingeróis)
+- **Em pó** — cápsulas ou adicionado a receitas (mais concentrado)
+- **Cristalizado** — prático, mas atenção ao açúcar adicionado
+- **Óleo essencial** — uso tópico para dores musculares
+- **Extrato padronizado** — suplementos com dosagem controlada
+
+## Dosagem Recomendada
+
+- **Chá de gengibre:** 1-2g de gengibre fresco por xícara, 2-3x ao dia
+- **Cápsulas:** 250mg a 1g de extrato padronizado, 2-3x ao dia
+- **Gengibre fresco:** até 4g por dia
+- **Não exceder 5g/dia** para evitar efeitos adversos
+
+## Contraindicações e Cuidados
+
+- Pode interagir com anticoagulantes (varfarina, aspirina)
+- Doses acima de 5g/dia podem causar azia e desconforto gástrico
+- Gestantes devem consultar profissional de saúde antes do uso prolongado
+- Pessoas com cálculos biliares devem evitar doses elevadas
+- Suspender uso 2 semanas antes de cirurgias
+
+## A Opinião da Especialista
+
+O gengibre é uma das plantas medicinais com melhor relação entre tradição e evidência científica. Sua versatilidade de uso — do chá ao suplemento — o torna acessível a qualquer pessoa que busque um aliado natural para saúde digestiva e controle inflamatório. No entanto, como todo fitoterápico, o uso deve ser consciente e, idealmente, orientado por um profissional de saúde.
+
+## Referências Científicas
+
+- Bodagh, M.N. et al. (2019). Ginger in gastrointestinal disorders. Food Science & Nutrition
+- Maharlouei, N. et al. (2019). The effects of ginger intake on weight loss. Critical Reviews in Food Science and Nutrition
+- Anh, N.H. et al. (2020). Ginger on Human Health. Nutrients
+- Khandouzi, N. et al. (2015). The Effects of Ginger on Fasting Blood Sugar. Iranian Journal of Pharmaceutical Research
+
+---
+
+*Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
+    `,
+    image: "/articles/fitoterapia.jpg",
+    category: "Plantas Medicinais",
+    tags: ["gengibre", "anti-inflamatório", "digestão", "imunidade", "náusea", "plantas medicinais"],
+    author: "Marta Leni, Farmacêutica Clínica",
+    publishedAt: "2024-06-15",
+    readTime: 12
   }
 ];
 

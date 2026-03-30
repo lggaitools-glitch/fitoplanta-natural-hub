@@ -488,6 +488,51 @@ export const plants: Plant[] = [
       { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Espinheira-santa', description: 'Precauções e contraindicações da espinheira-santa' },
       { slug: 'melhores-marcas', title: 'Melhores Marcas de Espinheira-santa', description: 'Melhores produtos de espinheira-santa disponíveis no Brasil' }
     ]
+  },
+  {
+    slug: 'gengibre',
+    name: 'Gengibre',
+    scientificName: 'Zingiber officinale',
+    description: 'O gengibre é uma das plantas medicinais mais estudadas e utilizadas no mundo. Com mais de 5.000 anos de uso na medicina tradicional, esta raiz aromática é rica em gingeróis e shogaóis, compostos bioativos com potentes propriedades anti-inflamatórias, antioxidantes e digestivas.',
+    heroImage: '/plants/gengibre.jpg',
+    benefits: [
+      'Alívio comprovado de náuseas e vômitos',
+      'Potente ação anti-inflamatória natural',
+      'Melhora a digestão e esvaziamento gástrico',
+      'Suporte ao sistema imunológico',
+      'Pode auxiliar no controle glicêmico',
+      'Propriedades antioxidantes',
+      'Sinergia com cúrcuma para inflamação'
+    ],
+    uses: [
+      'Náusea matinal na gravidez',
+      'Enjoo de movimento',
+      'Náusea pós-operatória e por quimioterapia',
+      'Osteoartrite e dores articulares',
+      'Indigestão e dispepsia funcional',
+      'Dores musculares pós-exercício',
+      'Suporte imunológico geral',
+      'Controle de glicemia em diabetes tipo 2'
+    ],
+    sideEffects: [
+      'Azia e desconforto gástrico em doses altas',
+      'Pode aumentar risco de sangramento',
+      'Diarreia em doses excessivas',
+      'Irritação na boca em uso concentrado'
+    ],
+    contraindications: [
+      'Uso com anticoagulantes (varfarina, aspirina)',
+      'Cálculos biliares em doses elevadas',
+      'Gravidez em uso prolongado sem orientação',
+      'Antes de cirurgias (suspender 2 semanas)',
+      'Doses acima de 5g/dia'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios do Gengibre', description: 'Descubra os benefícios anti-inflamatórios, digestivos e imunológicos do gengibre' },
+      { slug: 'como-usar', title: 'Como Usar Gengibre', description: 'Dosagem, formas de consumo e melhores combinações do gengibre' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais do Gengibre', description: 'Possíveis efeitos adversos e contraindicações do gengibre' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Gengibre', description: 'Análise das melhores marcas de gengibre em cápsulas e extratos no Brasil' }
+    ]
   }
 ];
 
