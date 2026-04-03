@@ -318,6 +318,100 @@ export const guides: Guide[] = [
     relatedGuides: [],
     relatedPlants: ['guarana', 'ginseng']
   }
+  {
+    slug: 'melhor-gengibre',
+    title: 'Melhor Gengibre em Cápsulas',
+    subtitle: 'Guia Completo 2026',
+    description: 'Comparativo das melhores marcas de gengibre em cápsulas disponíveis no Brasil. Avaliamos concentração de gingeróis, padronização, custo-benefício e qualidade.',
+    category: 'anti-inflamatorio',
+    heroImage: '/guides/gengibre.jpg',
+    introduction: 'O gengibre é uma das plantas medicinais mais versáteis e estudadas do mundo. Em cápsulas, oferece praticidade e dosagem controlada para quem busca seus benefícios anti-inflamatórios, digestivos e antináusea. Neste guia, comparamos as melhores opções do mercado brasileiro e internacional.',
+    criteria: [
+      'Concentração de gingeróis (mínimo 5%)',
+      'Padronização do extrato',
+      'Certificação de qualidade (BPF/GMP)',
+      'Custo-benefício',
+      'Reputação da marca'
+    ],
+    productsBR: [
+      {
+        name: 'Gengibre Premium Gold',
+        brand: 'Vitafor',
+        country: 'BR',
+        description: 'Extrato padronizado de gengibre com alta concentração de gingeróis e certificação de qualidade.',
+        pros: ['Extrato padronizado com 5% de gingeróis', 'Certificação BPF', 'Boa concentração por cápsula', 'Marca respeitada no mercado'],
+        cons: ['Preço acima da média', 'Disponibilidade limitada em farmácias']
+      },
+      {
+        name: 'Gengibre Essencial Plus',
+        brand: 'Herbarium',
+        country: 'BR',
+        description: 'Gengibre em cápsulas de marca tradicional brasileira com registro na ANVISA.',
+        pros: ['Registro ANVISA', 'Marca consolidada', 'Preço acessível', 'Fácil de encontrar'],
+        cons: ['Concentração de gingeróis não especificada', 'Extrato não padronizado']
+      }
+    ],
+    productsUS: [
+      {
+        name: 'Gengibre Puro Natural',
+        brand: "Nature's Way",
+        country: 'US',
+        description: 'Extrato de gengibre de alta qualidade com padronização rigorosa e testes de terceiros.',
+        pros: ['Certificação TRU-ID', 'Padronizado em gingeróis', 'Non-GMO', 'Testes de terceiros independentes'],
+        cons: ['Necessita importação', 'Preço em dólar']
+      }
+    ],
+    conclusion: 'O gengibre em cápsulas é uma forma prática e eficaz de obter os benefícios desta raiz milenar. Priorize extratos padronizados com mínimo de 5% de gingeróis e certificação de qualidade.',
+    relatedGuides: ['melhor-anti-inflamatorio-natural'],
+    relatedPlants: ['gengibre', 'curcuma']
+  },
+  {
+    slug: 'melhor-suplemento-estresse-ansiedade',
+    title: 'Melhor Suplemento Para Estresse e Ansiedade',
+    subtitle: 'Guia Comparativo 2026',
+    description: 'Comparativo completo dos melhores suplementos naturais para estresse e ansiedade: Ashwagandha, Passiflora, Valeriana, Rhodiola e Melissa.',
+    category: 'ansiedade',
+    heroImage: '/guides/estresse-ansiedade.jpg',
+    introduction: 'O estresse e a ansiedade são os males do século, e a busca por alternativas naturais nunca foi tão grande. Neste guia, comparamos os melhores suplementos naturais para quem deseja aliviar esses sintomas de forma segura, com base em evidências científicas e disponibilidade no mercado.',
+    criteria: [
+      'Eficácia comprovada em estudos clínicos',
+      'Perfil de segurança',
+      'Velocidade de ação',
+      'Versatilidade de uso',
+      'Custo-benefício'
+    ],
+    productsBR: [
+      {
+        name: 'Ashwagandha KSM-66 Premium',
+        brand: 'Vitafor',
+        country: 'BR',
+        description: 'Extrato patenteado KSM-66 de ashwagandha, o mais estudado do mundo para redução de estresse e cortisol.',
+        pros: ['Extrato KSM-66 patenteado', 'Redução comprovada de cortisol em 28%', 'Ação adaptogênica ampla', 'Resultados em 4-8 semanas'],
+        cons: ['Preço mais elevado', 'Efeito não é imediato', 'Pode causar sonolência em alguns']
+      },
+      {
+        name: 'Passiflora Concentrada Plus',
+        brand: 'Herbarium',
+        country: 'BR',
+        description: 'Extrato concentrado de passiflora com ação ansiolítica rápida e comprovada.',
+        pros: ['Ação rápida (30-60 minutos)', 'Não causa dependência', 'Registro ANVISA', 'Preço acessível'],
+        cons: ['Pode causar sonolência', 'Menos eficaz para estresse crônico', 'Foco principal em ansiedade aguda']
+      }
+    ],
+    productsUS: [
+      {
+        name: 'Complexo Anti-Estresse Natural',
+        brand: 'Gaia Herbs',
+        country: 'US',
+        description: 'Blend premium com rhodiola, ashwagandha e melissa para alívio completo do estresse e ansiedade.',
+        pros: ['Fórmula sinérgica completa', 'Ingredientes orgânicos', 'Ação em múltiplas vias do estresse', 'Rastreabilidade total'],
+        cons: ['Preço premium', 'Necessita importação', 'Muitos ingredientes ativos simultâneos']
+      }
+    ],
+    conclusion: 'A escolha ideal depende do seu perfil: para estresse com fadiga, prefira Ashwagandha ou Rhodiola. Para ansiedade com insônia, Passiflora ou Valeriana são mais indicadas. Melissa é uma excelente opção para quem busca efeito calmante suave sem sonolência.',
+    relatedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-fitoterapico-para-sono'],
+    relatedPlants: ['ashwagandha', 'valeriana', 'maracuja', 'melissa', 'rhodiola']
+  }
 ];
 
 export const getGuideBySlug = (slug: string): Guide | undefined => {

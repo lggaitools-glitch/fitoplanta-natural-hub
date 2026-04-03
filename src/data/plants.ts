@@ -534,6 +534,51 @@ export const plants: Plant[] = [
       { slug: 'melhores-marcas', title: 'Melhores Marcas de Gengibre', description: 'Análise das melhores marcas de gengibre em cápsulas e extratos no Brasil' }
     ]
   }
+  {
+    slug: 'rhodiola',
+    name: 'Rhodiola Rosea',
+    scientificName: 'Rhodiola rosea',
+    description: 'A Rhodiola Rosea, também conhecida como "raiz dourada" ou "raiz do Ártico", é uma planta adaptógena que cresce em regiões frias e montanhosas da Europa e Ásia. Utilizada há séculos na medicina tradicional escandinava e russa, é reconhecida por seus efeitos comprovados contra fadiga, estresse e declínio cognitivo. Seus principais compostos bioativos são rosavinas, salidrosídeo e tirosol.',
+    heroImage: '/plants/rhodiola.jpg',
+    benefits: [
+      'Combate à fadiga física e mental',
+      'Melhora do desempenho cognitivo e foco',
+      'Redução do estresse e sintomas de burnout',
+      'Melhora da resistência ao exercício físico',
+      'Suporte ao humor e efeito antidepressivo leve',
+      'Modulação do eixo hipotálamo-hipófise-adrenal',
+      'Proteção celular contra danos oxidativos'
+    ],
+    uses: [
+      'Fadiga crônica e mental',
+      'Estresse e burnout',
+      'Melhora de concentração e memória de trabalho',
+      'Performance cognitiva sob pressão',
+      'Privação de sono',
+      'Resistência ao exercício físico',
+      'Suporte ao humor em períodos difíceis',
+      'Complemento a adaptógenos como ashwagandha'
+    ],
+    sideEffects: [
+      'Insônia se tomada tarde do dia',
+      'Agitação em doses altas',
+      'Boca seca ocasional',
+      'Tontura rara'
+    ],
+    contraindications: [
+      'Transtorno bipolar (pode desencadear mania)',
+      'Uso com antidepressivos ISRSs (possível interação)',
+      'Gravidez e amamentação',
+      'Pressão arterial muito baixa',
+      'Crianças sem supervisão médica'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios da Rhodiola Rosea', description: 'Como a Rhodiola combate fadiga, estresse e melhora o foco mental' },
+      { slug: 'como-usar', title: 'Como Usar Rhodiola Rosea', description: 'Dosagem, timing e ciclos recomendados para Rhodiola Rosea' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Rhodiola Rosea', description: 'Precauções, contraindicações e efeitos adversos da Rhodiola' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Rhodiola Rosea', description: 'Análise das melhores marcas de Rhodiola Rosea no Brasil e exterior' }
+    ]
+  }
 ];
 
 export const getPlantBySlug = (slug: string): Plant | undefined => {

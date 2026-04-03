@@ -210,6 +210,50 @@ O exercício aeróbico é um dos mais poderosos nootrópicos naturais, aumentand
     recommendedPlants: ['ginseng', 'ashwagandha', 'guarana'],
     recommendedGuides: ['melhor-energia-natural']
   }
+  {
+    slug: 'saude-articular',
+    title: 'Saúde Articular',
+    subtitle: 'Mobilidade Natural Para o Dia a Dia',
+    description: 'Descubra como plantas medicinais e suplementos naturais podem ajudar a manter suas articulações saudáveis e a mobilidade em dia.',
+    heroImage: '/wellness/articular.jpg',
+    introduction: 'A saúde articular é fundamental para a qualidade de vida em qualquer idade. Dores nas articulações, rigidez e perda de mobilidade afetam milhões de brasileiros e podem ser amenizadas com abordagens naturais.',
+    content: `Manter as articulações saudáveis é essencial para uma vida ativa e independente. Plantas medicinais, suplementos naturais e hábitos adequados podem fazer uma grande diferença na prevenção e no manejo de problemas articulares.
+
+## A Importância da Saúde Articular
+
+As articulações são estruturas complexas compostas por cartilagem, líquido sinovial, ligamentos e tendões. Com o tempo, o desgaste natural, inflamação crônica e falta de nutrientes podem comprometer sua função. Osteoartrite, artrite reumatoide e dores articulares crônicas são cada vez mais comuns, especialmente com o envelhecimento da população.
+
+## Plantas e Suplementos Para as Articulações
+
+A **cúrcuma** é um dos anti-inflamatórios naturais mais estudados. Seus curcuminoides inibem vias inflamatórias como NF-kB e COX-2, com eficácia comparável a anti-inflamatórios convencionais em alguns estudos. A associação com piperina aumenta sua absorção em até 2000%.
+
+O **gengibre** complementa a ação da cúrcuma com seus gingeróis e shogaóis. Estudos mostram redução significativa de dor e rigidez em pacientes com osteoartrite. A combinação cúrcuma + gengibre é uma das mais eficazes para inflamação articular.
+
+A **boswellia** (Boswellia serrata) contém ácidos boswélicos que inibem a enzima 5-lipoxigenase, reduzindo leucotrienos inflamatórios. É especialmente eficaz para osteoartrite do joelho.
+
+## Hábitos Naturais Para Mobilidade
+
+O **movimento regular** é o melhor remédio para as articulações. Exercícios de baixo impacto como caminhada, natação e yoga mantêm a lubrificação articular e fortalecem os músculos de suporte. A inatividade, por outro lado, acelera o desgaste.
+
+A **alimentação anti-inflamatória** rica em ômega-3 (peixes, chia, linhaça), vegetais coloridos e especiarias como cúrcuma e gengibre ajuda a reduzir a inflamação sistêmica que agrava problemas articulares.
+
+Manter um **peso saudável** é crucial — cada quilo extra exerce 3-4 kg de pressão adicional sobre os joelhos.
+
+## Quando Procurar um Médico
+
+Consulte um profissional de saúde se você apresentar: dor articular persistente por mais de 2 semanas, inchaço significativo, vermelhidão ou calor na articulação, limitação progressiva de movimento, ou dor que desperta durante a noite. Estas podem ser sinais de condições que requerem avaliação e tratamento médico especializado.`,
+    tips: [
+      'Combine cúrcuma com piperina para máxima absorção',
+      'Use gengibre diariamente para efeito anti-inflamatório cumulativo',
+      'Pratique exercícios de baixo impacto regularmente',
+      'Mantenha um peso saudável para reduzir a carga articular',
+      'Consuma alimentos ricos em ômega-3',
+      'Alongue-se diariamente para manter a flexibilidade',
+      'Considere boswellia como complemento para dor articular'
+    ],
+    recommendedPlants: ['curcuma', 'gengibre'],
+    recommendedGuides: ['melhor-anti-inflamatorio-natural', 'melhor-gengibre']
+  }
 ];
 
 export const getWellnessTopicBySlug = (slug: string): WellnessTopic | undefined => {

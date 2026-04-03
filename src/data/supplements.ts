@@ -131,6 +131,22 @@ export const supplements: Supplement[] = [
     dosage: 'Dosagem típica: 200-500mg de extrato padronizado por dia, dividido em 1-2 doses'
   },
   {
+    slug: 'gengibre-capsulas',
+    name: 'Gengibre em Cápsulas',
+    plant: 'Gengibre',
+    form: 'Cápsulas de extrato padronizado',
+    description: 'Extrato padronizado de gengibre (Zingiber officinale) em cápsulas, concentrado em gingeróis. Ideal para quem busca os benefícios anti-inflamatórios e digestivos do gengibre de forma prática e com dosagem controlada.',
+    benefits: [
+      'Alívio de náuseas e enjoos',
+      'Ação anti-inflamatória potente',
+      'Melhora da digestão e alívio de dispepsia',
+      'Suporte ao sistema imunológico',
+      'Auxílio no controle glicêmico'
+    ],
+    howToUse: 'Tomar 1 a 2 cápsulas ao dia, preferencialmente com as refeições. Para náuseas, pode ser tomado 30 minutos antes de viagens ou situações que causem enjoo.',
+    dosage: '250 mg a 1 g de extrato padronizado, 2 a 3 vezes ao dia. Não exceder 5 g/dia equivalente de gengibre.'
+  },
+  {
     slug: 'ginkgo-biloba-capsulas',
     name: 'Ginkgo Biloba em Cápsulas',
     plant: 'Ginkgo Biloba',

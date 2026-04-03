@@ -54,6 +54,7 @@
   <url><loc>https://fitoplantamed.com/plantas-medicinais/maracuja</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/plantas-medicinais/espinheira-santa</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/plantas-medicinais/gengibre</loc><lastmod>2026-03-31</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/rhodiola</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Plant Subpages -->
   <url><loc>https://fitoplantamed.com/plantas-medicinais/valeriana/beneficios</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -68,6 +69,10 @@
   <url><loc>https://fitoplantamed.com/plantas-medicinais/gengibre/como-usar</loc><lastmod>2026-03-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://fitoplantamed.com/plantas-medicinais/gengibre/efeitos-colaterais</loc><lastmod>2026-03-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://fitoplantamed.com/plantas-medicinais/gengibre/melhores-marcas</loc><lastmod>2026-03-31</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/rhodiola/beneficios</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/rhodiola/como-usar</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/rhodiola/efeitos-colaterais</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fitoplantamed.com/plantas-medicinais/rhodiola/melhores-marcas</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- SILO 3: Suplementos Naturais -->
   <url>
@@ -84,7 +89,8 @@
   <url><loc>https://fitoplantamed.com/suplementos-naturais/curcuma-piperina-capsulas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/suplementos-naturais/passiflora-capsulas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/suplementos-naturais/ginkgo-biloba-capsulas</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  
+  <url><loc>https://fitoplantamed.com/suplementos-naturais/gengibre-capsulas</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
   <!-- SILO 4: Guias de Compra -->
   <url>
     <loc>https://fitoplantamed.com/guias</loc>
@@ -98,7 +104,9 @@
   <url><loc>https://fitoplantamed.com/guias/melhor-anti-inflamatorio-natural</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/guias/melhor-fitoterapico-para-ansiedade</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/guias/melhor-energia-natural</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  
+  <url><loc>https://fitoplantamed.com/guias/melhor-gengibre</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/guias/melhor-suplemento-estresse-ansiedade</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
   <!-- SILO 5: Bem-estar -->
   <url>
     <loc>https://fitoplantamed.com/bem-estar</loc>
@@ -112,7 +120,8 @@
   <url><loc>https://fitoplantamed.com/bem-estar/gestao-do-estresse</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/bem-estar/saude-digestiva-natural</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/bem-estar/saude-cognitiva-memoria</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  
+  <url><loc>https://fitoplantamed.com/bem-estar/saude-articular</loc><lastmod>2026-04-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
   <!-- Artigos -->
   <url>
     <loc>https://fitoplantamed.com/artigos</loc>
@@ -137,5 +146,7 @@
   <url><loc>https://fitoplantamed.com/artigos/camomila-beneficios-surpreendentes-alem-calmante</loc><lastmod>2024-10-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/artigos/boldo-beneficios-figado-digestao-cuidados</loc><lastmod>2024-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fitoplantamed.com/artigos/gengibre-beneficios-usos-evidencias</loc><lastmod>2024-06-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/rhodiola-rosea-adaptogeno-energia-foco</loc><lastmod>2024-07-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fitoplantamed.com/artigos/10-erros-comuns-plantas-medicinais</loc><lastmod>2024-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
 </urlset>
