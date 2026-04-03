@@ -578,6 +578,50 @@ export const plants: Plant[] = [
       { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Rhodiola Rosea', description: 'Precauções, contraindicações e efeitos adversos da Rhodiola' },
       { slug: 'melhores-marcas', title: 'Melhores Marcas de Rhodiola Rosea', description: 'Análise das melhores marcas de Rhodiola Rosea no Brasil e exterior' }
     ]
+  },
+  {
+    slug: 'moringa',
+    name: 'Moringa',
+    scientificName: 'Moringa oleifera',
+    description: 'A moringa, conhecida como "árvore da vida", é uma das plantas mais nutritivas do planeta, originária da Índia e amplamente cultivada no Nordeste brasileiro. Rica em mais de 90 nutrientes, incluindo vitaminas, minerais, aminoácidos essenciais e compostos bioativos como isotiocianatos e quercetina, a moringa é utilizada há milênios na medicina ayurvédica e vem sendo redescoberta pela ciência moderna.',
+    heroImage: '/plants/moringa.jpg',
+    benefits: [
+      'Potente ação antioxidante',
+      'Auxilia no controle glicêmico',
+      'Pode reduzir colesterol total e LDL',
+      'Ação anti-inflamatória comprovada',
+      'Suporte ao sistema imunológico',
+      'Propriedades neuroprotetoras',
+      'Perfil nutricional excepcional (vitaminas, minerais, aminoácidos)'
+    ],
+    uses: [
+      'Suplementação nutricional completa',
+      'Controle da glicemia em diabetes tipo 2',
+      'Redução do colesterol',
+      'Suporte imunológico',
+      'Combate ao estresse oxidativo',
+      'Uso tópico para pele e cabelo (óleo)',
+      'Complemento em dietas restritivas'
+    ],
+    sideEffects: [
+      'Desconforto gastrointestinal em doses altas',
+      'Possível potencialização de medicamentos hipoglicemiantes',
+      'Interação com medicamentos para tireoide',
+      'Interação com anti-hipertensivos'
+    ],
+    contraindications: [
+      'Gestantes (casca e raiz podem ter efeito abortivo)',
+      'Uso com medicamentos para diabetes sem supervisão',
+      'Uso com medicamentos para tireoide',
+      'Uso com anti-hipertensivos sem orientação',
+      'Consumo de raízes e cascas (compostos potencialmente tóxicos)'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios da Moringa', description: 'Descubra os benefícios antioxidantes, anti-inflamatórios e nutricionais da moringa' },
+      { slug: 'como-usar', title: 'Como Usar Moringa', description: 'Dosagem, formas de uso e melhores práticas para consumir moringa' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Moringa', description: 'Possíveis efeitos adversos, interações e contraindicações da moringa' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Moringa', description: 'Análise das melhores marcas de moringa em pó e cápsulas no Brasil' }
+    ]
   }
 ];
 

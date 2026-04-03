@@ -19,7 +19,8 @@ export const categories = [
   "Bem-estar",
   "Guias de Compra",
   "Adaptógenos",
-  "Educação em Saúde"
+  "Educação em Saúde",
+  "Superalimentos"
 ];
 
 export const articles: Article[] = [
@@ -2175,6 +2176,107 @@ Lembre-se: informação de qualidade é a sua melhor aliada. Continue se educand
     author: "Marta Leni, Farmacêutica Clínica",
     publishedAt: "2024-08-05",
     readTime: 9
+  },
+  {
+    id: "20",
+    title: "Moringa: O Superalimento Medicinal Que a Ciência Está Redescobrindo",
+    slug: "moringa-superalimento-medicinal-ciencia",
+    excerpt: "Conheça a moringa (Moringa oleifera), o superalimento com mais de 90 nutrientes que a ciência está redescobrindo. Benefícios, como usar e dosagem segura.",
+    content: `
+## O Que é Moringa?
+
+A Moringa oleifera, conhecida como "árvore da vida" ou "árvore milagrosa", é uma planta originária da Índia que cresce em regiões tropicais e subtropicais de todo o mundo, incluindo o Nordeste brasileiro. Considerada um dos alimentos mais nutritivos do planeta, a moringa tem sido utilizada há milênios na medicina ayurvédica.
+
+Seu perfil nutricional é impressionante:
+
+- **7 vezes** mais vitamina C que a laranja
+- **4 vezes** mais cálcio que o leite
+- **2 vezes** mais proteína que o iogurte
+- **4 vezes** mais vitamina A que a cenoura
+- **3 vezes** mais potássio que a banana
+- **25 vezes** mais ferro que o espinafre
+- Todos os **9 aminoácidos essenciais**
+
+## Compostos Bioativos
+
+A moringa é rica em compostos com atividade farmacológica:
+
+- **Isotiocianatos** — potentes anti-inflamatórios e anticancerígenos
+- **Quercetina** — flavonoide antioxidante e anti-hipertensivo
+- **Ácido clorogênico** — regulador de glicemia (o mesmo presente no café verde)
+- **Beta-caroteno** — precursor de vitamina A, antioxidante
+- **Zeatina** — citocinina com propriedades anti-envelhecimento
+
+## Benefícios Comprovados pela Ciência
+
+### 1. Potente Ação Antioxidante
+
+A moringa contém concentrações excepcionais de antioxidantes, incluindo quercetina, ácido clorogênico e beta-caroteno. Estudos demonstram que o extrato de moringa reduz marcadores de estresse oxidativo de forma significativa.
+
+### 2. Controle Glicêmico
+
+Diversos estudos clínicos indicam que a moringa pode reduzir os níveis de glicemia de jejum em até 13,5% em pessoas com diabetes tipo 2. Os isotiocianatos presentes nas folhas melhoram a sensibilidade à insulina.
+
+### 3. Redução do Colesterol
+
+Estudos em humanos mostram que a suplementação com moringa pode reduzir o colesterol total e o LDL ("mau colesterol"), com efeito comparável ao de alguns fitoterápicos consagrados.
+
+### 4. Ação Anti-inflamatória
+
+Os isotiocianatos da moringa inibem mediadores inflamatórios como o NF-κB, COX-2 e citocinas pró-inflamatórias. Estudos preliminares sugerem benefícios para condições inflamatórias crônicas.
+
+### 5. Suporte Imunológico
+
+O perfil nutricional completo da moringa, aliado às suas propriedades antimicrobianas e imunomoduladoras, faz dela um excelente suporte para o sistema imunológico.
+
+### 6. Neuroproteção
+
+Pesquisas recentes sugerem que compostos da moringa podem proteger neurônios contra danos oxidativos e melhorar a função cognitiva, embora mais estudos em humanos sejam necessários.
+
+## Como Usar
+
+- **Pó de folhas** — a forma mais versátil. Adicione a smoothies, sucos, sopas ou saladas. Sabor suave e herbáceo.
+- **Cápsulas** — prático para quem não gosta do sabor. Dosagem controlada.
+- **Chá de moringa** — infusão das folhas secas. Sabor agradável, levemente terroso.
+- **Óleo de moringa** — uso tópico para pele e cabelo (rico em ácido oleico).
+
+## Dosagem Recomendada
+
+- **Pó de folhas:** 1 a 2 colheres de chá por dia (2 a 5 g)
+- **Cápsulas:** 500 mg a 2 g de extrato por dia
+- **Chá:** 1 a 2 g de folhas secas por xícara, 2 a 3 vezes ao dia
+- **Iniciar com doses baixas** e aumentar gradualmente ao longo de uma semana
+
+## Contraindicações e Cuidados
+
+- Gestantes devem evitar (a casca e a raiz podem ter efeito abortivo)
+- Pode interagir com medicamentos para diabetes (potencializa a redução de glicemia)
+- Pode interagir com medicamentos para tireoide
+- Pode interagir com anti-hipertensivos
+- Em doses muito altas, pode causar desconforto gastrointestinal
+- Usar apenas folhas — raízes e cascas contêm compostos potencialmente tóxicos
+
+## A Opinião da Especialista
+
+A moringa é um verdadeiro tesouro nutricional, especialmente relevante para populações com acesso limitado a alimentos diversificados. No entanto, é fundamental lembrar que ela é um complemento alimentar, não um substituto para uma dieta equilibrada. Use folhas de moringa de fontes confiáveis e comece sempre com doses baixas para avaliar sua tolerância individual.
+
+## Referências Científicas
+
+- Stohs, S.J. & Hartman, M.J. (2015). Review of the Safety and Efficacy of Moringa oleifera. Phytotherapy Research
+- Leone, A. et al. (2015). Moringa oleifera Seeds and Oil: Characteristics and Uses. International Journal of Molecular Sciences
+- Mbikay, M. (2012). Therapeutic Potential of Moringa oleifera Leaves in Chronic Hyperglycemia. Frontiers in Pharmacology
+- Vergara-Jimenez, M. et al. (2017). Bioactive Components in Moringa Oleifera Leaves. Foods
+
+---
+
+*Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
+    `,
+    image: "/articles/fitoterapia.jpg",
+    category: "Superalimentos",
+    tags: ["moringa", "superalimento", "antioxidante", "imunidade", "nutrição", "plantas medicinais"],
+    author: "Marta Leni, Farmacêutica Clínica",
+    publishedAt: "2024-08-20",
+    readTime: 11
   }
 ];
 

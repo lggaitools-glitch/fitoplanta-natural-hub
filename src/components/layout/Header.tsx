@@ -34,6 +34,7 @@ const navigation = [
       { name: 'Espinheira-santa', href: '/plantas-medicinais/espinheira-santa' },
       { name: 'Gengibre', href: '/plantas-medicinais/gengibre' },
       { name: 'Rhodiola', href: '/plantas-medicinais/rhodiola' },
+      { name: 'Moringa', href: '/plantas-medicinais/moringa' },
     ]
   },
   { name: 'Suplementos', href: '/suplementos-naturais' },
