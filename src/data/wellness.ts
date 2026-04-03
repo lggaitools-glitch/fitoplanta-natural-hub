@@ -209,7 +209,7 @@ O exercício aeróbico é um dos mais poderosos nootrópicos naturais, aumentand
     ],
     recommendedPlants: ['ginseng', 'ashwagandha', 'guarana'],
     recommendedGuides: ['melhor-energia-natural']
-  }
+  },
   {
     slug: 'saude-articular',
     title: 'Saúde Articular',

@@ -317,7 +317,7 @@ export const guides: Guide[] = [
     conclusion: 'O guaraná é ideal para energia rápida, enquanto o ginseng funciona melhor a longo prazo como adaptógeno.',
     relatedGuides: [],
     relatedPlants: ['guarana', 'ginseng']
-  }
+  },
   {
     slug: 'melhor-gengibre',
     title: 'Melhor Gengibre em Cápsulas',

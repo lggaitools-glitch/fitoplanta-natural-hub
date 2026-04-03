@@ -533,7 +533,7 @@ export const plants: Plant[] = [
       { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais do Gengibre', description: 'Possíveis efeitos adversos e contraindicações do gengibre' },
       { slug: 'melhores-marcas', title: 'Melhores Marcas de Gengibre', description: 'Análise das melhores marcas de gengibre em cápsulas e extratos no Brasil' }
     ]
-  }
+  },
   {
     slug: 'rhodiola',
     name: 'Rhodiola Rosea',
