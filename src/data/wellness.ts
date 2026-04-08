@@ -253,6 +253,56 @@ Consulte um profissional de saúde se você apresentar: dor articular persistent
     ],
     recommendedPlants: ['curcuma', 'gengibre'],
     recommendedGuides: ['melhor-anti-inflamatorio-natural', 'melhor-gengibre']
+  },
+  {
+    slug: 'saude-feminina-natural',
+    title: 'Saúde Feminina Natural: Plantas e Suplementos Para Cada Fase',
+    subtitle: 'Bem-estar Feminino em Todas as Fases da Vida',
+    description: 'Conheça as plantas medicinais e suplementos naturais que auxiliam a saúde feminina — da TPM à menopausa, passando por gestação e manejo do estresse.',
+    heroImage: '/wellness/saude-feminina.jpg',
+    introduction: 'O corpo feminino passa por transformações constantes ao longo da vida. Ciclo menstrual, gestação, amamentação e menopausa são fases que exigem atenção especial. A fitoterapia pode ser uma aliada importante em cada uma delas — sempre com acompanhamento profissional.',
+    content: `A saúde feminina envolve necessidades específicas que mudam com o tempo. Plantas medicinais são usadas há séculos por mulheres no mundo todo, e hoje muitas dessas tradições contam com respaldo científico.
+
+## Plantas Para TPM (Tensão Pré-Menstrual)
+
+A TPM afeta até 80% das mulheres em idade reprodutiva. Os sintomas — irritabilidade, inchaço, dores de cabeça e cólicas — podem ser aliviados com abordagens naturais.
+
+A **melissa** possui ação antiespasmódica e calmante que ajuda a reduzir a irritabilidade e a ansiedade pré-menstrual. A **camomila** é outra grande aliada: seus flavonoides atuam no relaxamento muscular, aliviando cólicas e tensão. Já o **maracujá** (passiflora) contribui para a qualidade do sono e o equilíbrio emocional nessa fase.
+
+## Plantas Para a Menopausa
+
+A menopausa traz ondas de calor, alterações de humor, insônia e ressecamento. Isoflavonas de soja são amplamente usadas, mas a fitoterapia oferece mais opções.
+
+A **passiflora** ajuda no controle da ansiedade e insônia que acompanham essa fase. A **valeriana** é uma aliada importante para o sono fragmentado típico da perimenopausa. Ambas podem ser combinadas para um efeito sinérgico.
+
+## Suplementação Natural Durante a Gestação
+
+**Atenção: qualquer suplementação durante a gestação deve ser orientada e acompanhada pelo obstetra.** Muitas plantas medicinais são contraindicadas nesse período.
+
+O ácido fólico e o ferro são nutrientes essenciais, mas algumas plantas como camomila em doses baixas e gengibre para náuseas matinais podem ser consideradas — sempre sob supervisão médica. Evite automedicação fitoterápica durante a gravidez e a amamentação.
+
+## Adaptógenos Para o Estresse Feminino
+
+Mulheres enfrentam demandas específicas que podem gerar estresse crônico. Os adaptógenos são plantas que ajudam o organismo a lidar melhor com a pressão do dia a dia.
+
+A **ashwagandha** é um dos adaptógenos mais estudados: reduz os níveis de cortisol, melhora a qualidade do sono e pode auxiliar no equilíbrio hormonal. Estudos mostram benefícios para a libido e a vitalidade feminina.
+
+A **valeriana** e a **melissa** também contribuem para o manejo do estresse, especialmente quando combinadas com técnicas de respiração e exercício físico regular.
+
+## Quando Procurar um Ginecologista
+
+Plantas medicinais são complementos, nunca substitutas do acompanhamento médico. Procure um ginecologista se apresentar: ciclos menstruais muito irregulares ou intensos, sintomas de menopausa que comprometem a qualidade de vida, dor pélvica persistente, alterações mamárias, ou antes de iniciar qualquer suplementação fitoterápica — especialmente durante gestação e amamentação.`,
+    tips: [
+      'Use melissa ou camomila para aliviar cólicas e irritabilidade da TPM',
+      'Considere passiflora para insônia e ansiedade na menopausa',
+      'Nunca inicie suplementação fitoterápica na gestação sem orientação médica',
+      'Ashwagandha pode ajudar no estresse crônico — comece com doses baixas',
+      'Combine valeriana e passiflora para potencializar o efeito calmante',
+      'Mantenha consultas ginecológicas regulares em todas as fases da vida',
+      'Pratique exercícios regulares — o movimento alivia sintomas hormonais'
+    ],
+    recommendedPlants: ['melissa', 'maracuja', 'camomila', 'ashwagandha', 'valeriana'],
+    recommendedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-fitoterapico-para-sono']
   }
 ];
 
