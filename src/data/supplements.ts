@@ -147,6 +147,24 @@ export const supplements: Supplement[] = [
     dosage: '250 mg a 1 g de extrato padronizado, 2 a 3 vezes ao dia. Não exceder 5 g/dia equivalente de gengibre.'
   },
   {
+    slug: 'moringa-capsulas',
+    name: 'Moringa em Cápsulas',
+    plant: 'Moringa',
+    form: 'Cápsulas',
+    description: 'As cápsulas de moringa (Moringa oleifera) concentram o perfil nutricional extraordinário desta planta em uma forma prática e de dosagem controlada. Ricas em vitaminas, minerais, aminoácidos e antioxidantes, são ideais para quem busca um superalimento natural para fortalecer a imunidade, combater a inflamação e apoiar o bem-estar geral.',
+    benefits: [
+      'Perfil nutricional completo (vitaminas A, C, E, cálcio, ferro)',
+      'Ação antioxidante e anti-inflamatória',
+      'Suporte ao sistema imunológico',
+      'Auxílio no controle glicêmico',
+      'Pode contribuir para redução do colesterol',
+      'Dosagem padronizada e conveniente',
+      'Fácil de incluir na rotina diária'
+    ],
+    howToUse: 'Tomar 1 a 2 cápsulas por dia com as refeições. Iniciar com 1 cápsula e aumentar gradualmente. Pode ser usada diariamente como suplemento nutricional.',
+    dosage: 'Dosagem típica: 500-1000mg de extrato padronizado ou pó de folha por dia'
+  },
+  {
     slug: 'ginkgo-biloba-capsulas',
     name: 'Ginkgo Biloba em Cápsulas',
     plant: 'Ginkgo Biloba',

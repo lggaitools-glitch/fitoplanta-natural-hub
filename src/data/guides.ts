@@ -411,6 +411,62 @@ export const guides: Guide[] = [
     conclusion: 'A escolha ideal depende do seu perfil: para estresse com fadiga, prefira Ashwagandha ou Rhodiola. Para ansiedade com insônia, Passiflora ou Valeriana são mais indicadas. Melissa é uma excelente opção para quem busca efeito calmante suave sem sonolência.',
     relatedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-fitoterapico-para-sono'],
     relatedPlants: ['ashwagandha', 'valeriana', 'maracuja', 'melissa', 'rhodiola']
+  },
+  {
+    slug: 'melhor-moringa-capsulas',
+    title: 'Melhor Moringa em Cápsulas',
+    subtitle: 'Guia Completo 2026',
+    description: 'Comparativo das melhores marcas de moringa em cápsulas disponíveis no Brasil e EUA. Avaliamos pureza, concentração de nutrientes, certificações e custo-benefício.',
+    category: 'imunidade',
+    heroImage: '/guides/moringa.jpg',
+    introduction: 'A moringa (Moringa oleifera) é considerada um dos superalimentos mais completos da natureza, com mais de 90 nutrientes identificados. Em cápsulas, oferece praticidade para quem deseja aproveitar seus benefícios antioxidantes, anti-inflamatórios e imunomoduladores sem precisar preparar chás ou adicionar o pó a receitas. Neste guia, comparamos as melhores opções do mercado.',
+    criteria: [
+      'Pureza e origem da moringa (orgânica preferível)',
+      'Concentração de nutrientes e antioxidantes',
+      'Certificações de qualidade (BPF/GMP, orgânico)',
+      'Ausência de aditivos e contaminantes',
+      'Custo-benefício por dose',
+      'Transparência e reputação da marca'
+    ],
+    productsBR: [
+      {
+        name: 'Moringa Oleifera Premium',
+        brand: 'Vitafor',
+        country: 'BR',
+        description: 'Cápsulas de moringa com pó de folha de alta pureza e certificação de boas práticas de fabricação.',
+        pros: ['Pó de folha integral preservando nutrientes', 'Certificação BPF', 'Marca respeitada no mercado', 'Boa concentração por cápsula'],
+        cons: ['Preço acima da média', 'Disponibilidade limitada em algumas regiões']
+      },
+      {
+        name: 'Moringa Natural',
+        brand: 'Herbarium',
+        country: 'BR',
+        description: 'Moringa em cápsulas de marca tradicional brasileira, com foco em acessibilidade.',
+        pros: ['Marca consolidada', 'Preço acessível', 'Fácil de encontrar', 'Registro na ANVISA'],
+        cons: ['Concentração moderada', 'Origem da matéria-prima não especificada']
+      }
+    ],
+    productsUS: [
+      {
+        name: 'Organic Moringa Leaf',
+        brand: 'Organic India',
+        country: 'US',
+        description: 'Moringa orgânica certificada, cultivada de forma sustentável na Índia com controle rigoroso de qualidade.',
+        pros: ['Orgânico certificado USDA', 'Cultivo sustentável e comércio justo', 'Alta pureza', 'Testes de terceiros independentes'],
+        cons: ['Necessita importação', 'Preço em dólar']
+      },
+      {
+        name: 'Moringa 5000mg',
+        brand: 'NOW Foods',
+        country: 'US',
+        description: 'Cápsulas de moringa com alta dosagem equivalente e excelente custo-benefício.',
+        pros: ['Alta dosagem por cápsula', 'GMP certified', 'Preço competitivo', 'Marca de confiança'],
+        cons: ['Cápsulas grandes', 'Não é orgânico']
+      }
+    ],
+    conclusion: 'Para quem busca praticidade no Brasil, a Vitafor oferece boa qualidade com certificação. Se você prefere orgânico e pode importar, a Organic India é referência mundial em moringa. Independente da marca, priorize produtos que informem a origem da matéria-prima e possuam certificações de qualidade.',
+    relatedGuides: ['melhor-suplemento-para-imunidade'],
+    relatedPlants: ['moringa', 'curcuma', 'equinacea']
   }
 ];
 
