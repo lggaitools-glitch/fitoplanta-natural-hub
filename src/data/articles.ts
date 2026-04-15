@@ -691,7 +691,7 @@ A curcumina atua bloqueando múltiplas vias inflamatórias:
 - Reduz TNF-alfa e interleucina-6
 - Modula fator nuclear NF-κB
 
-**Estudos mostram eficácia comparável ao ibuprofeno para dor articular, mas sem efeitos gastrointestinais.**
+**Estudos mostram eficácia comparável ao ibuprofeno para dor articular, mas sem efeitos gastrointestinais.** A combinação da curcumina com [ômega-3](/artigos/omega-3-natural-fontes-vegetais-beneficios) potencializa o efeito anti-inflamatório, atuando em vias complementares.
 
 ### Saúde das Articulações
 Múltiplos ensaios clínicos demonstram:
@@ -1081,7 +1081,13 @@ Os chás medicinais são uma das formas mais antigas e acessíveis de fitoterapi
 **Uso:** Nos primeiros sinais de gripe
 **Duração:** Máximo 2 semanas
 
-#### 2. Eucalipto (Eucalyptus globulus)
+#### 2. [Moringa](/artigos/moringa-superalimento-medicinal-ciencia) (Moringa oleifera)
+**Preparo:** Infusão de folhas secas
+**Dosagem:** 1 colher de chá para 200ml
+**Tempo:** 5-10 minutos
+**Benefício:** Rica em antioxidantes e nutrientes imunomoduladores
+
+#### 3. Eucalipto (Eucalyptus globulus)
 **Preparo:** Infusão de folhas
 **Dosagem:** 1 colher de chá para 200ml
 **Tempo:** 8-10 minutos
@@ -1130,7 +1136,7 @@ Os chás medicinais são uma das formas mais antigas e acessíveis de fitoterapi
 **Preparo:** Infusão por 8 minutos
 
 ### Blend Energético
-- 60% Chá verde
+- 60% [Chá verde](/artigos/cha-verde-vs-matcha-diferencas-beneficios) (ou matcha para maior concentração de catequinas)
 - 25% Guaraná
 - 15% Gengibre
 
@@ -1725,7 +1731,7 @@ Adaptógenos funcionam melhor com uso contínuo por períodos definidos (8-12 se
 
 ## Conclusão
 
-Os adaptógenos representam uma categoria fascinante de plantas medicinais com capacidade única de ajudar o corpo a lidar com estresse. Com escolha adequada e uso correto, podem ser aliados poderosos para saúde e performance. O segredo é escolher o adaptógeno certo para sua necessidade específica.
+Os adaptógenos representam uma categoria fascinante de plantas medicinais com capacidade única de ajudar o corpo a lidar com estresse. Com escolha adequada e uso correto, podem ser aliados poderosos para saúde e performance. O segredo é escolher o adaptógeno certo para sua necessidade específica. Para mulheres, vale conferir nosso guia completo de [saúde feminina natural](/bem-estar/saude-feminina-natural), que aborda o uso de adaptógenos em cada fase da vida.
 
 ---
 

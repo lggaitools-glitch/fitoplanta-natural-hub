@@ -57,7 +57,7 @@ Nosso corpo possui duas linhas de defesa: a imunidade inata (nascemos com ela) e
 
 ## Plantas Que Fortalecem a Imunidade
 
-A equinácea é a campeã quando o assunto é imunidade. Estudos mostram que ela pode reduzir a duração de resfriados e prevenir novas infecções. O própolis e a vitamina C são complementos excelentes.
+A equinácea é a campeã quando o assunto é imunidade. Estudos mostram que ela pode reduzir a duração de resfriados e prevenir novas infecções. A [moringa](/artigos/moringa-superalimento-medicinal-ciencia), rica em vitaminas A e C, minerais e antioxidantes, também é uma excelente aliada para o sistema imunológico. O própolis e a vitamina C são complementos excelentes.
 
 ## Estilo de Vida Imune
 
@@ -69,8 +69,8 @@ Sono adequado, exercício moderado, alimentação rica em vegetais e controle do
       'Pratique exercícios moderados regularmente',
       'Gerencie o estresse com técnicas de relaxamento'
     ],
-    recommendedPlants: ['equinacea'],
-    recommendedGuides: ['melhor-suplemento-para-imunidade']
+    recommendedPlants: ['equinacea', 'moringa'],
+    recommendedGuides: ['melhor-suplemento-para-imunidade', 'melhor-moringa-capsulas']
   },
   {
     slug: 'energia-e-foco',
@@ -87,7 +87,7 @@ Energéticos e excesso de café podem dar um impulso imediato, mas frequentement
 
 ## Plantas Para Energia
 
-O guaraná brasileiro é um dos melhores estimulantes naturais, com cafeína de liberação gradual. O ginseng, por sua vez, trabalha diferente: como adaptógeno, ele ajuda o corpo a produzir energia de forma mais eficiente ao longo do tempo.
+O guaraná brasileiro é um dos melhores estimulantes naturais, com cafeína de liberação gradual. O [chá verde e o matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) são alternativas ricas em L-teanina, que promove foco mental sem a agitação do café. O ginseng, por sua vez, trabalha diferente: como adaptógeno, ele ajuda o corpo a produzir energia de forma mais eficiente ao longo do tempo.
 
 ## Hábitos Energizantes
 
@@ -117,7 +117,7 @@ Quando estressados, nosso corpo libera cortisol e adrenalina. Em excesso, esses 
 
 ## Adaptógenos: Aliados Naturais
 
-Os adaptógenos são plantas que ajudam o corpo a se adaptar ao estresse. O ginseng é um clássico, mas a ashwagandha e a rhodiola também são excelentes opções.
+Os adaptógenos são plantas que ajudam o corpo a se adaptar ao estresse. O ginseng é um clássico, mas a [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e a [rhodiola](/artigos/rhodiola-rosea-adaptogeno-nordico-energia-foco) também são excelentes opções.
 
 ## Técnicas de Relaxamento
 
@@ -129,8 +129,8 @@ A fitoterapia funciona melhor combinada com técnicas como respiração profunda
       'Considere adaptógenos como ginseng',
       'Limite consumo de notícias estressantes'
     ],
-    recommendedPlants: ['melissa', 'ginseng', 'valeriana'],
-    recommendedGuides: ['melhor-fitoterapico-para-ansiedade']
+    recommendedPlants: ['melissa', 'ginseng', 'valeriana', 'ashwagandha', 'rhodiola'],
+    recommendedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-suplemento-estresse-ansiedade']
   },
   {
     slug: 'saude-digestiva-natural',
@@ -193,7 +193,7 @@ O guaraná brasileiro, com sua cafeína de liberação gradual, melhora o estado
 
 ## Alimentação Para o Cérebro
 
-Ômega-3 (presente em peixes, chia e linhaça), antioxidantes (frutas vermelhas, cacau) e colina (ovos, fígado) são nutrientes essenciais para a saúde cerebral. A dieta mediterrânea é consistentemente associada a menor risco de demência.
+[Ômega-3](/artigos/omega-3-natural-fontes-vegetais-beneficios) (presente em peixes, chia e linhaça), antioxidantes (frutas vermelhas, cacau) e colina (ovos, fígado) são nutrientes essenciais para a saúde cerebral. A dieta mediterrânea é consistentemente associada a menor risco de demência.
 
 ## Exercícios Cognitivos e Físicos
 
@@ -235,7 +235,7 @@ A **boswellia** (Boswellia serrata) contém ácidos boswélicos que inibem a enz
 
 O **movimento regular** é o melhor remédio para as articulações. Exercícios de baixo impacto como caminhada, natação e yoga mantêm a lubrificação articular e fortalecem os músculos de suporte. A inatividade, por outro lado, acelera o desgaste.
 
-A **alimentação anti-inflamatória** rica em ômega-3 (peixes, chia, linhaça), vegetais coloridos e especiarias como cúrcuma e gengibre ajuda a reduzir a inflamação sistêmica que agrava problemas articulares.
+A **alimentação anti-inflamatória** rica em [ômega-3](/artigos/omega-3-natural-fontes-vegetais-beneficios) (peixes, chia, linhaça), vegetais coloridos e especiarias como cúrcuma e gengibre ajuda a reduzir a inflamação sistêmica que agrava problemas articulares.
 
 Manter um **peso saudável** é crucial — cada quilo extra exerce 3-4 kg de pressão adicional sobre os joelhos.
 

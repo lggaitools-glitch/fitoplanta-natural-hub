@@ -164,8 +164,8 @@ export const guides: Guide[] = [
       }
     ],
     conclusion: 'A equinácea é o fitoterápico mais estudado para imunidade. Combine com hábitos saudáveis para melhores resultados.',
-    relatedGuides: [],
-    relatedPlants: ['equinacea']
+    relatedGuides: ['melhor-moringa-capsulas'],
+    relatedPlants: ['equinacea', 'moringa']
   },
   {
     slug: 'melhor-anti-inflamatorio-natural',
@@ -220,8 +220,8 @@ export const guides: Guide[] = [
       }
     ],
     conclusion: 'A cúrcuma com piperina é a opção mais acessível e eficaz para uso geral. Para casos que exigem maior potência, as formulações com tecnologia de absorção avançada (como Theracurmin) são superiores.',
-    relatedGuides: ['melhor-suplemento-para-imunidade'],
-    relatedPlants: ['curcuma']
+    relatedGuides: ['melhor-suplemento-para-imunidade', 'melhor-gengibre'],
+    relatedPlants: ['curcuma', 'gengibre']
   },
   {
     slug: 'melhor-fitoterapico-para-ansiedade',
@@ -315,8 +315,8 @@ export const guides: Guide[] = [
       }
     ],
     conclusion: 'O guaraná é ideal para energia rápida, enquanto o ginseng funciona melhor a longo prazo como adaptógeno.',
-    relatedGuides: [],
-    relatedPlants: ['guarana', 'ginseng']
+    relatedGuides: ['melhor-suplemento-estresse-ansiedade'],
+    relatedPlants: ['guarana', 'ginseng', 'rhodiola']
   },
   {
     slug: 'melhor-gengibre',
