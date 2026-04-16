@@ -285,9 +285,9 @@ O ácido fólico e o ferro são nutrientes essenciais, mas algumas plantas como 
 
 Mulheres enfrentam demandas específicas que podem gerar estresse crônico. Os adaptógenos são plantas que ajudam o organismo a lidar melhor com a pressão do dia a dia.
 
-A **ashwagandha** é um dos adaptógenos mais estudados: reduz os níveis de cortisol, melhora a qualidade do sono e pode auxiliar no equilíbrio hormonal. Estudos mostram benefícios para a libido e a vitalidade feminina.
+A **ashwagandha** é um dos adaptógenos mais estudados: reduz os níveis de cortisol, melhora a qualidade do sono e pode auxiliar no equilíbrio hormonal. Estudos mostram benefícios para a libido e a vitalidade feminina. Para comparar adaptógenos com mais profundidade, leia também nossos artigos sobre [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e [rhodiola](/artigos/rhodiola-rosea-adaptogeno-nordico-energia-foco).
 
-A **valeriana** e a **melissa** também contribuem para o manejo do estresse, especialmente quando combinadas com técnicas de respiração e exercício físico regular.
+A **valeriana** e a **melissa** também contribuem para o manejo do estresse, especialmente quando combinadas com técnicas de respiração e exercício físico regular. Se o objetivo for melhorar o descanso, complemente com as páginas de [sono natural](/bem-estar/sono-natural) e o guia de [melhor fitoterápico para sono](/guias/melhor-fitoterapico-para-sono).
 
 ## Quando Procurar um Ginecologista
 
@@ -302,7 +302,7 @@ Plantas medicinais são complementos, nunca substitutas do acompanhamento médic
       'Pratique exercícios regulares — o movimento alivia sintomas hormonais'
     ],
     recommendedPlants: ['melissa', 'maracuja', 'camomila', 'ashwagandha', 'valeriana'],
-    recommendedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-fitoterapico-para-sono']
+    recommendedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-fitoterapico-para-sono', 'melhor-suplemento-estresse-ansiedade']
   }
 ];
 

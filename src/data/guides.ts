@@ -464,7 +464,7 @@ export const guides: Guide[] = [
         cons: ['Cápsulas grandes', 'Não é orgânico']
       }
     ],
-    conclusion: 'Para quem busca praticidade no Brasil, a Vitafor oferece boa qualidade com certificação. Se você prefere orgânico e pode importar, a Organic India é referência mundial em moringa. Independente da marca, priorize produtos que informem a origem da matéria-prima e possuam certificações de qualidade.',
+    conclusion: 'Para quem busca praticidade no Brasil, a Vitafor oferece boa qualidade com certificação. Se você prefere orgânico e pode importar, a Organic India é referência mundial em moringa. Independente da marca, priorize produtos que informem a origem da matéria-prima e possuam certificações de qualidade. Antes de comprar, vale revisar também o artigo sobre [moringa](/artigos/moringa-superalimento-medicinal-ciencia), a página da [planta moringa](/plantas-medicinais/moringa) e o conteúdo de [imunidade natural](/bem-estar/imunidade-natural) para alinhar expectativa, dose e objetivo de uso.',
     relatedGuides: ['melhor-suplemento-para-imunidade'],
     relatedPlants: ['moringa', 'curcuma', 'equinacea']
   }

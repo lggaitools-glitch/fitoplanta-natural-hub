@@ -2191,7 +2191,7 @@ Lembre-se: informação de qualidade é a sua melhor aliada. Continue se educand
     content: `
 ## O Que é Moringa?
 
-A Moringa oleifera, conhecida como "árvore da vida" ou "árvore milagrosa", é uma planta originária da Índia que cresce em regiões tropicais e subtropicais de todo o mundo, incluindo o Nordeste brasileiro. Considerada um dos alimentos mais nutritivos do planeta, a moringa tem sido utilizada há milênios na medicina ayurvédica.
+A Moringa oleifera, conhecida como "árvore da vida" ou "árvore milagrosa", é uma planta originária da Índia que cresce em regiões tropicais e subtropicais de todo o mundo, incluindo o Nordeste brasileiro. Considerada um dos alimentos mais nutritivos do planeta, a moringa tem sido utilizada há milênios na medicina ayurvédica. Se quiser uma visão mais prática para o uso diário, vale visitar também nossa página da [planta moringa](/plantas-medicinais/moringa), o suplemento de [moringa em cápsulas](/suplementos-naturais/moringa-capsulas) e o guia [Melhor Moringa em Cápsulas](/guias/melhor-moringa-capsulas).
 
 Seu perfil nutricional é impressionante:
 
@@ -2290,7 +2290,7 @@ A moringa é um verdadeiro tesouro nutricional, especialmente relevante para pop
     slug: "cha-verde-vs-matcha-diferencas-beneficios",
     excerpt: "Entenda as diferenças entre chá verde e matcha, seus benefícios comprovados pela ciência, e descubra qual é a melhor opção para seus objetivos de saúde.",
     content: `
-O chá verde e o matcha são duas das bebidas mais estudadas pela ciência nutricional — ambos derivados da planta *Camellia sinensis*, mas com diferenças significativas em processamento, concentração de compostos bioativos e formas de consumo. Neste artigo, vamos comparar os dois de forma objetiva para ajudá-lo a fazer a melhor escolha.
+O chá verde e o matcha são duas das bebidas mais estudadas pela ciência nutricional — ambos derivados da planta *Camellia sinensis*, mas com diferenças significativas em processamento, concentração de compostos bioativos e formas de consumo. Neste artigo, vamos comparar os dois de forma objetiva para ajudá-lo a fazer a melhor escolha. Se o seu foco for performance mental, combine esta leitura com nosso conteúdo sobre [energia e foco](/bem-estar/energia-e-foco) e [saúde cognitiva e memória](/bem-estar/saude-cognitiva-memoria).
 
 ## O Que São Chá Verde e Matcha?
 
@@ -2407,7 +2407,7 @@ Tanto o chá verde quanto o matcha são excelentes aliados da saúde. A escolha 
     slug: "omega-3-natural-fontes-vegetais-beneficios",
     excerpt: "Descubra as melhores fontes vegetais de ômega-3, seus benefícios comprovados para o coração, cérebro e inflamação, e como suplementar de forma natural com óleo de algas.",
     content: `
-O ômega-3 é um dos nutrientes mais pesquisados pela ciência moderna — e um dos mais deficientes na dieta ocidental. Embora frequentemente associado ao óleo de peixe, existem fontes vegetais poderosas e alternativas sustentáveis que permitem obter esse ácido graxo essencial sem depender de produtos de origem animal. Neste artigo, vamos explorar o que é o ômega-3, suas formas, fontes vegetais, benefícios comprovados e como suplementar de forma inteligente.
+O ômega-3 é um dos nutrientes mais pesquisados pela ciência moderna — e um dos mais deficientes na dieta ocidental. Embora frequentemente associado ao óleo de peixe, existem fontes vegetais poderosas e alternativas sustentáveis que permitem obter esse ácido graxo essencial sem depender de produtos de origem animal. Neste artigo, vamos explorar o que é o ômega-3, suas formas, fontes vegetais, benefícios comprovados e como suplementar de forma inteligente. Para aprofundar o impacto no cérebro e na inflamação, veja também nossas páginas de [saúde cognitiva e memória](/bem-estar/saude-cognitiva-memoria) e [saúde articular](/bem-estar/saude-articular).
 
 ## O Que É Ômega-3?
 
