@@ -125,7 +125,7 @@ export const guides: Guide[] = [
       }
     ],
     conclusion: 'A combinação de valeriana com passiflora tende a ser mais eficaz que plantas isoladas. Para casos mais leves, a melissa também é uma excelente opção.',
-    relatedGuides: ['melhor-valeriana'],
+    relatedGuides: ['melhor-valeriana', 'melhor-suplemento-estresse-ansiedade'],
     relatedPlants: ['valeriana', 'melissa']
   },
   {
@@ -316,7 +316,7 @@ export const guides: Guide[] = [
     ],
     conclusion: 'O guaraná é ideal para energia rápida, enquanto o ginseng funciona melhor a longo prazo como adaptógeno.',
     relatedGuides: ['melhor-suplemento-estresse-ansiedade'],
-    relatedPlants: ['guarana', 'ginseng', 'rhodiola']
+    relatedPlants: ['guarana', 'ginseng', 'rhodiola', 'moringa']
   },
   {
     slug: 'melhor-gengibre',

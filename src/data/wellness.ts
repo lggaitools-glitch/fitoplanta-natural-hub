@@ -117,7 +117,7 @@ Quando estressados, nosso corpo libera cortisol e adrenalina. Em excesso, esses 
 
 ## Adaptógenos: Aliados Naturais
 
-Os adaptógenos são plantas que ajudam o corpo a se adaptar ao estresse. O ginseng é um clássico, mas a [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e a [rhodiola](/artigos/rhodiola-rosea-adaptogeno-nordico-energia-foco) também são excelentes opções.
+Os adaptógenos são plantas que ajudam o corpo a se adaptar ao estresse. O ginseng é um clássico, mas a [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e a [rhodiola](/artigos/rhodiola-rosea-adaptogeno-energia-foco) também são excelentes opções.
 
 ## Técnicas de Relaxamento
 
@@ -167,8 +167,8 @@ As fibras alimentares são o combustível das boas bactérias intestinais. Fruta
       'Evite comer em situações de estresse',
       'Mantenha-se hidratado ao longo do dia'
     ],
-    recommendedPlants: ['espinheira-santa', 'boldo', 'camomila'],
-    recommendedGuides: []
+    recommendedPlants: ['espinheira-santa', 'boldo', 'camomila', 'gengibre'],
+    recommendedGuides: ['melhor-gengibre']
   },
   {
     slug: 'saude-cognitiva-memoria',
@@ -207,7 +207,7 @@ O exercício aeróbico é um dos mais poderosos nootrópicos naturais, aumentand
       'Medite para reduzir o estresse oxidativo cerebral',
       'Use guaraná para foco sustentado em vez de café excessivo'
     ],
-    recommendedPlants: ['ginseng', 'ashwagandha', 'guarana'],
+    recommendedPlants: ['ginseng', 'ashwagandha', 'guarana', 'moringa'],
     recommendedGuides: ['melhor-energia-natural']
   },
   {
@@ -285,7 +285,7 @@ O ácido fólico e o ferro são nutrientes essenciais, mas algumas plantas como 
 
 Mulheres enfrentam demandas específicas que podem gerar estresse crônico. Os adaptógenos são plantas que ajudam o organismo a lidar melhor com a pressão do dia a dia.
 
-A **ashwagandha** é um dos adaptógenos mais estudados: reduz os níveis de cortisol, melhora a qualidade do sono e pode auxiliar no equilíbrio hormonal. Estudos mostram benefícios para a libido e a vitalidade feminina. Para comparar adaptógenos com mais profundidade, leia também nossos artigos sobre [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e [rhodiola](/artigos/rhodiola-rosea-adaptogeno-nordico-energia-foco).
+A **ashwagandha** é um dos adaptógenos mais estudados: reduz os níveis de cortisol, melhora a qualidade do sono e pode auxiliar no equilíbrio hormonal. Estudos mostram benefícios para a libido e a vitalidade feminina. Para comparar adaptógenos com mais profundidade, leia também nossos artigos sobre [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e [rhodiola](/artigos/rhodiola-rosea-adaptogeno-energia-foco).
 
 A **valeriana** e a **melissa** também contribuem para o manejo do estresse, especialmente quando combinadas com técnicas de respiração e exercício físico regular. Se o objetivo for melhorar o descanso, complemente com as páginas de [sono natural](/bem-estar/sono-natural) e o guia de [melhor fitoterápico para sono](/guias/melhor-fitoterapico-para-sono).
 

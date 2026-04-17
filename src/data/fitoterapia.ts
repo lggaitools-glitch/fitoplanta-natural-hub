@@ -29,8 +29,8 @@ Os fitoterápicos contêm compostos bioativos que interagem com nosso organismo.
 ## Diferença Entre Fitoterápico e Planta Medicinal
 
 É importante distinguir: planta medicinal é a planta in natura, enquanto fitoterápico é o produto industrializado, padronizado e com eficácia comprovada. Ambos têm seu valor, mas o fitoterápico oferece maior segurança na dosagem.`,
-    relatedPlants: ['valeriana', 'equinacea', 'guarana'],
-    relatedGuides: ['melhor-valeriana']
+    relatedPlants: ['valeriana', 'equinacea', 'guarana', 'moringa'],
+    relatedGuides: ['melhor-valeriana', 'melhor-moringa-capsulas']
   },
   {
     slug: 'fitoterapia-funciona',
@@ -58,8 +58,8 @@ Um fitoterápico de qualidade deve ser padronizado em seus compostos ativos. Por
 ## Limitações e Realismo
 
 Fitoterápicos não são milagrosos. Eles funcionam melhor para condições leves a moderadas e como complemento a um estilo de vida saudável. Condições graves sempre requerem acompanhamento médico.`,
-    relatedPlants: ['valeriana', 'equinacea'],
-    relatedGuides: []
+    relatedPlants: ['valeriana', 'equinacea', 'moringa'],
+    relatedGuides: ['melhor-suplemento-para-imunidade']
   },
   {
     slug: 'beneficios-e-riscos',
@@ -102,8 +102,8 @@ Produtos de origem duvidosa podem conter contaminantes, metais pesados ou até a
 3. Respeite dosagens recomendadas
 4. Observe possíveis reações adversas
 5. Não substitua tratamentos médicos sem orientação`,
-    relatedPlants: [],
-    relatedGuides: []
+    relatedPlants: ['curcuma', 'camomila', 'moringa'],
+    relatedGuides: ['melhor-anti-inflamatorio-natural']
   },
   {
     slug: 'fitoterapia-x-suplementos',
@@ -144,8 +144,8 @@ Depende do objetivo:
 - Para condições como ansiedade leve ou problemas digestivos, fitoterápicos costumam ser excelentes
 - Para suprir deficiências nutricionais específicas, suplementos sintéticos podem ser mais diretos
 - O ideal é avaliar caso a caso, preferencialmente com orientação profissional`,
-    relatedPlants: ['valeriana', 'guarana'],
-    relatedGuides: []
+    relatedPlants: ['valeriana', 'guarana', 'moringa'],
+    relatedGuides: ['melhor-moringa-capsulas']
   }
 ];
 

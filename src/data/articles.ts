@@ -2495,7 +2495,7 @@ Para quem busca otimizar a [saúde cognitiva e a memória](/bem-estar/saude-cogn
 
 O EPA é particularmente eficaz na **modulação de processos inflamatórios**. O ômega-3 compete com o ômega-6 (pró-inflamatório em excesso) pelas mesmas enzimas, ajudando a manter o equilíbrio inflamatório do organismo.
 
-A sinergia do ômega-3 com outros anti-inflamatórios naturais, como a [cúrcuma](/artigos/curcuma-beneficios-ciencia-como-usar), pode potencializar os efeitos — a curcumina e o EPA atuam em vias inflamatórias complementares.
+A sinergia do ômega-3 com outros anti-inflamatórios naturais, como a [cúrcuma](/artigos/curcuma-curcumina-anti-inflamatorio-natural), pode potencializar os efeitos — a curcumina e o EPA atuam em vias inflamatórias complementares.
 
 ### 4. Saúde Articular
 
