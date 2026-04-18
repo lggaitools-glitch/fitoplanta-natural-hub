@@ -25,6 +25,7 @@ const footerLinks = {
     { name: 'Gengibre', href: '/plantas-medicinais/gengibre' },
     { name: 'Rhodiola', href: '/plantas-medicinais/rhodiola' },
     { name: 'Moringa', href: '/plantas-medicinais/moringa' },
+    { name: 'Alecrim', href: '/plantas-medicinais/alecrim' },
   ],
   institucional: [
     { name: 'Sobre Nós', href: '/sobre' },

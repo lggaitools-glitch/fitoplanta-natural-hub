@@ -58,7 +58,7 @@ Um fitoterápico de qualidade deve ser padronizado em seus compostos ativos. Por
 ## Limitações e Realismo
 
 Fitoterápicos não são milagrosos. Eles funcionam melhor para condições leves a moderadas e como complemento a um estilo de vida saudável. Condições graves sempre requerem acompanhamento médico.`,
-    relatedPlants: ['valeriana', 'equinacea', 'moringa'],
+    relatedPlants: ['valeriana', 'equinacea', 'moringa', 'alecrim'],
     relatedGuides: ['melhor-suplemento-para-imunidade']
   },
   {
@@ -144,7 +144,7 @@ Depende do objetivo:
 - Para condições como ansiedade leve ou problemas digestivos, fitoterápicos costumam ser excelentes
 - Para suprir deficiências nutricionais específicas, suplementos sintéticos podem ser mais diretos
 - O ideal é avaliar caso a caso, preferencialmente com orientação profissional`,
-    relatedPlants: ['valeriana', 'guarana', 'moringa'],
+    relatedPlants: ['valeriana', 'guarana', 'moringa', 'alecrim'],
     relatedGuides: ['melhor-moringa-capsulas']
   }
 ];

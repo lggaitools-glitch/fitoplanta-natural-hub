@@ -87,7 +87,7 @@ Energéticos e excesso de café podem dar um impulso imediato, mas frequentement
 
 ## Plantas Para Energia
 
-O guaraná brasileiro é um dos melhores estimulantes naturais, com cafeína de liberação gradual. O [chá verde e o matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) são alternativas ricas em L-teanina, que promove foco mental sem a agitação do café. O ginseng, por sua vez, trabalha diferente: como adaptógeno, ele ajuda o corpo a produzir energia de forma mais eficiente ao longo do tempo.
+O guaraná brasileiro é um dos melhores estimulantes naturais, com cafeína de liberação gradual. O [chá verde e o matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) são alternativas ricas em L-teanina, que promove foco mental sem a agitação do café. O ginseng, por sua vez, trabalha diferente: como adaptógeno, ele ajuda o corpo a produzir energia de forma mais eficiente ao longo do tempo. O [alecrim](/artigos/alecrim-beneficios-memoria-digestao) é outro aliado natural para o foco — estudos mostram que a simples inalação de seu aroma pode melhorar o estado de alerta e reduzir a fadiga mental.
 
 ## Hábitos Energizantes
 
@@ -99,7 +99,7 @@ Hidratação adequada, refeições balanceadas e exercícios regulares são fund
       'Use ginseng para energia sustentada',
       'Evite açúcar refinado que causa picos de energia'
     ],
-    recommendedPlants: ['guarana', 'ginseng'],
+    recommendedPlants: ['guarana', 'ginseng', 'alecrim'],
     recommendedGuides: ['melhor-energia-natural']
   },
   {
@@ -187,6 +187,8 @@ O declínio cognitivo leve começa por volta dos 30 anos, mas pode ser significa
 
 O Ginkgo biloba é o fitoterápico mais estudado para função cerebral. Melhora a circulação cerebral, protege neurônios do estresse oxidativo e pode melhorar memória e concentração. Estudos mostram benefícios especialmente em idosos com comprometimento cognitivo leve.
 
+O [alecrim](/artigos/alecrim-beneficios-memoria-digestao), rico em ácido rosmarínico e carnosol, é outro aliado poderoso da saúde cognitiva. Estudos demonstram que a inalação do aroma de alecrim pode melhorar a memória prospectiva em até 15%, e seus compostos oferecem proteção antioxidante neuronal complementar ao Ginkgo.
+
 A ashwagandha, além de adaptogênica, demonstrou em estudos clínicos capacidade de reduzir a ansiedade que prejudica a concentração e pode proteger contra neurodegeneração.
 
 O guaraná brasileiro, com sua cafeína de liberação gradual, melhora o estado de alerta e a velocidade de processamento mental sem os picos e quedas do café.
@@ -207,7 +209,7 @@ O exercício aeróbico é um dos mais poderosos nootrópicos naturais, aumentand
       'Medite para reduzir o estresse oxidativo cerebral',
       'Use guaraná para foco sustentado em vez de café excessivo'
     ],
-    recommendedPlants: ['ginseng', 'ashwagandha', 'guarana', 'moringa'],
+    recommendedPlants: ['ginseng', 'ashwagandha', 'guarana', 'moringa', 'alecrim'],
     recommendedGuides: ['melhor-energia-natural']
   },
   {

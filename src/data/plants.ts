@@ -622,6 +622,50 @@ export const plants: Plant[] = [
       { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais da Moringa', description: 'Possíveis efeitos adversos, interações e contraindicações da moringa' },
       { slug: 'melhores-marcas', title: 'Melhores Marcas de Moringa', description: 'Análise das melhores marcas de moringa em pó e cápsulas no Brasil' }
     ]
+  },
+  {
+    slug: 'alecrim',
+    name: 'Alecrim',
+    scientificName: 'Rosmarinus officinalis',
+    description: 'O alecrim é uma planta aromática originária do Mediterrâneo, amplamente utilizada na culinária e na medicina tradicional há milhares de anos. Rico em compostos bioativos como ácido rosmarínico, carnosol e ácido carnósico, o alecrim possui propriedades antioxidantes, anti-inflamatórias e neuroprotetoras comprovadas pela ciência moderna. No Brasil, é uma das plantas medicinais mais populares, consumida como chá, tempero e óleo essencial.',
+    heroImage: '/plants/alecrim.jpg',
+    benefits: [
+      'Melhora da memória e concentração',
+      'Ação antioxidante potente (ácido rosmarínico e carnosol)',
+      'Propriedades anti-inflamatórias',
+      'Auxilia na digestão e reduz gases',
+      'Efeito neuroprotetor comprovado',
+      'Estimula a circulação sanguínea',
+      'Ação antimicrobiana natural'
+    ],
+    uses: [
+      'Chá de alecrim para digestão e foco mental',
+      'Óleo essencial para aromaterapia e concentração',
+      'Tempero culinário com benefícios funcionais',
+      'Inalação para alívio de congestionamento',
+      'Uso tópico (óleo diluído) para dores musculares',
+      'Banho de infusão para relaxamento',
+      'Tintura fitoterápica padronizada'
+    ],
+    sideEffects: [
+      'Irritação gástrica em doses altas',
+      'Possível insônia se consumido à noite em excesso',
+      'Reações alérgicas em pessoas sensíveis (raro)',
+      'Náuseas em doses muito elevadas'
+    ],
+    contraindications: [
+      'Gestantes (pode ter efeito estimulante uterino)',
+      'Pessoas com epilepsia (altas doses podem reduzir limiar convulsivo)',
+      'Hipertensão não controlada',
+      'Uso concomitante com anticoagulantes sem supervisão médica',
+      'Crianças menores de 12 anos (óleo essencial por via oral)'
+    ],
+    subpages: [
+      { slug: 'beneficios', title: 'Benefícios do Alecrim', description: 'Descubra os benefícios do alecrim para memória, digestão e saúde geral' },
+      { slug: 'como-usar', title: 'Como Usar Alecrim', description: 'Formas de uso do alecrim: chá, óleo essencial, tempero e tintura' },
+      { slug: 'efeitos-colaterais', title: 'Efeitos Colaterais do Alecrim', description: 'Precauções, contraindicações e efeitos adversos do alecrim' },
+      { slug: 'melhores-marcas', title: 'Melhores Marcas de Alecrim', description: 'Análise das melhores marcas de alecrim em cápsulas e óleo essencial no Brasil' }
+    ]
   }
 ];
 

@@ -2561,6 +2561,136 @@ O ômega-3 é um nutriente fundamental para a saúde cardiovascular, cerebral e 
     author: "Marta Leni, Farmacêutica Clínica",
     publishedAt: "2026-04-09",
     readTime: 11
+  },
+  {
+    id: "23",
+    title: "Alecrim: Benefícios Para Memória, Digestão e Muito Mais",
+    slug: "alecrim-beneficios-memoria-digestao",
+    excerpt: "Conheça os benefícios do alecrim comprovados pela ciência: melhora da memória e concentração, auxílio digestivo, ação antioxidante e anti-inflamatória. Saiba como usar chá, óleo essencial e muito mais.",
+    content: `
+O alecrim (*Rosmarinus officinalis*) é muito mais do que um tempero aromático — é uma das plantas medicinais mais versáteis e estudadas pela ciência moderna. Utilizado há milênios na medicina tradicional mediterrânea e amplamente popular no Brasil, o alecrim concentra compostos bioativos poderosos como **ácido rosmarínico**, **carnosol** e **ácido carnósico**, que conferem propriedades neuroprotetoras, antioxidantes, anti-inflamatórias e digestivas. Para uma visão completa da planta, confira também a [página do alecrim](/plantas-medicinais/alecrim) no nosso guia de plantas medicinais.
+
+## Compostos Ativos do Alecrim
+
+O perfil fitoquímico do alecrim é excepcionalmente rico. Os principais compostos bioativos incluem:
+
+### Ácido Rosmarínico
+
+Um polifenol com potente **ação antioxidante e anti-inflamatória**. Estudos demonstram que o ácido rosmarínico inibe a enzima COX-2 (a mesma via de ação de anti-inflamatórios convencionais) e neutraliza radicais livres de forma mais eficaz que a vitamina E em alguns modelos experimentais.
+
+### Carnosol e Ácido Carnósico
+
+Diterpenos fenólicos exclusivos do alecrim, responsáveis por grande parte de sua atividade **neuroprotetora**. O carnosol demonstrou em estudos *in vitro* e em modelos animais capacidade de proteger neurônios contra danos oxidativos e reduzir a neuroinflamação — mecanismos centrais no declínio cognitivo.
+
+### 1,8-Cineol (Eucaliptol)
+
+Presente no óleo essencial do alecrim, o 1,8-cineol é o composto mais associado aos efeitos sobre a **memória e o estado de alerta**. Estudos clínicos mostram que a inalação deste composto pode melhorar o desempenho cognitivo em adultos saudáveis.
+
+## Benefícios Comprovados do Alecrim
+
+### 1. Memória e Função Cognitiva
+
+Este é o benefício mais fascinante e bem documentado do alecrim. Pesquisas publicadas em periódicos como *Therapeutic Advances in Psychopharmacology* demonstram que:
+
+- A **inalação do aroma** de alecrim melhorou a memória prospectiva (lembrar de fazer algo no futuro) em até 15% em adultos saudáveis
+- O consumo de extrato padronizado de alecrim (750 mg) melhorou a **velocidade de processamento cognitivo** em idosos
+- O 1,8-cineol presente no óleo essencial foi detectado na corrente sanguínea após inalação, sugerindo um mecanismo farmacológico direto sobre o cérebro
+
+Para quem busca otimizar a saúde cerebral, o alecrim pode ser combinado com outras estratégias naturais descritas em nossa página de [saúde cognitiva e memória](/bem-estar/saude-cognitiva-memoria). O [Ginkgo biloba](/artigos/ginkgo-biloba-memoria-funciona), por exemplo, atua por mecanismos complementares — melhorando a circulação cerebral enquanto o alecrim oferece proteção antioxidante neuronal.
+
+### 2. Ação Antioxidante Potente
+
+O alecrim é uma das ervas com maior capacidade antioxidante medida pelo ensaio ORAC. O ácido rosmarínico e o carnosol atuam em múltiplas vias antioxidantes:
+
+- Neutralização direta de radicais livres
+- Ativação do sistema Nrf2, que regula as defesas antioxidantes endógenas
+- Quelação de metais pró-oxidantes como ferro e cobre
+
+Na indústria alimentícia, o extrato de alecrim (E392) é utilizado como **conservante natural** justamente por sua capacidade de prevenir a oxidação lipídica — uma prova prática de seu poder antioxidante.
+
+### 3. Digestão e Saúde Gastrointestinal
+
+O uso tradicional do alecrim como digestivo tem respaldo científico:
+
+- Estimula a produção de bile, auxiliando na digestão de gorduras
+- Possui ação **carminativa** (reduz gases intestinais)
+- Estudos indicam efeito espasmolítico sobre a musculatura lisa do trato gastrointestinal
+- O ácido rosmarínico demonstrou atividade protetora sobre a mucosa gástrica
+
+Na medicina popular brasileira, o chá de alecrim após refeições pesadas é um recurso amplamente utilizado — e a ciência confirma que essa prática tem fundamento. Para mais sobre digestão natural, veja nossa página de [saúde digestiva](/bem-estar/saude-digestiva-natural).
+
+### 4. Propriedades Anti-inflamatórias
+
+O alecrim contém múltiplos compostos com ação anti-inflamatória que atuam em vias complementares:
+
+- Inibição de COX-2 e LOX-5 (vias inflamatórias clássicas)
+- Redução de citocinas pró-inflamatórias (TNF-α, IL-6)
+- Modulação do fator nuclear NF-κB
+
+Essa ação anti-inflamatória sinérgica se assemelha ao mecanismo da [cúrcuma](/artigos/curcuma-curcumina-anti-inflamatorio-natural), e ambas as plantas podem ser combinadas para potencializar os efeitos.
+
+### 5. Energia e Foco Mental
+
+O alecrim tem efeito estimulante suave que pode melhorar o estado de alerta sem a agitação associada ao excesso de cafeína. A inalação do óleo essencial de alecrim mostrou em estudos:
+
+- Aumento da atividade das ondas cerebrais beta (associadas ao estado de alerta)
+- Redução da fadiga mental em tarefas cognitivas prolongadas
+- Melhora do humor e redução da ansiedade situacional
+
+Para quem busca alternativas naturais para [energia e foco](/bem-estar/energia-e-foco), o alecrim pode ser um aliado valioso em combinação com adaptógenos como a [rhodiola](/plantas-medicinais/rhodiola) e o [guaraná](/plantas-medicinais/guarana).
+
+## Como Usar Alecrim
+
+### Chá de Alecrim
+
+A forma mais tradicional e acessível:
+
+- **Preparo:** 1 colher de chá (2-3 g) de folhas secas para 200 ml de água quente (não fervente)
+- **Infusão:** 5 a 10 minutos, coberto
+- **Frequência:** 2 a 3 xícaras por dia
+- **Melhor horário:** manhã e início da tarde (evitar à noite pelo efeito estimulante)
+
+### Óleo Essencial
+
+Para aromaterapia e uso tópico:
+
+- **Inalação:** 3-5 gotas no difusor para foco e concentração
+- **Uso tópico:** diluir 2-3 gotas em 1 colher de sopa de óleo carreador (coco, amêndoas) para massagem
+- **Banho aromático:** 5-8 gotas na água da banheira
+- **Nunca ingerir** óleo essencial sem orientação profissional
+
+### Tempero Culinário
+
+O uso na culinária não é apenas gastronômico — fornece compostos bioativos mesmo em quantidades culinárias. Adicione alecrim fresco ou seco a carnes, vegetais assados, pães e azeites aromatizados.
+
+### Extrato Padronizado
+
+Para fins terapêuticos mais específicos, o extrato padronizado em ácido rosmarínico (geralmente 2-6%) oferece concentrações previsíveis e dosagem controlada.
+
+## Contraindicações e Cuidados
+
+Apesar de seguro na maioria dos usos culinários e em doses terapêuticas moderadas, o alecrim requer atenção em algumas situações:
+
+- **Gestantes:** doses terapêuticas (não culinárias) devem ser evitadas — o alecrim pode ter efeito estimulante uterino
+- **Epilepsia:** altas doses e o óleo essencial podem reduzir o limiar convulsivo
+- **Hipertensão não controlada:** o alecrim pode elevar levemente a pressão arterial
+- **Anticoagulantes:** o alecrim pode interferir com medicamentos como varfarina — consultar médico
+- **Crianças:** o óleo essencial por via oral não é recomendado para menores de 12 anos
+
+## Conclusão
+
+O alecrim é um verdadeiro tesouro da fitoterapia — acessível, versátil e com benefícios amplamente documentados pela ciência. Seus compostos bioativos oferecem proteção neuronal, ação antioxidante de elite, suporte digestivo e efeito anti-inflamatório. Seja no chá diário, na aromaterapia ou como extrato padronizado, o alecrim merece um lugar de destaque em qualquer rotina de saúde natural.
+
+---
+
+*Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
+    `,
+    image: "/articles/alecrim.jpg",
+    category: "Plantas Medicinais",
+    tags: ["alecrim", "alecrim benefícios", "chá de alecrim", "alecrim para memória", "rosmarinus officinalis", "ácido rosmarínico", "saúde cognitiva"],
+    author: "Marta Leni, Farmacêutica Clínica",
+    publishedAt: "2026-04-10",
+    readTime: 12
   }
 ];
 
