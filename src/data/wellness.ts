@@ -87,7 +87,7 @@ Energéticos e excesso de café podem dar um impulso imediato, mas frequentement
 
 ## Plantas Para Energia
 
-O guaraná brasileiro é um dos melhores estimulantes naturais, com cafeína de liberação gradual. O [chá verde e o matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) são alternativas ricas em L-teanina, que promove foco mental sem a agitação do café. O ginseng, por sua vez, trabalha diferente: como adaptógeno, ele ajuda o corpo a produzir energia de forma mais eficiente ao longo do tempo. O [alecrim](/artigos/alecrim-beneficios-memoria-digestao) é outro aliado natural para o foco — estudos mostram que a simples inalação de seu aroma pode melhorar o estado de alerta e reduzir a fadiga mental.
+O guaraná brasileiro é um dos melhores estimulantes naturais, com cafeína de liberação gradual. O [chá verde e o matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) são alternativas ricas em L-teanina, que promove foco mental sem a agitação do café. O ginseng, por sua vez, trabalha diferente: como adaptógeno, ele ajuda o corpo a produzir energia de forma mais eficiente ao longo do tempo. O [alecrim](/artigos/alecrim-beneficios-memoria-digestao) é outro aliado natural para o foco, estudos mostram que a simples inalação de seu aroma pode melhorar o estado de alerta e reduzir a fadiga mental. Já a [moringa](/artigos/moringa-superalimento-medicinal-ciencia) faz sentido quando a queixa principal vem acompanhada de baixa ingestão de micronutrientes, rotina corrida e necessidade de suporte antioxidante mais amplo.
 
 ## Hábitos Energizantes
 
@@ -99,7 +99,7 @@ Hidratação adequada, refeições balanceadas e exercícios regulares são fund
       'Use ginseng para energia sustentada',
       'Evite açúcar refinado que causa picos de energia'
     ],
-    recommendedPlants: ['guarana', 'ginseng', 'alecrim'],
+    recommendedPlants: ['guarana', 'ginseng', 'moringa', 'alecrim'],
     recommendedGuides: ['melhor-energia-natural']
   },
   {
@@ -287,7 +287,7 @@ O ácido fólico e o ferro são nutrientes essenciais, mas algumas plantas como 
 
 Mulheres enfrentam demandas específicas que podem gerar estresse crônico. Os adaptógenos são plantas que ajudam o organismo a lidar melhor com a pressão do dia a dia.
 
-A **ashwagandha** é um dos adaptógenos mais estudados: reduz os níveis de cortisol, melhora a qualidade do sono e pode auxiliar no equilíbrio hormonal. Estudos mostram benefícios para a libido e a vitalidade feminina. Para comparar adaptógenos com mais profundidade, leia também nossos artigos sobre [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e [rhodiola](/artigos/rhodiola-rosea-adaptogeno-energia-foco).
+A **ashwagandha** é um dos adaptógenos mais estudados: reduz os níveis de cortisol, melhora a qualidade do sono e pode auxiliar no equilíbrio hormonal. Estudos mostram benefícios para a libido e a vitalidade feminina. Para comparar adaptógenos com mais profundidade, leia também nossos artigos sobre [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e [rhodiola](/artigos/rhodiola-rosea-adaptogeno-energia-foco). Em fases de cansaço persistente, faz sentido cruzar essa estratégia com [energia e foco](/bem-estar/energia-e-foco), especialmente quando há sobrecarga mental, sono fragmentado e necessidade de suporte nutricional com [moringa](/artigos/moringa-superalimento-medicinal-ciencia).
 
 A **valeriana** e a **melissa** também contribuem para o manejo do estresse, especialmente quando combinadas com técnicas de respiração e exercício físico regular. Se o objetivo for melhorar o descanso, complemente com as páginas de [sono natural](/bem-estar/sono-natural) e o guia de [melhor fitoterápico para sono](/guias/melhor-fitoterapico-para-sono).
 

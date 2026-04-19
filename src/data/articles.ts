@@ -1087,6 +1087,8 @@ Os chás medicinais são uma das formas mais antigas e acessíveis de fitoterapi
 **Tempo:** 5-10 minutos
 **Benefício:** Rica em antioxidantes e nutrientes imunomoduladores
 
+Se o objetivo for montar uma rotina diária, vale cruzar este conteúdo com o guia de [imunidade natural](/bem-estar/imunidade-natural), a página de [moringa](/plantas-medicinais/moringa) e o comparativo [Melhor Moringa em Cápsulas](/guias/melhor-moringa-capsulas).
+
 #### 3. Eucalipto (Eucalyptus globulus)
 **Preparo:** Infusão de folhas
 **Dosagem:** 1 colher de chá para 200ml
@@ -1139,6 +1141,8 @@ Os chás medicinais são uma das formas mais antigas e acessíveis de fitoterapi
 - 60% [Chá verde](/artigos/cha-verde-vs-matcha-diferencas-beneficios) (ou matcha para maior concentração de catequinas)
 - 25% Guaraná
 - 15% Gengibre
+
+Para quem busca um chá funcional para produtividade, este blend combina especialmente bem com nossos conteúdos de [energia e foco](/bem-estar/energia-e-foco), [alecrim para memória](/artigos/alecrim-beneficios-memoria-digestao) e [saúde cognitiva e memória](/bem-estar/saude-cognitiva-memoria).
 
 **Preparo:** Infusão por 6 minutos
 
@@ -1662,7 +1666,7 @@ Em outras palavras: se seu cortisol está alto, o adaptógeno ajuda a baixar; se
 
 ## Como Funcionam no Corpo
 
-Os adaptógenos atuam no eixo HPA (hipotálamo-hipófise-adrenal), que é o sistema central de resposta ao estresse:
+Os adaptógenos atuam no eixo HPA (hipotálamo-hipófise-adrenal), que é o sistema central de resposta ao estresse. Se você estiver montando uma estratégia prática, vale combinar esta leitura com [gestão do estresse](/bem-estar/gestao-do-estresse), [energia e foco](/bem-estar/energia-e-foco) e os guias de [melhor suplemento para estresse e ansiedade](/guias/melhor-suplemento-estresse-ansiedade) e [melhor energia natural](/guias/melhor-energia-natural):
 
 - **Regulam a produção de cortisol**: evitando picos excessivos e depleção crônica
 - **Modulam HSPs (Heat Shock Proteins)**: proteínas que protegem células sob estresse
@@ -1693,7 +1697,7 @@ O adaptógeno clássico da medicina chinesa:
 ### Rhodiola rosea
 **Nível de evidência: MODERADO**
 
-A "raiz dourada" das montanhas:
+A "raiz dourada" das montanhas, aprofundada no nosso artigo sobre [rhodiola rosea](/artigos/rhodiola-rosea-adaptogeno-energia-foco):
 - Reduz fadiga mental e melhora concentração
 - Efeito antidepressivo leve em estudos clínicos
 - Melhora performance em exercícios de resistência
@@ -2205,7 +2209,7 @@ Seu perfil nutricional é impressionante:
 
 ## Compostos Bioativos
 
-A moringa é rica em compostos com atividade farmacológica:
+A moringa é rica em compostos com atividade farmacológica, e conversa muito bem com nossos conteúdos de [imunidade natural](/bem-estar/imunidade-natural), [energia e foco](/bem-estar/energia-e-foco) e [saúde feminina natural](/bem-estar/saude-feminina-natural) quando a meta é encaixar a planta na rotina com contexto prático:
 
 - **Isotiocianatos** — potentes anti-inflamatórios e anticancerígenos
 - **Quercetina** — flavonoide antioxidante e anti-hipertensivo

@@ -163,7 +163,7 @@ export const guides: Guide[] = [
         cons: ['Preço premium', 'Difícil de encontrar']
       }
     ],
-    conclusion: 'A equinácea é o fitoterápico mais estudado para imunidade. Combine com hábitos saudáveis para melhores resultados.',
+    conclusion: 'A equinácea é o fitoterápico mais estudado para imunidade. Combine com hábitos saudáveis para melhores resultados. Se a ideia for montar uma estratégia mais completa, vale cruzar este guia com o artigo sobre [moringa](/artigos/moringa-superalimento-medicinal-ciencia), a página de [imunidade natural](/bem-estar/imunidade-natural) e o comparativo [Melhor Moringa em Cápsulas](/guias/melhor-moringa-capsulas).',
     relatedGuides: ['melhor-moringa-capsulas'],
     relatedPlants: ['equinacea', 'moringa']
   },
@@ -314,7 +314,7 @@ export const guides: Guide[] = [
         cons: ['Efeito demora a aparecer', 'Preço elevado']
       }
     ],
-    conclusion: 'O guaraná é ideal para energia rápida, enquanto o ginseng funciona melhor a longo prazo como adaptógeno.',
+    conclusion: 'O guaraná é ideal para energia rápida, enquanto o ginseng funciona melhor a longo prazo como adaptógeno. Para lapidar foco mental e reduzir a sensação de pico e queda, combine este guia com os conteúdos sobre [chá verde vs matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios), [alecrim para memória](/artigos/alecrim-beneficios-memoria-digestao) e [energia e foco](/bem-estar/energia-e-foco).',
     relatedGuides: ['melhor-suplemento-estresse-ansiedade'],
     relatedPlants: ['guarana', 'ginseng', 'rhodiola', 'moringa']
   },
@@ -408,7 +408,7 @@ export const guides: Guide[] = [
         cons: ['Preço premium', 'Necessita importação', 'Muitos ingredientes ativos simultâneos']
       }
     ],
-    conclusion: 'A escolha ideal depende do seu perfil: para estresse com fadiga, prefira Ashwagandha ou Rhodiola. Para ansiedade com insônia, Passiflora ou Valeriana são mais indicadas. Melissa é uma excelente opção para quem busca efeito calmante suave sem sonolência.',
+    conclusion: 'A escolha ideal depende do seu perfil: para estresse com fadiga, prefira Ashwagandha ou Rhodiola. Para ansiedade com insônia, Passiflora ou Valeriana são mais indicadas. Melissa é uma excelente opção para quem busca efeito calmante suave sem sonolência. Para aprofundar a decisão, conecte este guia com [gestão do estresse](/bem-estar/gestao-do-estresse), [saúde feminina natural](/bem-estar/saude-feminina-natural) e os artigos sobre [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e [rhodiola](/artigos/rhodiola-rosea-adaptogeno-energia-foco).',
     relatedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-fitoterapico-para-sono'],
     relatedPlants: ['ashwagandha', 'valeriana', 'maracuja', 'melissa', 'rhodiola']
   },
