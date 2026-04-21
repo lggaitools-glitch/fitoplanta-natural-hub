@@ -121,7 +121,7 @@ Os adaptógenos são plantas que ajudam o corpo a se adaptar ao estresse. O gins
 
 ## Técnicas de Relaxamento
 
-A fitoterapia funciona melhor combinada com técnicas como respiração profunda, meditação, exercícios e hobbies relaxantes.`,
+A fitoterapia funciona melhor combinada com técnicas como respiração profunda, meditação, exercícios e hobbies relaxantes. Para mulheres que enfrentam estresse relacionado a ciclos hormonais, confira nosso guia de [saúde feminina natural](/bem-estar/saude-feminina-natural).`,
     tips: [
       'Use melissa para momentos de ansiedade',
       'Pratique respiração profunda diariamente',
@@ -269,13 +269,13 @@ Consulte um profissional de saúde se você apresentar: dor articular persistent
 
 A TPM afeta até 80% das mulheres em idade reprodutiva. Os sintomas — irritabilidade, inchaço, dores de cabeça e cólicas — podem ser aliviados com abordagens naturais.
 
-A **melissa** possui ação antiespasmódica e calmante que ajuda a reduzir a irritabilidade e a ansiedade pré-menstrual. A **camomila** é outra grande aliada: seus flavonoides atuam no relaxamento muscular, aliviando cólicas e tensão. Já o **maracujá** (passiflora) contribui para a qualidade do sono e o equilíbrio emocional nessa fase.
+O **agnus castus** (vitex) é um dos fitoterápicos com mais evidências para TPM — atua na regulação da prolactina e pode reduzir irritabilidade, mastalgia e retenção hídrica. A [melissa](/plantas/melissa) possui ação antiespasmódica e calmante que ajuda a reduzir a irritabilidade e a ansiedade pré-menstrual. A **camomila** é outra grande aliada: seus flavonoides atuam no relaxamento muscular, aliviando cólicas e tensão. Já o **maracujá** ([passiflora](/artigos/passiflora-ansiedade-maracuja-medicinal)) contribui para a qualidade do sono e o equilíbrio emocional nessa fase.
 
 ## Plantas Para a Menopausa
 
 A menopausa traz ondas de calor, alterações de humor, insônia e ressecamento. Isoflavonas de soja são amplamente usadas, mas a fitoterapia oferece mais opções.
 
-A **passiflora** ajuda no controle da ansiedade e insônia que acompanham essa fase. A **valeriana** é uma aliada importante para o sono fragmentado típico da perimenopausa. Ambas podem ser combinadas para um efeito sinérgico.
+A [passiflora](/artigos/passiflora-ansiedade-maracuja-medicinal) ajuda no controle da ansiedade e insônia que acompanham essa fase. A [valeriana](/plantas/valeriana) é uma aliada importante para o sono fragmentado típico da perimenopausa. Ambas podem ser combinadas para um efeito sinérgico.
 
 ## Suplementação Natural Durante a Gestação
 
