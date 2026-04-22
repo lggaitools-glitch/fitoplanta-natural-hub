@@ -1961,7 +1961,7 @@ Estudos recentes indicam que 2g de gengibre em pó por dia pode reduzir a glicem
 
 ## Gengibre e Cúrcuma: Uma Sinergia Poderosa
 
-A combinação de gengibre com cúrcuma potencializa os efeitos anti-inflamatórios de ambas as plantas. Enquanto o gengibre atua principalmente via gingeróis, a cúrcuma age através da curcumina — e juntos, cobrem múltiplas vias inflamatórias simultaneamente.
+A combinação de gengibre com cúrcuma potencializa os efeitos anti-inflamatórios de ambas as plantas. Enquanto o gengibre atua principalmente via gingeróis, a cúrcuma age através da curcumina — e juntos, cobrem múltiplas vias inflamatórias simultaneamente. Adicionar [ômega-3](/artigos/omega-3-natural-fontes-vegetais-beneficios) a essa combinação pode ampliar ainda mais o efeito, já que o EPA atua em vias inflamatórias complementares às do gengibre e da curcumina.
 
 **Dica:** Adicione uma pitada de pimenta-preta à combinação para aumentar a biodisponibilidade da curcumina em até 2.000%.
 

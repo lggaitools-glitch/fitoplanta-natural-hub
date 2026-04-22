@@ -74,6 +74,8 @@ const tagToLink: Record<string, { href: string; label: string }> = {
   'digestao': { href: '/bem-estar/saude-digestiva-natural', label: 'Saúde Digestiva Natural' },
   'memoria': { href: '/bem-estar/saude-cognitiva-memoria', label: 'Saúde Cognitiva e Memória' },
   'anti-inflamatorio': { href: '/guias/melhor-anti-inflamatorio-natural', label: 'Guia: Melhor Anti-inflamatório Natural' },
+  'omega-3': { href: '/artigos/omega-3-natural-fontes-vegetais-beneficios', label: 'Ômega-3 Natural — Fontes e Benefícios' },
+  'saude cardiovascular': { href: '/artigos/omega-3-natural-fontes-vegetais-beneficios', label: 'Ômega-3 e Saúde Cardiovascular' },
   'adaptogenos': { href: '/suplementos-naturais/ashwagandha-capsulas', label: 'Adaptógenos — Ashwagandha em Cápsulas' },
 };
 

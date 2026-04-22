@@ -174,7 +174,7 @@ export const guides: Guide[] = [
     description: 'Comparativo dos melhores anti-inflamatórios naturais: cúrcuma, gengibre, boswellia e mais. Descubra qual funciona melhor para dores e inflamações.',
     category: 'anti-inflamatorio',
     heroImage: '/guides/anti-inflamatorio.jpg',
-    introduction: 'A inflamação crônica é considerada a raiz de diversas doenças modernas, incluindo artrite, doenças cardíacas e até depressão. Os anti-inflamatórios naturais oferecem uma alternativa com menos efeitos colaterais gastrointestinais que os AINEs convencionais. Neste guia, comparamos os mais eficazes.',
+    introduction: 'A inflamação crônica é considerada a raiz de diversas doenças modernas, incluindo artrite, doenças cardíacas e até depressão. Os anti-inflamatórios naturais oferecem uma alternativa com menos efeitos colaterais gastrointestinais que os AINEs convencionais. Para uma abordagem nutricional complementar, veja também nosso artigo sobre [ômega-3 natural](/artigos/omega-3-natural-fontes-vegetais-beneficios), cujo EPA atua em vias inflamatórias sinérgicas. Neste guia, comparamos os fitoterápicos anti-inflamatórios mais eficazes.',
     criteria: [
       'Potência anti-inflamatória comprovada em estudos clínicos',
       'Biodisponibilidade do princípio ativo',

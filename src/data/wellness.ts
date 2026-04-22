@@ -281,7 +281,7 @@ A [passiflora](/artigos/passiflora-ansiedade-maracuja-medicinal) ajuda no contro
 
 **Atenção: qualquer suplementação durante a gestação deve ser orientada e acompanhada pelo obstetra.** Muitas plantas medicinais são contraindicadas nesse período.
 
-O ácido fólico e o ferro são nutrientes essenciais, mas algumas plantas como camomila em doses baixas e gengibre para náuseas matinais podem ser consideradas — sempre sob supervisão médica. Evite automedicação fitoterápica durante a gravidez e a amamentação.
+O ácido fólico e o ferro são nutrientes essenciais, e o [DHA (ômega-3)](/artigos/omega-3-natural-fontes-vegetais-beneficios) é fundamental para o desenvolvimento cerebral e visual do bebê — converse com seu obstetra sobre a suplementação adequada. Algumas plantas como camomila em doses baixas e gengibre para náuseas matinais podem ser consideradas — sempre sob supervisão médica. Evite automedicação fitoterápica durante a gravidez e a amamentação.
 
 ## Adaptógenos Para o Estresse Feminino
 
