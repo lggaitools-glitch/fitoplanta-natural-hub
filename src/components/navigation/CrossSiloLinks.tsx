@@ -67,6 +67,10 @@ const tagToLink: Record<string, { href: string; label: string }> = {
   'maracuja': { href: '/plantas-medicinais/maracuja', label: 'Maracujá — Guia Completo' },
   'passiflora': { href: '/plantas-medicinais/maracuja', label: 'Passiflora — Guia Completo' },
   'espinheira-santa': { href: '/plantas-medicinais/espinheira-santa', label: 'Espinheira-santa — Guia Completo' },
+  'gengibre': { href: '/plantas-medicinais/gengibre', label: 'Gengibre — Guia Completo' },
+  'rhodiola': { href: '/plantas-medicinais/rhodiola', label: 'Rhodiola — Guia Completo' },
+  'moringa': { href: '/plantas-medicinais/moringa', label: 'Moringa — Guia Completo' },
+  'alecrim': { href: '/plantas-medicinais/alecrim', label: 'Alecrim — Guia Completo' },
   'sono': { href: '/bem-estar/sono-natural', label: 'Sono Natural — Como Melhorar' },
   'ansiedade': { href: '/bem-estar/gestao-do-estresse', label: 'Gestão do Estresse Natural' },
   'imunidade': { href: '/bem-estar/imunidade-natural', label: 'Imunidade Natural' },
@@ -77,6 +81,10 @@ const tagToLink: Record<string, { href: string; label: string }> = {
   'omega-3': { href: '/artigos/omega-3-natural-fontes-vegetais-beneficios', label: 'Ômega-3 Natural — Fontes e Benefícios' },
   'saude cardiovascular': { href: '/artigos/omega-3-natural-fontes-vegetais-beneficios', label: 'Ômega-3 e Saúde Cardiovascular' },
   'adaptogenos': { href: '/suplementos-naturais/ashwagandha-capsulas', label: 'Adaptógenos — Ashwagandha em Cápsulas' },
+  'saude-feminina': { href: '/bem-estar/saude-feminina-natural', label: 'Saúde Feminina Natural' },
+  'articular': { href: '/bem-estar/saude-articular', label: 'Saúde Articular Natural' },
+  'cha-verde': { href: '/artigos/cha-verde-vs-matcha-diferencas-beneficios', label: 'Chá Verde vs Matcha' },
+  'matcha': { href: '/artigos/cha-verde-vs-matcha-diferencas-beneficios', label: 'Chá Verde vs Matcha' },
 };
 
 export const CrossSiloLinks = ({ currentSilo, relatedPlant, relatedSupplement, relatedGuide, relatedWellness, tags = [] }: CrossSiloLinksProps) => {
