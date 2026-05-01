@@ -82,9 +82,15 @@ const tagToLink: Record<string, { href: string; label: string }> = {
   'saude cardiovascular': { href: '/artigos/omega-3-natural-fontes-vegetais-beneficios', label: 'Ômega-3 e Saúde Cardiovascular' },
   'adaptogenos': { href: '/suplementos-naturais/ashwagandha-capsulas', label: 'Adaptógenos — Ashwagandha em Cápsulas' },
   'saude-feminina': { href: '/bem-estar/saude-feminina-natural', label: 'Saúde Feminina Natural' },
+  'saude cognitiva': { href: '/bem-estar/saude-cognitiva-memoria', label: 'Saúde Cognitiva e Memória' },
   'articular': { href: '/bem-estar/saude-articular', label: 'Saúde Articular Natural' },
   'cha-verde': { href: '/artigos/cha-verde-vs-matcha-diferencas-beneficios', label: 'Chá Verde vs Matcha' },
   'matcha': { href: '/artigos/cha-verde-vs-matcha-diferencas-beneficios', label: 'Chá Verde vs Matcha' },
+  'foco mental': { href: '/bem-estar/energia-e-foco', label: 'Energia e Foco Natural' },
+  'metabolismo': { href: '/artigos/cha-verde-vs-matcha-diferencas-beneficios', label: 'Chá Verde vs Matcha' },
+  'antioxidante': { href: '/artigos/moringa-superalimento-medicinal-ciencia', label: 'Moringa — Superalimento Medicinal' },
+  'nutricao': { href: '/artigos/moringa-superalimento-medicinal-ciencia', label: 'Moringa — Superalimento Medicinal' },
+  'superalimento': { href: '/artigos/moringa-superalimento-medicinal-ciencia', label: 'Moringa — Superalimento Medicinal' },
 };
 
 export const CrossSiloLinks = ({ currentSilo, relatedPlant, relatedSupplement, relatedGuide, relatedWellness, tags = [] }: CrossSiloLinksProps) => {

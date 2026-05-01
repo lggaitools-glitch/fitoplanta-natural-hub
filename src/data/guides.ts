@@ -408,7 +408,7 @@ export const guides: Guide[] = [
         cons: ['Preço premium', 'Necessita importação', 'Muitos ingredientes ativos simultâneos']
       }
     ],
-    conclusion: 'A escolha ideal depende do seu perfil: para estresse com fadiga, prefira Ashwagandha ou Rhodiola. Para ansiedade com insônia, Passiflora ou Valeriana são mais indicadas. Melissa é uma excelente opção para quem busca efeito calmante suave sem sonolência. Para aprofundar a decisão, conecte este guia com [gestão do estresse](/bem-estar/gestao-do-estresse), [saúde feminina natural](/bem-estar/saude-feminina-natural) e os artigos sobre [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e [rhodiola](/artigos/rhodiola-rosea-adaptogeno-energia-foco).',
+    conclusion: 'A escolha ideal depende do seu perfil: para estresse com fadiga, prefira Ashwagandha ou Rhodiola. Para ansiedade com insônia, Passiflora ou Valeriana são mais indicadas. Melissa é uma excelente opção para quem busca efeito calmante suave sem sonolência. Para aprofundar a decisão, conecte este guia com [gestão do estresse](/bem-estar/gestao-do-estresse), [saúde feminina natural](/bem-estar/saude-feminina-natural), [energia e foco](/bem-estar/energia-e-foco) e os artigos sobre [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios), [rhodiola](/artigos/rhodiola-rosea-adaptogeno-energia-foco) e [moringa](/artigos/moringa-superalimento-medicinal-ciencia).',
     relatedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-fitoterapico-para-sono'],
     relatedPlants: ['ashwagandha', 'valeriana', 'maracuja', 'melissa', 'rhodiola']
   },
@@ -464,7 +464,7 @@ export const guides: Guide[] = [
         cons: ['Cápsulas grandes', 'Não é orgânico']
       }
     ],
-    conclusion: 'Para quem busca praticidade no Brasil, a Vitafor oferece boa qualidade com certificação. Se você prefere orgânico e pode importar, a Organic India é referência mundial em moringa. Independente da marca, priorize produtos que informem a origem da matéria-prima e possuam certificações de qualidade. Antes de comprar, vale revisar também o artigo sobre [moringa](/artigos/moringa-superalimento-medicinal-ciencia), a página da [planta moringa](/plantas-medicinais/moringa) e o conteúdo de [imunidade natural](/bem-estar/imunidade-natural) para alinhar expectativa, dose e objetivo de uso.',
+    conclusion: 'Para quem busca praticidade no Brasil, a Vitafor oferece boa qualidade com certificação. Se você prefere orgânico e pode importar, a Organic India é referência mundial em moringa. Independente da marca, priorize produtos que informem a origem da matéria-prima e possuam certificações de qualidade. Antes de comprar, vale revisar também o artigo sobre [moringa](/artigos/moringa-superalimento-medicinal-ciencia), a página da [planta moringa](/plantas-medicinais/moringa), o conteúdo de [imunidade natural](/bem-estar/imunidade-natural) e os contextos de [energia e foco](/bem-estar/energia-e-foco) e [saúde feminina natural](/bem-estar/saude-feminina-natural) para alinhar expectativa, dose e objetivo de uso.',
     relatedGuides: ['melhor-suplemento-para-imunidade'],
     relatedPlants: ['moringa', 'curcuma', 'equinacea']
   }

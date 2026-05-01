@@ -100,7 +100,7 @@ Hidratação adequada, refeições balanceadas e exercícios regulares são fund
       'Evite açúcar refinado que causa picos de energia'
     ],
     recommendedPlants: ['guarana', 'ginseng', 'moringa', 'alecrim'],
-    recommendedGuides: ['melhor-energia-natural']
+    recommendedGuides: ['melhor-energia-natural', 'melhor-moringa-capsulas']
   },
   {
     slug: 'gestao-do-estresse',
@@ -210,7 +210,7 @@ O exercício aeróbico é um dos mais poderosos nootrópicos naturais, aumentand
       'Use guaraná para foco sustentado em vez de café excessivo'
     ],
     recommendedPlants: ['ginseng', 'ashwagandha', 'guarana', 'moringa', 'alecrim'],
-    recommendedGuides: ['melhor-energia-natural']
+    recommendedGuides: ['melhor-energia-natural', 'melhor-moringa-capsulas']
   },
   {
     slug: 'saude-articular',
@@ -254,7 +254,7 @@ Consulte um profissional de saúde se você apresentar: dor articular persistent
       'Considere boswellia como complemento para dor articular'
     ],
     recommendedPlants: ['curcuma', 'gengibre'],
-    recommendedGuides: ['melhor-anti-inflamatorio-natural', 'melhor-gengibre']
+    recommendedGuides: ['melhor-anti-inflamatorio-natural', 'melhor-gengibre', 'melhor-moringa-capsulas']
   },
   {
     slug: 'saude-feminina-natural',
@@ -304,7 +304,7 @@ Plantas medicinais são complementos, nunca substitutas do acompanhamento médic
       'Pratique exercícios regulares — o movimento alivia sintomas hormonais'
     ],
     recommendedPlants: ['melissa', 'maracuja', 'camomila', 'ashwagandha', 'valeriana'],
-    recommendedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-fitoterapico-para-sono', 'melhor-suplemento-estresse-ansiedade']
+    recommendedGuides: ['melhor-fitoterapico-para-ansiedade', 'melhor-fitoterapico-para-sono', 'melhor-suplemento-estresse-ansiedade', 'melhor-moringa-capsulas']
   }
 ];
 
