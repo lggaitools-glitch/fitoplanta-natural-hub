@@ -6,6 +6,7 @@ import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { getSupplementBySlug, supplements } from '@/data/supplements';
 import { getPlantBySlug } from '@/data/plants';
 import { getRecentArticles } from '@/data/articles';
+import { guides } from '@/data/guides';
 import { Button } from '@/components/ui/button';
 import { Check, ExternalLink, Pill } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
@@ -21,7 +22,12 @@ const SupplementDetail = () => {
   }
 
   const plant = getPlantBySlug(supplement.plant.toLowerCase());
-  
+  const plantSlug = supplement.plant.toLowerCase();
+  const relatedGuide = guides.find(guide =>
+    guide.relatedPlants.includes(plantSlug) ||
+    guide.title.toLowerCase().includes(plantSlug)
+  );
+
   const relatedPages = supplements
     .filter(s => s.slug !== slug)
     .map(s => ({ title: s.name, href: `/suplementos-naturais/${s.slug}` }));
@@ -106,6 +112,19 @@ const SupplementDetail = () => {
                   to={`/plantas-medicinais/${plant.slug}`}
                   title={plant.name}
                   description={`Conheça todos os benefícios e usos da ${plant.name.toLowerCase()}`}
+                />
+              </section>
+            )}
+
+            {relatedGuide && (
+              <section className="mb-8">
+                <h2 className="font-display text-2xl font-bold text-foreground mb-4">
+                  Guia de Compra Relacionado
+                </h2>
+                <RelatedLinkCard
+                  to={`/guias/${relatedGuide.slug}`}
+                  title={`${relatedGuide.title} — ${relatedGuide.subtitle}`}
+                  description="Compare marcas, critérios de qualidade e custo-benefício antes de comprar"
                 />
               </section>
             )}

@@ -6,6 +6,7 @@ import { CombinedDisclaimer } from '@/components/content/Disclaimers';
 import { getGuideBySlug, guides } from '@/data/guides';
 import { getPlantBySlug } from '@/data/plants';
 import { getRecentArticles } from '@/data/articles';
+import { supplements } from '@/data/supplements';
 import { Button } from '@/components/ui/button';
 import { Check, X, ExternalLink } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
@@ -19,6 +20,11 @@ const GuideDetail = () => {
   if (!guide) {
     return <NotFound />;
   }
+
+  const relatedSupplement = supplements.find(supplement => {
+    const plantSlug = supplement.plant.toLowerCase();
+    return guide.relatedPlants.includes(plantSlug) || guide.title.toLowerCase().includes(plantSlug);
+  });
 
   const relatedPages = guides
     .filter(g => g.slug !== slug)
@@ -202,6 +208,19 @@ const GuideDetail = () => {
                     ) : null;
                   })}
                 </div>
+              </section>
+            )}
+
+            {relatedSupplement && (
+              <section className="mb-8">
+                <h2 className="font-display text-2xl font-bold text-foreground mb-4">
+                  Suplemento em Destaque
+                </h2>
+                <RelatedLinkCard
+                  to={`/suplementos-naturais/${relatedSupplement.slug}`}
+                  title={relatedSupplement.name}
+                  description={`Veja como usar, benefícios e dosagem de ${relatedSupplement.name.toLowerCase()}`}
+                />
               </section>
             )}
 
