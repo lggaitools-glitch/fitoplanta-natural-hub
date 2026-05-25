@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Layout } from '@/components/layout/Layout';
 import { Breadcrumbs } from '@/components/navigation/Breadcrumbs';
 import { RelatedLinkCard, SiloNavigation } from '@/components/navigation/InternalLinks';
@@ -12,6 +12,7 @@ import { Check, X, ExternalLink } from 'lucide-react';
 import NotFound from '@/pages/NotFound';
 import { AFFILIATE_CONFIG } from '@/config/affiliate';
 import SEOHead from '@/components/seo/SEOHead';
+import { Fragment, type ReactNode } from 'react';
 
 const GuideDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -21,10 +22,18 @@ const GuideDetail = () => {
     return <NotFound />;
   }
 
-  const relatedSupplement = supplements.find(supplement => {
+  const matchingSupplements = supplements.filter(supplement => {
     const plantSlug = supplement.plant.toLowerCase();
-    return guide.relatedPlants.includes(plantSlug) || guide.title.toLowerCase().includes(plantSlug);
+    return (
+      guide.relatedPlants.includes(plantSlug) ||
+      guide.title.toLowerCase().includes(plantSlug) ||
+      guide.slug.includes(plantSlug)
+    );
   });
+  const relatedSupplement = matchingSupplements.find(supplement => {
+    const plantSlug = supplement.plant.toLowerCase();
+    return guide.title.toLowerCase().includes(plantSlug) || guide.slug.includes(plantSlug);
+  }) ?? matchingSupplements[0];
 
   const relatedPages = guides
     .filter(g => g.slug !== slug)
@@ -58,7 +67,7 @@ const GuideDetail = () => {
             </header>
 
             <div className="prose prose-lg max-w-none mb-8">
-              <p>{guide.introduction}</p>
+              <p>{renderInlineLinks(guide.introduction)}</p>
             </div>
 
             <section className="mb-8">
@@ -187,7 +196,7 @@ const GuideDetail = () => {
 
             <section className="mb-8 p-6 rounded-xl bg-muted/50 border border-border">
               <h2 className="font-display text-xl font-bold text-foreground mb-3">Conclusão</h2>
-              <p className="text-muted-foreground">{guide.conclusion}</p>
+              <p className="text-muted-foreground">{renderInlineLinks(guide.conclusion)}</p>
             </section>
 
             {guide.relatedPlants.length > 0 && (
@@ -270,5 +279,43 @@ const GuideDetail = () => {
     </Layout>
   );
 };
+
+function renderInlineLinks(text: string): ReactNode[] {
+  const linkRegex = /\[([^\]]+)\]\((\/[^)]+)\)/g;
+  const nodes: ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = linkRegex.exec(text)) !== null) {
+    const [fullMatch, label, href] = match;
+    const startIndex = match.index;
+
+    if (startIndex > lastIndex) {
+      nodes.push(
+        <Fragment key={`text-${lastIndex}`}>
+          {text.slice(lastIndex, startIndex)}
+        </Fragment>
+      );
+    }
+
+    nodes.push(
+      <Link key={`${href}-${startIndex}`} to={href} className="text-primary underline underline-offset-4">
+        {label}
+      </Link>
+    );
+
+    lastIndex = startIndex + fullMatch.length;
+  }
+
+  if (lastIndex < text.length) {
+    nodes.push(
+      <Fragment key={`text-${lastIndex}`}>
+        {text.slice(lastIndex)}
+      </Fragment>
+    );
+  }
+
+  return nodes;
+}
 
 export default GuideDetail;

@@ -23,10 +23,14 @@ const SupplementDetail = () => {
 
   const plant = getPlantBySlug(supplement.plant.toLowerCase());
   const plantSlug = supplement.plant.toLowerCase();
-  const relatedGuide = guides.find(guide =>
+  const matchingGuides = guides.filter(guide =>
     guide.relatedPlants.includes(plantSlug) ||
-    guide.title.toLowerCase().includes(plantSlug)
+    guide.title.toLowerCase().includes(plantSlug) ||
+    guide.slug.includes(plantSlug)
   );
+  const relatedGuide = matchingGuides.find(guide =>
+    guide.title.toLowerCase().includes(plantSlug) || guide.slug.includes(plantSlug)
+  ) ?? matchingGuides[0];
 
   const relatedPages = supplements
     .filter(s => s.slug !== slug)
