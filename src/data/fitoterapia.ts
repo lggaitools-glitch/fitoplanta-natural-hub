@@ -28,7 +28,9 @@ Os fitoterápicos contêm compostos bioativos que interagem com nosso organismo.
 
 ## Diferença Entre Fitoterápico e Planta Medicinal
 
-É importante distinguir: planta medicinal é a planta in natura, enquanto fitoterápico é o produto industrializado, padronizado e com eficácia comprovada. Ambos têm seu valor, mas o fitoterápico oferece maior segurança na dosagem.`,
+É importante distinguir: planta medicinal é a planta in natura, enquanto fitoterápico é o produto industrializado, padronizado e com eficácia comprovada. Ambos têm seu valor, mas o fitoterápico oferece maior segurança na dosagem.
+
+Na prática, isso inclui desde clássicos como valeriana e equinácea até conteúdos mais recentes do nosso hub, como [moringa](/artigos/moringa-superalimento-medicinal-ciencia), [alecrim](/artigos/alecrim-beneficios-memoria-digestao) e estratégias complementares de estilo de vida como [ômega-3 natural](/artigos/omega-3-natural-fontes-vegetais-beneficios) para suporte anti-inflamatório e cognitivo.`,
     relatedPlants: ['valeriana', 'equinacea', 'guarana', 'moringa'],
     relatedGuides: ['melhor-valeriana', 'melhor-moringa-capsulas']
   },
@@ -57,9 +59,11 @@ Um fitoterápico de qualidade deve ser padronizado em seus compostos ativos. Por
 
 ## Limitações e Realismo
 
-Fitoterápicos não são milagrosos. Eles funcionam melhor para condições leves a moderadas e como complemento a um estilo de vida saudável. Condições graves sempre requerem acompanhamento médico.`,
+Fitoterápicos não são milagrosos. Eles funcionam melhor para condições leves a moderadas e como complemento a um estilo de vida saudável. Condições graves sempre requerem acompanhamento médico.
+
+Para ver como essa lógica se aplica na prática, vale comparar os dados de fitoterápicos multitarefa como [moringa](/artigos/moringa-superalimento-medicinal-ciencia), recursos de foco e memória como [alecrim](/artigos/alecrim-beneficios-memoria-digestao) e abordagens metabólicas como [chá verde vs matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios).`,
     relatedPlants: ['valeriana', 'equinacea', 'moringa', 'alecrim'],
-    relatedGuides: ['melhor-suplemento-para-imunidade']
+    relatedGuides: ['melhor-suplemento-para-imunidade', 'melhor-moringa-capsulas']
   },
   {
     slug: 'beneficios-e-riscos',
@@ -101,9 +105,11 @@ Produtos de origem duvidosa podem conter contaminantes, metais pesados ou até a
 2. Informe seu médico sobre o uso de fitoterápicos
 3. Respeite dosagens recomendadas
 4. Observe possíveis reações adversas
-5. Não substitua tratamentos médicos sem orientação`,
-    relatedPlants: ['curcuma', 'camomila', 'moringa'],
-    relatedGuides: ['melhor-anti-inflamatorio-natural']
+5. Não substitua tratamentos médicos sem orientação
+
+Se você está avaliando formatos prontos de uso, compare também opções como [moringa em cápsulas](/suplementos-naturais/moringa-capsulas), nosso guia [Melhor Moringa em Cápsulas](/guias/melhor-moringa-capsulas) e a visão anti-inflamatória complementar de [ômega-3 natural](/artigos/omega-3-natural-fontes-vegetais-beneficios).`,
+    relatedPlants: ['curcuma', 'camomila', 'moringa', 'alecrim'],
+    relatedGuides: ['melhor-anti-inflamatorio-natural', 'melhor-moringa-capsulas']
   },
   {
     slug: 'fitoterapia-x-suplementos',
@@ -143,7 +149,9 @@ Depende do objetivo:
 
 - Para condições como ansiedade leve ou problemas digestivos, fitoterápicos costumam ser excelentes
 - Para suprir deficiências nutricionais específicas, suplementos sintéticos podem ser mais diretos
-- O ideal é avaliar caso a caso, preferencialmente com orientação profissional`,
+- O ideal é avaliar caso a caso, preferencialmente com orientação profissional
+
+Um bom exemplo de fronteira entre esses mundos é a [moringa](/artigos/moringa-superalimento-medicinal-ciencia): ela pode ser usada como planta, como suplemento em [cápsulas](/suplementos-naturais/moringa-capsulas) ou como produto analisado em um guia de compra como [Melhor Moringa em Cápsulas](/guias/melhor-moringa-capsulas). Já nutrientes como [ômega-3 natural](/artigos/omega-3-natural-fontes-vegetais-beneficios) mostram como alimentação e suplementação podem entrar como estratégia complementar, e não como disputa binária.`,
     relatedPlants: ['valeriana', 'guarana', 'moringa', 'alecrim'],
     relatedGuides: ['melhor-moringa-capsulas']
   }

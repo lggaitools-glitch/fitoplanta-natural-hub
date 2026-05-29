@@ -147,7 +147,7 @@ O intestino contém mais de 100 milhões de neurônios e produz cerca de 90% da 
 
 ## Plantas Medicinais Para a Digestão
 
-A espinheira-santa é a grande estrela brasileira para problemas gástricos. Seus taninos protegem a mucosa estomacal e auxiliam no tratamento de úlceras e gastrite. O boldo, outra planta nativa, é excelente para a digestão lenta e problemas hepáticos.
+A espinheira-santa é a grande estrela brasileira para problemas gástricos. Seus taninos protegem a mucosa estomacal e auxiliam no tratamento de úlceras e gastrite. O boldo, outra planta nativa, é excelente para a digestão lenta e problemas hepáticos. Já o [alecrim](/artigos/alecrim-beneficios-memoria-digestao) pode entrar como apoio digestivo leve para refeições pesadas e sensação de estufamento, especialmente quando o desconforto vem acompanhado de fadiga mental.
 
 A camomila, além de calmante, possui propriedades antiespasmódicas que aliviam cólicas e gases. Já a hortelã-pimenta é comprovadamente eficaz para a síndrome do intestino irritável.
 
@@ -187,7 +187,7 @@ O declínio cognitivo leve começa por volta dos 30 anos, mas pode ser significa
 
 O Ginkgo biloba é o fitoterápico mais estudado para função cerebral. Melhora a circulação cerebral, protege neurônios do estresse oxidativo e pode melhorar memória e concentração. Estudos mostram benefícios especialmente em idosos com comprometimento cognitivo leve.
 
-O [alecrim](/artigos/alecrim-beneficios-memoria-digestao), rico em ácido rosmarínico e carnosol, é outro aliado poderoso da saúde cognitiva. Estudos demonstram que a inalação do aroma de alecrim pode melhorar a memória prospectiva em até 15%, e seus compostos oferecem proteção antioxidante neuronal complementar ao Ginkgo.
+O [alecrim](/artigos/alecrim-beneficios-memoria-digestao), rico em ácido rosmarínico e carnosol, é outro aliado poderoso da saúde cognitiva. Estudos demonstram que a inalação do aroma de alecrim pode melhorar a memória prospectiva em até 15%, e seus compostos oferecem proteção antioxidante neuronal complementar ao Ginkgo. Para quem busca foco diário com menos oscilação, o comparativo [chá verde vs matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) também ajuda a escolher uma fonte de cafeína e L-teanina mais alinhada com a rotina.
 
 A ashwagandha, além de adaptogênica, demonstrou em estudos clínicos capacidade de reduzir a ansiedade que prejudica a concentração e pode proteger contra neurodegeneração.
 

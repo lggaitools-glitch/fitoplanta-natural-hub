@@ -1735,7 +1735,7 @@ Adaptógenos funcionam melhor com uso contínuo por períodos definidos (8-12 se
 
 ## Conclusão
 
-Os adaptógenos representam uma categoria fascinante de plantas medicinais com capacidade única de ajudar o corpo a lidar com estresse. Com escolha adequada e uso correto, podem ser aliados poderosos para saúde e performance. O segredo é escolher o adaptógeno certo para sua necessidade específica. Para mulheres, vale conferir nosso guia completo de [saúde feminina natural](/bem-estar/saude-feminina-natural), que aborda o uso de adaptógenos em cada fase da vida.
+Os adaptógenos representam uma categoria fascinante de plantas medicinais com capacidade única de ajudar o corpo a lidar com estresse. Com escolha adequada e uso correto, podem ser aliados poderosos para saúde e performance. O segredo é escolher o adaptógeno certo para sua necessidade específica. Para mulheres, vale conferir nosso guia completo de [saúde feminina natural](/bem-estar/saude-feminina-natural), que aborda o uso de adaptógenos em cada fase da vida. Se o quadro também incluir fadiga nutricional, rotina corrida e necessidade de suporte antioxidante mais amplo, a leitura conversa bem com [moringa](/artigos/moringa-superalimento-medicinal-ciencia) e com a trilha prática de [energia e foco](/bem-estar/energia-e-foco).
 
 ---
 
@@ -2233,7 +2233,7 @@ Estudos em humanos mostram que a suplementação com moringa pode reduzir o cole
 
 ### 4. Ação Anti-inflamatória
 
-Os isotiocianatos da moringa inibem mediadores inflamatórios como o NF-κB, COX-2 e citocinas pró-inflamatórias. Estudos preliminares sugerem benefícios para condições inflamatórias crônicas.
+Os isotiocianatos da moringa inibem mediadores inflamatórios como o NF-κB, COX-2 e citocinas pró-inflamatórias. Estudos preliminares sugerem benefícios para condições inflamatórias crônicas. Se a prioridade for dor articular, rigidez e estratégias mais focadas em inflamação, vale comparar esse perfil com o da [cúrcuma](/artigos/curcuma-curcumina-anti-inflamatorio-natural) e com o guia de [melhor anti-inflamatório natural](/guias/melhor-anti-inflamatorio-natural).
 
 ### 5. Suporte Imunológico
 
@@ -2241,7 +2241,7 @@ O perfil nutricional completo da moringa, aliado às suas propriedades antimicro
 
 ### 6. Neuroproteção
 
-Pesquisas recentes sugerem que compostos da moringa podem proteger neurônios contra danos oxidativos e melhorar a função cognitiva, embora mais estudos em humanos sejam necessários.
+Pesquisas recentes sugerem que compostos da moringa podem proteger neurônios contra danos oxidativos e melhorar a função cognitiva, embora mais estudos em humanos sejam necessários. Para encaixar esse benefício em uma rotina mais ampla, faz sentido cruzar a leitura com [saúde cognitiva e memória](/bem-estar/saude-cognitiva-memoria) e com o artigo sobre [alecrim](/artigos/alecrim-beneficios-memoria-digestao), que trabalha vias complementares de foco e proteção antioxidante.
 
 ## Como Usar
 
@@ -2362,6 +2362,8 @@ Aqui está uma das diferenças mais interessantes. A combinação de **cafeína 
 - Juntas, podem melhorar atenção, velocidade de resposta e sensação subjetiva de clareza mental
 
 Como o matcha costuma conter mais L-teanina e mais cafeína, ele frequentemente produz um perfil de energia mais marcante. Para quem busca produtividade mental, pode ser uma ótima escolha. Para quem é sensível à cafeína, o chá verde costuma ser mais amigável.
+
+Se a ideia for montar uma estratégia de foco sem depender apenas de cafeína, combine este conteúdo com o artigo sobre [alecrim](/artigos/alecrim-beneficios-memoria-digestao) e o guia de [melhor energia natural](/guias/melhor-energia-natural).
 
 ## Chá Verde vs Matcha: Comparação Direta
 
@@ -2552,6 +2554,8 @@ O DHA constitui cerca de **20% dos ácidos graxos do cérebro**. Estudos indicam
 
 Para quem busca otimizar a [saúde cognitiva e a memória](/bem-estar/saude-cognitiva-memoria), o ômega-3 é um dos nutrientes mais bem fundamentados pela ciência.
 
+Na prática, ele conversa muito bem com estratégias de foco e proteção neuronal descritas em [alecrim](/artigos/alecrim-beneficios-memoria-digestao) e no comparativo [chá verde vs matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios), especialmente quando o objetivo é combinar nutrição cerebral com energia mental mais estável.
+
 ### 3. Ação Anti-inflamatória
 
 O EPA é particularmente eficaz na **modulação de processos inflamatórios**. O ômega-3 compete com o ômega-6 (pró-inflamatório em excesso) pelas mesmas enzimas, ajudando a manter o equilíbrio inflamatório do organismo.
@@ -2699,6 +2703,8 @@ O alecrim tem efeito estimulante suave que pode melhorar o estado de alerta sem 
 - Melhora do humor e redução da ansiedade situacional
 
 Para quem busca alternativas naturais para [energia e foco](/bem-estar/energia-e-foco), o alecrim pode ser um aliado valioso em combinação com adaptógenos como a [rhodiola](/plantas-medicinais/rhodiola) e o [guaraná](/plantas-medicinais/guarana).
+
+Se você prefere construir esse efeito com hábitos diários de baixo atrito, vale somar também o comparativo [chá verde vs matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) e o guia de [melhor energia natural](/guias/melhor-energia-natural).
 
 ## Como Usar Alecrim
 

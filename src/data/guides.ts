@@ -219,7 +219,7 @@ export const guides: Guide[] = [
         cons: ['Preço elevado', 'Poucas cápsulas por embalagem']
       }
     ],
-    conclusion: 'A cúrcuma com piperina é a opção mais acessível e eficaz para uso geral. Para casos que exigem maior potência, as formulações com tecnologia de absorção avançada (como Theracurmin) são superiores.',
+    conclusion: 'A cúrcuma com piperina é a opção mais acessível e eficaz para uso geral. Para casos que exigem maior potência, as formulações com tecnologia de absorção avançada (como Theracurmin) são superiores. Para montar um protocolo mais completo, conecte este guia ao artigo sobre [ômega-3 natural](/artigos/omega-3-natural-fontes-vegetais-beneficios), ao conteúdo de [saúde articular](/bem-estar/saude-articular) e ao artigo sobre [alecrim](/artigos/alecrim-beneficios-memoria-digestao), que amplia o repertório de compostos anti-inflamatórios e antioxidantes.',
     relatedGuides: ['melhor-suplemento-para-imunidade', 'melhor-gengibre'],
     relatedPlants: ['curcuma', 'gengibre']
   },
@@ -361,7 +361,7 @@ export const guides: Guide[] = [
         cons: ['Necessita importação', 'Preço em dólar']
       }
     ],
-    conclusion: 'O gengibre em cápsulas é uma forma prática e eficaz de obter os benefícios desta raiz milenar. Priorize extratos padronizados com mínimo de 5% de gingeróis e certificação de qualidade.',
+    conclusion: 'O gengibre em cápsulas é uma forma prática e eficaz de obter os benefícios desta raiz milenar. Priorize extratos padronizados com mínimo de 5% de gingeróis e certificação de qualidade. Se quiser transformar a escolha do suplemento em estratégia completa, revise também o artigo sobre [gengibre](/artigos/gengibre-beneficios-usos-evidencias), o conteúdo de [saúde digestiva natural](/bem-estar/saude-digestiva-natural) e o artigo de [ômega-3 natural](/artigos/omega-3-natural-fontes-vegetais-beneficios) para reforçar a frente anti-inflamatória.',
     relatedGuides: ['melhor-anti-inflamatorio-natural'],
     relatedPlants: ['gengibre', 'curcuma']
   },
