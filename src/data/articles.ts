@@ -2349,6 +2349,19 @@ O chá verde ficou famoso por promessas exageradas de emagrecimento, então vale
 
 O matcha pode oferecer um efeito metabólico mais intenso por concentrar catequinas e cafeína em maior quantidade, mas isso não o transforma em atalho para perda de peso. É ferramenta, não truque.
 
+### Chá Verde Emagrece Mesmo?
+
+Se a sua dúvida real é essa, a resposta curta é: **sozinho, não**. Chá verde e matcha podem contribuir com um pequeno aumento de gasto energético e com melhor adesão à rotina quando entram no lugar de bebidas muito calóricas ou ajudam no foco pré-treino, mas o impacto costuma ser discreto.
+
+Na prática, eles funcionam melhor como coadjuvantes dentro de um contexto que já faz sentido:
+
+- alimentação ajustada
+- treino consistente
+- sono minimamente decente
+- consumo regular, e não "uso de emergência"
+
+Se o objetivo principal for energia para treinar, vale comparar também com nosso conteúdo sobre [guaraná](/plantas-medicinais/guarana) e com a página de [energia e foco](/bem-estar/energia-e-foco), porque a escolha da fonte de cafeína muda bastante a experiência do dia a dia.
+
 ### Antioxidantes e Proteção Celular
 
 As catequinas ajudam a neutralizar radicais livres e reduzir danos oxidativos. Esse ponto interessa especialmente para quem pensa em longevidade, recuperação e saúde cardiovascular. Se o objetivo é maximizar ingestão antioxidante por xícara, o matcha normalmente leva vantagem.
@@ -2419,6 +2432,8 @@ Dica simples: peneirar o pó antes de bater ajuda bastante a evitar grumos.
 
 ## Como Escolher Entre os Dois
 
+Antes de decidir, pense menos em qual é "mais saudável" e mais em **qual encaixa melhor na sua rotina sem atrito**. Essa costuma ser a diferença entre usar por uma semana e manter por meses.
+
 ### Vá de chá verde se você:
 
 - quer uma opção mais barata
@@ -2434,6 +2449,14 @@ Dica simples: peneirar o pó antes de bater ajuda bastante a evitar grumos.
 - gosta de ritual de preparo
 - pretende usar em smoothies, lattes e receitas
 - aceita pagar mais por densidade nutricional
+
+## Melhor Escolha Para Cada Contexto
+
+- **Manhã corrida:** matcha faz mais sentido quando você quer uma bebida mais concentrada e com foco mental perceptível logo cedo
+- **Meio da tarde:** chá verde costuma ser a opção mais segura para evitar exagero de cafeína e preservar o sono
+- **Pré-treino leve:** ambos podem funcionar, mas o matcha tende a entregar estímulo mais claro
+- **Rotina de longo prazo:** chá verde geralmente vence no custo, facilidade de preparo e adesão
+- **Receitas e lattes:** matcha leva vantagem porque se incorpora melhor a shakes, smoothies e bebidas vegetais
 
 ## Contraindicações e Cuidados
 
@@ -2461,7 +2484,7 @@ O melhor não é o mais famoso — é o que você consegue preparar corretamente
     category: "Plantas Medicinais",
     tags: ["chá verde", "matcha", "antioxidante", "metabolismo", "egcg", "foco mental"],
     author: "Marta Leni, Farmacêutica Clínica",
-    publishedAt: "2026-05-03",
+    publishedAt: "2026-05-31",
     readTime: 12
   },
   {
