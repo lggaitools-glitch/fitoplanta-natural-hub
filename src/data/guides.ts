@@ -314,8 +314,8 @@ export const guides: Guide[] = [
         cons: ['Efeito demora a aparecer', 'Preço elevado']
       }
     ],
-    conclusion: 'O guaraná é ideal para energia rápida, enquanto o ginseng funciona melhor a longo prazo como adaptógeno. Para lapidar foco mental e reduzir a sensação de pico e queda, combine este guia com os conteúdos sobre [chá verde vs matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios), [alecrim para memória](/artigos/alecrim-beneficios-memoria-digestao) e [energia e foco](/bem-estar/energia-e-foco).',
-    relatedGuides: ['melhor-suplemento-estresse-ansiedade'],
+    conclusion: 'O guaraná é ideal para energia rápida, enquanto o ginseng funciona melhor a longo prazo como adaptógeno. Para lapidar foco mental e reduzir a sensação de pico e queda, combine este guia com os conteúdos sobre [chá verde vs matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios), [alecrim para memória](/artigos/alecrim-beneficios-memoria-digestao), [energia e foco](/bem-estar/energia-e-foco) e o comparativo [Melhor Moringa em Cápsulas](/guias/melhor-moringa-capsulas) quando a baixa energia vier junto de rotina corrida e suporte nutricional insuficiente.',
+    relatedGuides: ['melhor-suplemento-estresse-ansiedade', 'melhor-moringa-capsulas'],
     relatedPlants: ['guarana', 'ginseng', 'rhodiola', 'moringa']
   },
   {
@@ -464,7 +464,7 @@ export const guides: Guide[] = [
         cons: ['Cápsulas grandes', 'Não é orgânico']
       }
     ],
-    conclusion: 'Para quem busca praticidade no Brasil, a Vitafor oferece boa qualidade com certificação. Se você prefere orgânico e pode importar, a Organic India é referência mundial em moringa. Independente da marca, priorize produtos que informem a origem da matéria-prima, a parte da planta utilizada e eventuais certificações de qualidade. Antes de comprar, vale revisar também o artigo sobre [moringa](/artigos/moringa-superalimento-medicinal-ciencia), a página da [planta moringa](/plantas-medicinais/moringa), o conteúdo de [moringa em cápsulas](/suplementos-naturais/moringa-capsulas), a trilha de [imunidade natural](/bem-estar/imunidade-natural) e os contextos de [energia e foco](/bem-estar/energia-e-foco) e [saúde feminina natural](/bem-estar/saude-feminina-natural) para alinhar expectativa, dose e objetivo de uso.',
+    conclusion: 'Para quem busca praticidade no Brasil, a Vitafor oferece boa qualidade com certificação. Se você prefere orgânico e pode importar, a Organic India é referência mundial em moringa. Independente da marca, priorize produtos que informem a origem da matéria-prima, a parte da planta utilizada e eventuais certificações de qualidade. Antes de comprar, vale revisar também o artigo sobre [moringa](/artigos/moringa-superalimento-medicinal-ciencia), a página da [planta moringa](/plantas-medicinais/moringa), o conteúdo de [moringa em cápsulas](/suplementos-naturais/moringa-capsulas), a trilha de [imunidade natural](/bem-estar/imunidade-natural), o guia [Melhor Suplemento Para Energia Natural](/guias/melhor-energia-natural) e os contextos de [energia e foco](/bem-estar/energia-e-foco) e [saúde feminina natural](/bem-estar/saude-feminina-natural) para alinhar expectativa, dose e objetivo de uso.',
     relatedGuides: ['melhor-suplemento-para-imunidade', 'melhor-energia-natural'],
     relatedPlants: ['moringa', 'curcuma', 'equinacea']
   }
