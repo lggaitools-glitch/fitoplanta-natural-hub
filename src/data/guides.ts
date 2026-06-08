@@ -419,7 +419,7 @@ export const guides: Guide[] = [
     description: 'Comparativo das melhores marcas de moringa em cápsulas disponíveis no Brasil e EUA. Avaliamos pureza, concentração de nutrientes, certificações e custo-benefício.',
     category: 'imunidade',
     heroImage: '/guides/moringa.jpg',
-    introduction: 'A moringa (Moringa oleifera) é considerada um dos superalimentos mais completos da natureza, com mais de 90 nutrientes identificados. Em cápsulas, oferece praticidade para quem deseja aproveitar seus benefícios antioxidantes, anti-inflamatórios e imunomoduladores sem precisar preparar chás ou adicionar o pó a receitas. Neste guia, comparamos as melhores opções do mercado.',
+    introduction: 'A moringa (Moringa oleifera) é considerada um dos superalimentos mais completos da natureza, com mais de 90 nutrientes identificados. Em cápsulas, oferece praticidade para quem deseja aproveitar seus benefícios antioxidantes, anti-inflamatórios e imunomoduladores sem precisar preparar chás ou adicionar o pó a receitas. O ponto crítico é separar produtos com folha de boa procedência e rotulagem transparente de fórmulas genéricas com pouca informação sobre origem, concentração e testes de qualidade. Neste guia, comparamos as melhores opções do mercado.',
     criteria: [
       'Pureza e origem da moringa (orgânica preferível)',
       'Concentração de nutrientes e antioxidantes',
@@ -464,8 +464,8 @@ export const guides: Guide[] = [
         cons: ['Cápsulas grandes', 'Não é orgânico']
       }
     ],
-    conclusion: 'Para quem busca praticidade no Brasil, a Vitafor oferece boa qualidade com certificação. Se você prefere orgânico e pode importar, a Organic India é referência mundial em moringa. Independente da marca, priorize produtos que informem a origem da matéria-prima e possuam certificações de qualidade. Antes de comprar, vale revisar também o artigo sobre [moringa](/artigos/moringa-superalimento-medicinal-ciencia), a página da [planta moringa](/plantas-medicinais/moringa), o conteúdo de [imunidade natural](/bem-estar/imunidade-natural) e os contextos de [energia e foco](/bem-estar/energia-e-foco) e [saúde feminina natural](/bem-estar/saude-feminina-natural) para alinhar expectativa, dose e objetivo de uso.',
-    relatedGuides: ['melhor-suplemento-para-imunidade'],
+    conclusion: 'Para quem busca praticidade no Brasil, a Vitafor oferece boa qualidade com certificação. Se você prefere orgânico e pode importar, a Organic India é referência mundial em moringa. Independente da marca, priorize produtos que informem a origem da matéria-prima, a parte da planta utilizada e eventuais certificações de qualidade. Antes de comprar, vale revisar também o artigo sobre [moringa](/artigos/moringa-superalimento-medicinal-ciencia), a página da [planta moringa](/plantas-medicinais/moringa), o conteúdo de [moringa em cápsulas](/suplementos-naturais/moringa-capsulas), a trilha de [imunidade natural](/bem-estar/imunidade-natural) e os contextos de [energia e foco](/bem-estar/energia-e-foco) e [saúde feminina natural](/bem-estar/saude-feminina-natural) para alinhar expectativa, dose e objetivo de uso.',
+    relatedGuides: ['melhor-suplemento-para-imunidade', 'melhor-energia-natural'],
     relatedPlants: ['moringa', 'curcuma', 'equinacea']
   }
 ];

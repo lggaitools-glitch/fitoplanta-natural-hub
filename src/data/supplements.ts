@@ -151,7 +151,7 @@ export const supplements: Supplement[] = [
     name: 'Moringa em Cápsulas',
     plant: 'Moringa',
     form: 'Cápsulas',
-    description: 'As cápsulas de moringa (Moringa oleifera) concentram o perfil nutricional extraordinário desta planta em uma forma prática e de dosagem controlada. Ricas em vitaminas, minerais, aminoácidos e antioxidantes, são ideais para quem busca um superalimento natural para fortalecer a imunidade, combater a inflamação e apoiar o bem-estar geral.',
+    description: 'As cápsulas de moringa (Moringa oleifera) concentram o perfil nutricional extraordinário desta planta em uma forma prática e de dosagem controlada. São especialmente úteis para quem quer usar folha integral ou extrato padronizado sem depender de chás ou do pó em receitas, com foco em imunidade, suporte antioxidante e rotina nutricional mais consistente.',
     benefits: [
       'Perfil nutricional completo (vitaminas A, C, E, cálcio, ferro)',
       'Ação antioxidante e anti-inflamatória',
@@ -159,9 +159,9 @@ export const supplements: Supplement[] = [
       'Auxílio no controle glicêmico',
       'Pode contribuir para redução do colesterol',
       'Dosagem padronizada e conveniente',
-      'Fácil de incluir na rotina diária'
+      'Alternativa prática ao pó e ao chá de moringa'
     ],
-    howToUse: 'Tomar 1 a 2 cápsulas por dia com as refeições. Iniciar com 1 cápsula e aumentar gradualmente. Pode ser usada diariamente como suplemento nutricional.',
+    howToUse: 'Tomar 1 a 2 cápsulas por dia com as refeições, preferencialmente no café da manhã ou almoço. Iniciar com 1 cápsula por alguns dias e aumentar gradualmente conforme tolerância. Se o objetivo for suporte glicêmico ou uso junto de outros suplementos, vale revisar a dose com profissional de saúde.',
     dosage: 'Dosagem típica: 500-1000mg de extrato padronizado ou pó de folha por dia'
   },
   {

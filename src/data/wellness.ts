@@ -57,7 +57,7 @@ Nosso corpo possui duas linhas de defesa: a imunidade inata (nascemos com ela) e
 
 ## Plantas Que Fortalecem a Imunidade
 
-A equinácea é a campeã quando o assunto é imunidade. Estudos mostram que ela pode reduzir a duração de resfriados e prevenir novas infecções. A [moringa](/artigos/moringa-superalimento-medicinal-ciencia), rica em vitaminas A e C, minerais e antioxidantes, também é uma excelente aliada para o sistema imunológico. O própolis e a vitamina C são complementos excelentes.
+A equinácea é a campeã quando o assunto é imunidade. Estudos mostram que ela pode reduzir a duração de resfriados e prevenir novas infecções. A [moringa](/artigos/moringa-superalimento-medicinal-ciencia), rica em vitaminas A e C, minerais e antioxidantes, também é uma excelente aliada para o sistema imunológico. Se a ideia for uma forma mais prática de uso no dia a dia, vale comparar o suplemento de [moringa em cápsulas](/suplementos-naturais/moringa-capsulas) com o guia [Melhor Moringa em Cápsulas](/guias/melhor-moringa-capsulas). O própolis e a vitamina C são complementos excelentes.
 
 ## Estilo de Vida Imune
 
@@ -87,7 +87,7 @@ Energéticos e excesso de café podem dar um impulso imediato, mas frequentement
 
 ## Plantas Para Energia
 
-O guaraná brasileiro é um dos melhores estimulantes naturais, com cafeína de liberação gradual. O [chá verde e o matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) são alternativas ricas em L-teanina, que promove foco mental sem a agitação do café. O ginseng, por sua vez, trabalha diferente: como adaptógeno, ele ajuda o corpo a produzir energia de forma mais eficiente ao longo do tempo. O [alecrim](/artigos/alecrim-beneficios-memoria-digestao) é outro aliado natural para o foco, estudos mostram que a simples inalação de seu aroma pode melhorar o estado de alerta e reduzir a fadiga mental. Já a [moringa](/artigos/moringa-superalimento-medicinal-ciencia) faz sentido quando a queixa principal vem acompanhada de baixa ingestão de micronutrientes, rotina corrida e necessidade de suporte antioxidante mais amplo.
+O guaraná brasileiro é um dos melhores estimulantes naturais, com cafeína de liberação gradual. O [chá verde e o matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) são alternativas ricas em L-teanina, que promove foco mental sem a agitação do café. O ginseng, por sua vez, trabalha diferente: como adaptógeno, ele ajuda o corpo a produzir energia de forma mais eficiente ao longo do tempo. O [alecrim](/artigos/alecrim-beneficios-memoria-digestao) é outro aliado natural para o foco, estudos mostram que a simples inalação de seu aroma pode melhorar o estado de alerta e reduzir a fadiga mental. Já a [moringa](/artigos/moringa-superalimento-medicinal-ciencia) faz sentido quando a queixa principal vem acompanhada de baixa ingestão de micronutrientes, rotina corrida e necessidade de suporte antioxidante mais amplo. Nesses casos, o formato de [moringa em cápsulas](/suplementos-naturais/moringa-capsulas) pode ser mais prático, e o comparativo [Melhor Moringa em Cápsulas](/guias/melhor-moringa-capsulas) ajuda a separar boas marcas de opções genéricas.
 
 ## Hábitos Energizantes
 
