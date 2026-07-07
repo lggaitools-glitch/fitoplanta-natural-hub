@@ -262,14 +262,14 @@ Consulte um profissional de saúde se você apresentar: dor articular persistent
     subtitle: 'Bem-estar Feminino em Todas as Fases da Vida',
     description: 'Conheça as plantas medicinais e suplementos naturais que auxiliam a saúde feminina — da TPM à menopausa, passando por gestação e manejo do estresse.',
     heroImage: '/wellness/saude-feminina.jpg',
-    introduction: 'O corpo feminino passa por transformações constantes ao longo da vida. Ciclo menstrual, gestação, amamentação e menopausa são fases que exigem atenção especial. A fitoterapia pode ser uma aliada importante em cada uma delas — sempre com acompanhamento profissional.',
-    content: `A saúde feminina envolve necessidades específicas que mudam com o tempo. Plantas medicinais são usadas há séculos por mulheres no mundo todo, e hoje muitas dessas tradições contam com respaldo científico.
+    introduction: 'O corpo feminino passa por transformações constantes ao longo da vida. Ciclo menstrual, gestação, amamentação, perimenopausa e menopausa exigem estratégias diferentes. A fitoterapia pode ser uma aliada importante em cada uma delas — sempre com acompanhamento profissional.',
+    content: `A saúde feminina envolve necessidades específicas que mudam com o tempo. Da fase reprodutiva à menopausa, o que funciona para aliviar TPM, melhorar o sono ou reduzir o estresse precisa respeitar contexto hormonal, sintomas predominantes e segurança de uso. Plantas medicinais são usadas há séculos por mulheres no mundo todo, e hoje muitas dessas tradições contam com respaldo científico.
 
 ## Plantas Para TPM (Tensão Pré-Menstrual)
 
 A TPM afeta até 80% das mulheres em idade reprodutiva. Os sintomas — irritabilidade, inchaço, dores de cabeça e cólicas — podem ser aliviados com abordagens naturais.
 
-O **agnus castus** (vitex) é um dos fitoterápicos com mais evidências para TPM — atua na regulação da prolactina e pode reduzir irritabilidade, mastalgia e retenção hídrica. A [melissa](/plantas-medicinais/melissa) possui ação antiespasmódica e calmante que ajuda a reduzir a irritabilidade e a ansiedade pré-menstrual. A **camomila** é outra grande aliada: seus flavonoides atuam no relaxamento muscular, aliviando cólicas e tensão. Já o **maracujá** ([passiflora](/artigos/passiflora-ansiedade-maracuja-medicinal)) contribui para a qualidade do sono e o equilíbrio emocional nessa fase.
+O **agnus castus** (vitex) é um dos fitoterápicos com mais evidências para TPM — atua na regulação da prolactina e pode reduzir irritabilidade, mastalgia e retenção hídrica. A [melissa](/plantas-medicinais/melissa) possui ação antiespasmódica e calmante que ajuda a reduzir a irritabilidade e a ansiedade pré-menstrual. A [camomila](/artigos/camomila-beneficios-surpreendentes-alem-calmante) é outra grande aliada: seus flavonoides atuam no relaxamento muscular, aliviando cólicas e tensão. Já o **maracujá** ([passiflora](/artigos/passiflora-ansiedade-maracuja-medicinal)) contribui para a qualidade do sono e o equilíbrio emocional nessa fase.
 
 ## Plantas Para a Menopausa
 
@@ -281,7 +281,7 @@ A [passiflora](/artigos/passiflora-ansiedade-maracuja-medicinal) ajuda no contro
 
 **Atenção: qualquer suplementação durante a gestação deve ser orientada e acompanhada pelo obstetra.** Muitas plantas medicinais são contraindicadas nesse período.
 
-O ácido fólico e o ferro são nutrientes essenciais, e o [DHA (ômega-3)](/artigos/omega-3-natural-fontes-vegetais-beneficios) é fundamental para o desenvolvimento cerebral e visual do bebê — converse com seu obstetra sobre a suplementação adequada. Algumas plantas como camomila em doses baixas e gengibre para náuseas matinais podem ser consideradas — sempre sob supervisão médica. Evite automedicação fitoterápica durante a gravidez e a amamentação.
+O ácido fólico e o ferro são nutrientes essenciais, e o [DHA (ômega-3)](/artigos/omega-3-natural-fontes-vegetais-beneficios) é fundamental para o desenvolvimento cerebral e visual do bebê — converse com seu obstetra sobre a suplementação adequada. Algumas plantas como camomila em doses baixas e gengibre para náuseas matinais podem ser consideradas — sempre sob supervisão médica. Já adaptógenos como ashwagandha e rhodiola, além de plantas com perfil sedativo mais forte como valeriana, devem ser evitados na gestação salvo orientação expressa do obstetra. Evite automedicação fitoterápica durante a gravidez e a amamentação.
 
 ## Adaptógenos Para o Estresse Feminino
 
@@ -289,7 +289,7 @@ Mulheres enfrentam demandas específicas que podem gerar estresse crônico. Os a
 
 A **ashwagandha** é um dos adaptógenos mais estudados: reduz os níveis de cortisol, melhora a qualidade do sono e pode auxiliar no equilíbrio hormonal. Estudos mostram benefícios para a libido e a vitalidade feminina. Para comparar adaptógenos com mais profundidade, leia também nossos artigos sobre [ashwagandha](/artigos/ashwagandha-adaptogeno-beneficios) e [rhodiola](/artigos/rhodiola-rosea-adaptogeno-energia-foco). Em fases de cansaço persistente, faz sentido cruzar essa estratégia com [energia e foco](/bem-estar/energia-e-foco), especialmente quando há sobrecarga mental, sono fragmentado e necessidade de suporte nutricional com [moringa](/artigos/moringa-superalimento-medicinal-ciencia).
 
-A **valeriana** e a **melissa** também contribuem para o manejo do estresse, especialmente quando combinadas com técnicas de respiração e exercício físico regular. Se o objetivo for melhorar o descanso, complemente com as páginas de [sono natural](/bem-estar/sono-natural) e o guia de [melhor fitoterápico para sono](/guias/melhor-fitoterapico-para-sono).
+A **valeriana** e a **melissa** também contribuem para o manejo do estresse, especialmente quando combinadas com técnicas de respiração e exercício físico regular. Se o objetivo for melhorar o descanso, complemente com as páginas de [gestão do estresse](/bem-estar/gestao-do-estresse), [sono natural](/bem-estar/sono-natural) e o guia de [melhor fitoterápico para sono](/guias/melhor-fitoterapico-para-sono).
 
 ## Quando Procurar um Ginecologista
 

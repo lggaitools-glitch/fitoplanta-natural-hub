@@ -624,7 +624,7 @@ Para garantir eficácia:
 
 A ashwagandha representa uma ponte fascinante entre medicina ancestral e ciência moderna. Com mais de 300 estudos publicados, ela prova que nem todos os "remédios da vovó" são superstição — alguns são ouro puro.
 
-Para quem busca uma abordagem natural ao estresse crônico, problemas de sono ou baixa energia, a ashwagandha pode ser uma aliada valiosa. Como sempre, comece devagar, escolha produtos de qualidade e considere orientação profissional para resultados otimizados.
+Para quem busca uma abordagem natural ao estresse crônico, problemas de sono ou baixa energia, a ashwagandha pode ser uma aliada valiosa. Como sempre, comece devagar, escolha produtos de qualidade e considere orientação profissional para resultados otimizados. Se a dúvida for como encaixar adaptógenos, calmantes naturais e suplementação em fases como TPM, perimenopausa e menopausa, continue em [saúde feminina natural](/bem-estar/saude-feminina-natural).
 
 ---
 
@@ -1558,7 +1558,7 @@ A passiflora é considerada muito segura. Os principais cuidados são:
 
 ## Conclusão
 
-A passiflora é um dos fitoterápicos ansiolíticos mais bem estudados e seguros disponíveis. Para ansiedade leve a moderada, oferece uma alternativa eficaz aos medicamentos convencionais, sem os riscos de dependência. Como todo fitoterápico, deve ser usada com orientação profissional.
+A passiflora é um dos fitoterápicos ansiolíticos mais bem estudados e seguros disponíveis. Para ansiedade leve a moderada, oferece uma alternativa eficaz aos medicamentos convencionais, sem os riscos de dependência. Como todo fitoterápico, deve ser usada com orientação profissional. Para um uso mais contextualizado em TPM, perimenopausa e sono fragmentado, vale continuar em [saúde feminina natural](/bem-estar/saude-feminina-natural).
 
 ---
 
@@ -1812,7 +1812,7 @@ A camomila é uma das plantas medicinais mais seguras:
 
 ## Conclusão
 
-A camomila merece muito mais respeito do que recebe. É uma verdadeira farmácia natural em uma única planta — calmante, anti-inflamatória, digestiva, dermatológica e possivelmente protetora metabólica. Incorporá-la na rotina diária é uma das formas mais simples e acessíveis de cuidar da saúde naturalmente.
+A camomila merece muito mais respeito do que recebe. É uma verdadeira farmácia natural em uma única planta — calmante, anti-inflamatória, digestiva, dermatológica e possivelmente protetora metabólica. Incorporá-la na rotina diária é uma das formas mais simples e acessíveis de cuidar da saúde naturalmente. Quando a busca for aliviar cólicas, irritabilidade cíclica e tensão pré-menstrual, esta leitura conversa diretamente com nosso guia de [saúde feminina natural](/bem-estar/saude-feminina-natural).
 
 ---
 
