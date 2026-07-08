@@ -2647,7 +2647,7 @@ O ômega-3 é um nutriente fundamental para a saúde cardiovascular, cerebral e 
     category: "Suplementos Naturais",
     tags: ["ômega-3", "ômega 3 vegetal", "óleo de algas", "linhaça", "chia", "anti-inflamatório", "saúde cardiovascular"],
     author: "Marta Leni, Farmacêutica Clínica",
-    publishedAt: "2026-04-09",
+    publishedAt: "2026-07-08",
     readTime: 11
   },
   {
