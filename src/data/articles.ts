@@ -1142,7 +1142,7 @@ Se o objetivo for montar uma rotina diária, vale cruzar este conteúdo com o gu
 - 25% Guaraná
 - 15% Gengibre
 
-Para quem busca um chá funcional para produtividade, este blend combina especialmente bem com nossos conteúdos de [energia e foco](/bem-estar/energia-e-foco), [alecrim para memória](/artigos/alecrim-beneficios-memoria-digestao) e [saúde cognitiva e memória](/bem-estar/saude-cognitiva-memoria).
+Para quem busca um chá funcional para produtividade, este blend combina especialmente bem com nossos conteúdos de [energia e foco](/bem-estar/energia-e-foco), [alecrim para memória](/artigos/alecrim-beneficios-memoria-digestao) e [saúde cognitiva e memória](/bem-estar/saude-cognitiva-memoria). Se bater a dúvida entre usar a infusão clássica ou partir para o pó, vale ler também o comparativo [chá verde vs matcha](/artigos/cha-verde-vs-matcha-diferencas-beneficios) antes de ajustar a dose do blend.
 
 **Preparo:** Infusão por 6 minutos
 
@@ -2429,6 +2429,8 @@ Se a bebida ficou excessivamente amarga, normalmente o problema foi temperatura 
 - Complete com mais água ou bebida vegetal, se quiser versão latte
 
 Dica simples: peneirar o pó antes de bater ajuda bastante a evitar grumos.
+
+Se você quiser refinar temperatura, tempo de infusão e proporções em outras ervas além da *Camellia sinensis*, vale cruzar a leitura com o nosso guia de [chás medicinais](/artigos/chas-medicinais-guia-preparo-beneficios), que aprofunda esses detalhes de preparo.
 
 ## Como Escolher Entre os Dois
 
