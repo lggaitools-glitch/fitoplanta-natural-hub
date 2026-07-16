@@ -2781,7 +2781,7 @@ O alecrim é um verdadeiro tesouro da fitoterapia — acessível, versátil e co
     category: "Plantas Medicinais",
     tags: ["alecrim", "alecrim benefícios", "chá de alecrim", "alecrim para memória", "rosmarinus officinalis", "ácido rosmarínico", "saúde cognitiva"],
     author: "Marta Leni, Farmacêutica Clínica",
-    publishedAt: "2026-04-10",
+    publishedAt: "2026-07-16",
     readTime: 12
   }
 ];
