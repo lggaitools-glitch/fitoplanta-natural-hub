@@ -2360,7 +2360,7 @@ Na prática, eles funcionam melhor como coadjuvantes dentro de um contexto que j
 - sono minimamente decente
 - consumo regular, e não "uso de emergência"
 
-Se o objetivo principal for energia para treinar, vale comparar também com nosso conteúdo sobre [guaraná](/plantas-medicinais/guarana) e com a página de [energia e foco](/bem-estar/energia-e-foco), porque a escolha da fonte de cafeína muda bastante a experiência do dia a dia.
+Se o objetivo principal for energia para treinar, vale comparar também com nosso conteúdo sobre [guaraná](/plantas-medicinais/guarana) e com a página de [energia e foco](/bem-estar/energia-e-foco), porque a escolha da fonte de cafeína muda bastante a experiência do dia a dia. Se a sua estratégia inclui trocar bebidas açucaradas por opções mais funcionais, vale cruzar essa leitura com o artigo sobre [probióticos naturais e saúde intestinal](/artigos/probioticos-naturais-saude-intestinal) para olhar também o impacto da rotina alimentar como um todo.
 
 ### Antioxidantes e Proteção Celular
 
@@ -2486,7 +2486,7 @@ O melhor não é o mais famoso — é o que você consegue preparar corretamente
     category: "Plantas Medicinais",
     tags: ["chá verde", "matcha", "antioxidante", "metabolismo", "egcg", "foco mental"],
     author: "Marta Leni, Farmacêutica Clínica",
-    publishedAt: "2026-05-31",
+    publishedAt: "2026-08-09",
     readTime: 12
   },
   {
