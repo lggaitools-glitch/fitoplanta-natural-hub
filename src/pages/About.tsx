@@ -396,9 +396,7 @@ const About = () => {
 
       {/* CTA - Agendar Consulta */}
       <section id="consulta-section" className="scroll-mt-20">
-        <ConsultationBooking onFormClick={() => {
-          window.location.href = '/contato?assunto=consulta';
-        }} />
+        <ConsultationBooking />
       </section>
 
       {/* Explorar Conteúdo */}
