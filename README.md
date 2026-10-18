@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+# FitoPlantaMed
 
-## Project info
+Content site about phytotherapy and medicinal plants — articles, product pages, and
+silo pages — live at [fitoplantamed.com](https://fitoplantamed.com).
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Stack
 
-## How can I edit this code?
+- Vite + React + TypeScript
+- shadcn-ui + Tailwind CSS
+- Supabase (`send-contact-email` edge function via Resend)
+- Prepared for Vercel deployment (see `vercel.json`); production migration is pending
 
-There are several ways of editing your application.
+## Run locally
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Requires Node.js and npm.
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+npm install
+cp .env.example .env   # then fill in the Supabase values
+npm run dev            # http://localhost:8080
 ```
 
-**Edit a file directly in GitHub**
+Other scripts: `npm run build`, `npm run preview`, `npm run lint`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Environment
 
-**Use GitHub Codespaces**
+| Variable | Purpose |
+|---|---|
+| `VITE_SUPABASE_URL` | Supabase project URL |
+| `VITE_SUPABASE_PUBLISHABLE_KEY` | Supabase publishable (anon) key |
+| `VITE_SUPABASE_PROJECT_ID` | Supabase project ref |
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+`.env` is git-ignored. The edge function needs `RESEND_API_KEY` set as a Supabase
+secret (never in the repo).
 
-## What technologies are used for this project?
+## Layout
 
-This project is built with:
+- `src/pages`, `src/components` — app UI
+- `src/data` — article, plant, and product content
+- `public/sitemap.xml`, `public/robots.txt` — update the sitemap when adding content
+- `supabase/` — config and edge functions
+- `docs/` — content and video plans
+- `ebook/`, `video/` — ebook generator and video production scripts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deploy
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+After the Vercel Git integration is configured with `main` as its production branch,
+pushing to `main` will trigger a production deploy. That setup is not yet verified.

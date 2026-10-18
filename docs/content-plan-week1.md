@@ -137,4 +137,4 @@ No new content. Instead:
 - Include proper H2/H3 structure for SEO + TOC generation
 - Add to appropriate data files (articles.ts, plants.ts, etc.)
 - Update sitemap.xml after each addition
-- Commit + push daily so Lovable deploys automatically
+- Commit + push daily so the site redeploys automatically

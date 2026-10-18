@@ -27,3 +27,8 @@ dist-ssr
 video/clips/
 video/audio/
 video/output/
+
+# Environment
+.env
+.env.*
+!.env.example
