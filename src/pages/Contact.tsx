@@ -1,80 +1,10 @@
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
-import { Mail, Send, Loader2 } from 'lucide-react';
-import { useState, useRef } from 'react';
-import { toast } from 'sonner';
-import { supabase } from '@/integrations/supabase/client';
-import { z } from 'zod';
+import { Mail } from 'lucide-react';
 import { ConsultationBooking } from '@/components/contact/ConsultationBooking';
 import SEOHead from '@/components/seo/SEOHead';
 
-const contactSchema = z.object({
-  name: z.string().trim().min(1, "Nome é obrigatório").max(100, "Nome muito longo"),
-  email: z.string().trim().email("E-mail inválido").max(255, "E-mail muito longo"),
-  phone: z.string().max(20, "Telefone muito longo").optional(),
-  subject: z.string().min(1, "Assunto é obrigatório"),
-  message: z.string().trim().min(1, "Mensagem é obrigatória").max(2000, "Mensagem muito longa"),
-});
-
 const Contact = () => {
-  const formRef = useRef<HTMLDivElement>(null);
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
-  });
-  const [isLoading, setIsLoading] = useState(false);
-
-  const handleFormClick = () => {
-    setFormData(prev => ({ ...prev, subject: 'Agendamento de Consulta Farmacêutica' }));
-    formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    // Validate form data
-    const result = contactSchema.safeParse(formData);
-    if (!result.success) {
-      const firstError = result.error.errors[0];
-      toast.error(firstError.message);
-      return;
-    }
-
-    setIsLoading(true);
-
-    try {
-      const { data, error } = await supabase.functions.invoke('send-contact-email', {
-        body: formData,
-      });
-
-      if (error) {
-        console.error('Error sending message:', error);
-        toast.error('Erro ao enviar mensagem. Por favor, tente novamente.');
-        return;
-      }
-
-      if (data?.error) {
-        toast.error(data.error);
-        return;
-      }
-
-      toast.success('Mensagem enviada com sucesso! Entraremos em contato em breve.');
-      setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
-    } catch (error) {
-      console.error('Error:', error);
-      toast.error('Erro ao enviar mensagem. Por favor, tente novamente.');
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
-  };
-
   return (
     <Layout>
       <SEOHead
@@ -100,7 +30,7 @@ const Contact = () => {
       </section>
 
       {/* Consultation Booking Section */}
-      <ConsultationBooking onFormClick={handleFormClick} />
+      <ConsultationBooking />
 
       {/* Contact Section */}
       <section className="py-20 bg-background">
@@ -122,143 +52,39 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-foreground mb-1">E-mail</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <a href="mailto:fito.planta.med@gmail.com" className="text-muted-foreground text-sm underline underline-offset-4">
                       fito.planta.med@gmail.com
-                    </p>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Contact Form */}
-            <div ref={formRef} className="animate-fade-up delay-100">
+            {/* Temporary Contact Notice */}
+            <div className="animate-fade-up delay-100">
               <div className="bg-card p-8 rounded-2xl shadow-card">
                 <h2 className="font-display text-2xl font-bold text-foreground mb-6">
                   Envie sua Mensagem
                 </h2>
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                        Nome Completo *
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                        value={formData.name}
-                        onChange={handleChange}
-                        disabled={isLoading}
-                        className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-50"
-                        placeholder="Seu nome"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                        E-mail *
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                        value={formData.email}
-                        onChange={handleChange}
-                        disabled={isLoading}
-                        className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-50"
-                        placeholder="seu@email.com"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                        Telefone
-                      </label>
-                      <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        disabled={isLoading}
-                        className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-50"
-                        placeholder="(11) 99000-0000"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-                        Assunto *
-                      </label>
-                      <select
-                        id="subject"
-                        name="subject"
-                        required
-                        value={formData.subject}
-                        onChange={handleChange}
-                        disabled={isLoading}
-                        className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-50"
-                      >
-                        <option value="">Selecione...</option>
-                        <option value="Agendamento de Consulta Farmacêutica">Agendamento de Consulta Farmacêutica</option>
-                        <option value="Dúvidas sobre produtos">Dúvidas sobre produtos</option>
-                        <option value="Informações de pedidos">Informações de pedidos</option>
-                        <option value="Parcerias">Parcerias</option>
-                        <option value="Outros">Outros</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  {formData.subject === 'Agendamento de Consulta Farmacêutica' && (
-                    <div className="p-4 bg-gold/10 border border-gold/30 rounded-lg">
-                      <p className="text-sm text-foreground">
-                        <strong>Consulta com Farmacêutica Clínica Marta Leni</strong>
-                      </p>
-                      <p className="text-xs text-muted-foreground mt-1">
-                        Consulta online com duração de 1h30 a 2h. Entraremos em contato para agendar o melhor horário e informar sobre valores.
-                      </p>
-                    </div>
-                  )}
-
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                      Mensagem *
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      required
-                      rows={5}
-                      value={formData.message}
-                      onChange={handleChange}
-                      disabled={isLoading}
-                      className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none disabled:opacity-50"
-                      placeholder="Como podemos ajudar?"
-                    />
-                  </div>
-
-                  <Button type="submit" size="lg" className="w-full" disabled={isLoading}>
-                    {isLoading ? (
-                      <>
-                        <Loader2 className="w-4 h-4 animate-spin" />
-                        Enviando...
-                      </>
-                    ) : (
-                      <>
-                        <Send className="w-4 h-4" />
-                        Enviar Mensagem
-                      </>
-                    )}
+                <div className="space-y-6">
+                  <p className="text-muted-foreground leading-relaxed">
+                    O formulário online está temporariamente indisponível. Para falar conosco, envie um e-mail para fito.planta.med@gmail.com ou agende sua consulta pelo WhatsApp acima.
+                  </p>
+                  <Button asChild size="lg" className="w-full">
+                    <a href="mailto:fito.planta.med@gmail.com">
+                      <Mail className="w-4 h-4" />
+                      Entrar em contato por e-mail
+                    </a>
                   </Button>
-                </form>
+                  <p className="text-sm text-muted-foreground">
+                    O link abre seu aplicativo de e-mail. Nenhuma mensagem é enviada automaticamente pelo site.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
     </Layout>
   );
 };

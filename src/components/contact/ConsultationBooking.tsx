@@ -1,11 +1,7 @@
-import { Calendar, Video, Clock, MessageCircle, User } from 'lucide-react';
+import { Calendar, Video, Clock, MessageCircle, User, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-interface ConsultationBookingProps {
-  onFormClick: () => void;
-}
-
-export const ConsultationBooking = ({ onFormClick }: ConsultationBookingProps) => {
+export const ConsultationBooking = () => {
   const whatsappNumber = '5511992014584';
   const whatsappMessage = encodeURIComponent('Olá! Gostaria de agendar uma consulta farmacêutica com a Dra. Marta Leni.');
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
@@ -111,11 +107,13 @@ export const ConsultationBooking = ({ onFormClick }: ConsultationBookingProps) =
                     <Button
                       variant="outline"
                       size="lg"
-                      onClick={onFormClick}
+                      asChild
                       className="w-full py-4 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                     >
-                      <Calendar className="w-5 h-5" />
-                      Solicitar via Formulário
+                      <a href="mailto:fito.planta.med@gmail.com?subject=Agendamento%20de%20Consulta%20Farmac%C3%AAutica">
+                        <Mail className="w-5 h-5" />
+                        Solicitar por E-mail
+                      </a>
                     </Button>
 
                     <p className="text-center text-xs text-muted-foreground">
