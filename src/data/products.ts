@@ -195,7 +195,7 @@ Mas será que o guaraná em cápsulas é realmente superior ao café comum? Ou �
     description: `A Ashwagandha KSM-66® é considerada o padrão ouro dos extratos de ashwagandha, sendo a forma mais pesquisada e clinicamente testada disponível no mercado. Diferente de extratos genéricos, o KSM-66 utiliza exclusivamente a raiz da planta e possui mais de 20 estudos clínicos que comprovam sua eficácia na redução do cortisol, melhora do estresse e aumento da energia.
 
 Este extrato patenteado e padronizado garante 5% de witanolídeos (os compostos ativos da ashwagandha) através de um processo de extração único que preserva o perfil completo de compostos da raiz, sem uso de álcool ou solventes químicos.`,
-    image: "/products/ashwagandha-ksm66.jpg",
+    image: "/og-image.jpg",
     category: "Adaptógenos e Estresse",
     benefits: [
       "Redução comprovada de 27% nos níveis de cortisol",
@@ -252,7 +252,7 @@ Este extrato patenteado e padronizado garante 5% de witanolídeos (os compostos 
     description: `A combinação de cúrcuma (curcumina) com piperina representa uma das soluções mais eficazes para inflamação crônica disponível naturalmente. A piperina, extraída da pimenta-do-reino, aumenta a biodisponibilidade da curcumina em até 2000%, resolvendo o principal problema desta especiaria milenar.
 
 Esta formulação oferece benefícios anti-inflamatórios comparáveis ao ibuprofeno para dor articular, mas sem os efeitos colaterais gastrointestinais. Ideal para quem busca alternativa natural aos anti-inflamatórios convencionais ou deseja suporte preventivo para saúde articular.`,
-    image: "/products/curcuma-piperina.jpg",
+    image: "/og-image.jpg",
     category: "Anti-inflamatórios Naturais",
     benefits: [
       "Redução significativa de marcadores inflamatórios",
@@ -308,7 +308,7 @@ Esta formulação oferece benefícios anti-inflamatórios comparáveis ao ibupro
     description: `O Ginkgo Biloba é uma das plantas medicinais mais antigas e estudadas para suporte cognitivo, com mais de 300 estudos clínicos documentando seus benefícios para memória, concentração e circulação cerebral. Esta "árvore da memória" de 200 milhões de anos oferece compostos únicos que melhoram o fluxo sanguíneo cerebral e protegem os neurônios contra danos oxidativos.
 
 Extratos padronizados de Ginkgo (EGb 761) são reconhecidos como medicamento de prescrição em vários países europeus para demência e declínio cognitivo, demonstrando a seriedade científica desta planta milenar.`,
-    image: "/products/ginkgo-biloba.jpg",
+    image: "/og-image.jpg",
     category: "Cognição e Memória",
     benefits: [
       "Melhora da memória de curto e longo prazo",

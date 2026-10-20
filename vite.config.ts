@@ -4,6 +4,9 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(() => ({
+  // This frontend has no runtime secrets; never load local .env files.
+  envDir: path.resolve(__dirname, '.no-env'),
+  appType: "mpa" as const,
   server: {
     host: "::",
     port: 8080,

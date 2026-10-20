@@ -131,6 +131,7 @@ const PlantSubpage = () => {
   return (
     <Layout>
       <SEOHead
+        type="article"
         title={`${subpage.title} - ${plant.name}`}
         description={subpage.description}
       />
@@ -157,7 +158,7 @@ const PlantSubpage = () => {
                 <a 
                   href={AFFILIATE_CONFIG.mainLink} 
                   target="_blank" 
-                  rel="noopener noreferrer nofollow"
+                  rel="noopener noreferrer nofollow sponsored"
                 >
                   {AFFILIATE_CONFIG.plantCtaText}
                   <ExternalLink className="w-4 h-4 ml-2" />

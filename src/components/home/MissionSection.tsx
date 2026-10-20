@@ -4,12 +4,12 @@ const values = [
   {
     icon: Target,
     title: 'Missão',
-    description: 'Oferecer produtos naturais com eficácia e segurança, promovendo saúde e bem-estar através da fitoterapia baseada em evidências científicas.',
+    description: 'Compartilhar informações sobre fitoterapia e facilitar o contato para consultas farmacêuticas.',
   },
   {
     icon: Eye,
     title: 'Visão',
-    description: 'Tornar-se referência internacional no mercado de fitoterápicos e produtos naturais, sendo reconhecida pela excelência e inovação.',
+    description: 'Contribuir para uma leitura crítica e consciente das informações sobre plantas medicinais.',
   },
   {
     icon: Heart,

@@ -51,6 +51,7 @@ const ArticleImage = ({ src, alt, category }: { src: string; alt: string; catego
 export const ArticleCard = ({ article }: ArticleCardProps) => {
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('pt-BR', {
+      timeZone: 'UTC',
       day: 'numeric',
       month: 'long',
       year: 'numeric',

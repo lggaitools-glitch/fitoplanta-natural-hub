@@ -7,30 +7,21 @@ import { Leaf, Check, Star, ChevronLeft, ExternalLink, AlertCircle, ThumbsUp, Th
 import ProductSchema from '@/components/seo/ProductSchema';
 import { AFFILIATE_CONFIG } from '@/config/affiliate';
 import SEOHead from '@/components/seo/SEOHead';
+import NotFound from './NotFound';
 import { StickyAffiliateCTA } from '@/components/monetization/StickyAffiliateCTA';
 
 const ProductDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const product = getProductBySlug(slug || '');
 
-  if (!product) {
-    return (
-      <Layout>
-        <div className="container mx-auto px-4 py-20 text-center">
-          <h1 className="font-display text-3xl font-bold mb-4">Produto não encontrado</h1>
-          <Button asChild>
-            <Link to="/produtos">Ver Produtos</Link>
-          </Button>
-        </div>
-      </Layout>
-    );
-  }
+  if (!product) return <NotFound />;
 
   const relatedProducts = productReviews.filter(p => p.id !== product.id).slice(0, 2);
 
   return (
     <Layout>
       <SEOHead
+        type="article"
         title={product.name}
         description={product.tagline}
         ogImage={product.image}
@@ -118,7 +109,7 @@ const ProductDetail = () => {
 
               {/* CTA */}
               <Button size="lg" variant="premium" className="w-full sm:w-auto" asChild>
-                <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow">
+                <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow sponsored">
                   {AFFILIATE_CONFIG.ctaText}
                   <ExternalLink className="w-5 h-5" />
                 </a>

@@ -9,8 +9,8 @@ interface InArticleCTAProps {
 }
 
 export const InArticleCTA = ({ 
-  productName = 'Suplementos Naturais Premium',
-  description = 'Produtos selecionados com base científica e qualidade garantida.',
+  productName = 'Conheça a loja parceira',
+  description = 'Link de afiliado para a loja, não para um produto específico. Podemos receber comissão.',
   ctaText = AFFILIATE_CONFIG.ctaText,
   variant = 'default'
 }: InArticleCTAProps) => {
@@ -41,7 +41,7 @@ export const InArticleCTA = ({
           <a
             href={AFFILIATE_CONFIG.mainLink}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer nofollow sponsored"
             onClick={handleClick}
             className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors whitespace-nowrap"
           >
@@ -67,7 +67,7 @@ export const InArticleCTA = ({
           <a
             href={AFFILIATE_CONFIG.mainLink}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer nofollow sponsored"
             onClick={handleClick}
             className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-primary rounded-lg font-semibold hover:bg-accent/90 transition-colors shadow-gold"
           >
@@ -95,7 +95,7 @@ export const InArticleCTA = ({
         <a
           href={AFFILIATE_CONFIG.mainLink}
           target="_blank"
-          rel="noopener noreferrer nofollow"
+          rel="noopener noreferrer nofollow sponsored"
           onClick={handleClick}
           className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-xl font-semibold hover:bg-primary/90 transition-colors"
         >
@@ -104,7 +104,7 @@ export const InArticleCTA = ({
         </a>
         <span className="text-xs text-muted-foreground flex items-center gap-1">
           <Shield className="w-3 h-3" />
-          Qualidade verificada pela equipe FitoPlantaMed
+          Link de afiliado — podemos receber comissão
         </span>
       </div>
     </div>

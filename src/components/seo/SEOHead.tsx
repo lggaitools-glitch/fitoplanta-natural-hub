@@ -1,4 +1,5 @@
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
+import { HeadContext, normalizePath } from '@/lib/seo';
 import { useLocation } from 'react-router-dom';
 
 const SITE_DOMAIN = 'https://fitoplantamed.com';
@@ -9,19 +10,25 @@ interface SEOHeadProps {
   description: string;
   robots?: 'index,follow' | 'noindex,follow' | 'noindex,nofollow';
   ogImage?: string;
+  type?: 'website' | 'article';
 }
 
 const SEOHead = ({ 
   title, 
   description, 
   robots = 'index,follow',
-  ogImage = '/og-image.jpg'
+  ogImage = '/og-image.jpg',
+  type = 'website'
 }: SEOHeadProps) => {
   const location = useLocation();
   
   // Build canonical URL from current path
-  const canonicalUrl = `${SITE_DOMAIN}${location.pathname}`;
+  const canonicalUrl = `${SITE_DOMAIN}${normalizePath(location.pathname)}`;
   const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+
+  const imageUrl = new URL(ogImage, SITE_DOMAIN).href;
+  const head = useContext(HeadContext);
+  if (head) head.metadata = { title: fullTitle, description, canonical: canonicalUrl, robots, image: imageUrl, type };
 
   useEffect(() => {
     // Update document title
@@ -65,8 +72,8 @@ const SEOHead = ({
     updateMeta('og:title', fullTitle, true);
     updateMeta('og:description', description, true);
     updateMeta('og:url', canonicalUrl, true);
-    updateMeta('og:type', 'website', true);
-    updateMeta('og:image', `${SITE_DOMAIN}${ogImage}`, true);
+    updateMeta('og:type', type, true);
+    updateMeta('og:image', imageUrl, true);
     updateMeta('og:locale', 'pt_BR', true);
     updateMeta('og:site_name', SITE_NAME, true);
 
@@ -74,9 +81,9 @@ const SEOHead = ({
     updateMeta('twitter:card', 'summary_large_image');
     updateMeta('twitter:title', fullTitle);
     updateMeta('twitter:description', description);
-    updateMeta('twitter:image', `${SITE_DOMAIN}${ogImage}`);
+    updateMeta('twitter:image', imageUrl);
 
-  }, [fullTitle, description, robots, canonicalUrl, ogImage]);
+  }, [fullTitle, description, robots, canonicalUrl, imageUrl, type]);
 
   return null;
 };

@@ -72,10 +72,10 @@ export const RelatedProducts = ({
                 <a
                   href={AFFILIATE_CONFIG.mainLink}
                   target="_blank"
-                  rel="noopener noreferrer nofollow"
+                  rel="noopener noreferrer nofollow sponsored"
                   className="flex-1 inline-flex items-center justify-center gap-1 px-3 py-2 bg-primary text-primary-foreground rounded-lg text-xs font-medium hover:bg-primary/90 transition-colors"
                 >
-                  Comprar
+                  Visitar loja parceira
                   <ExternalLink className="w-3 h-3" />
                 </a>
                 <Link

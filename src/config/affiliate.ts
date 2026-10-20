@@ -6,10 +6,10 @@ export const AFFILIATE_CONFIG = {
   mainLink: "https://lmdee.link/wmVbhyOITYsp",
   
   // Texto padrão do botão CTA
-  ctaText: "Ver Preço na BioVittare",
+  ctaText: "Visitar loja parceira",
   
   // Texto CTA para plantas medicinais
-  plantCtaText: "Comprar na Bio Vittare",
+  plantCtaText: "Visitar loja parceira",
   
   // Nome do parceiro
   partnerName: "BioVittare",

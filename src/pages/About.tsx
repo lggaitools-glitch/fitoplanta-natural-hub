@@ -3,7 +3,6 @@ import { ConsultationBooking } from '@/components/contact/ConsultationBooking';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { 
-  User, 
   GraduationCap, 
   Award, 
   BookOpen, 
@@ -38,21 +37,19 @@ const About = () => {
       <PersonSchema />
       
       {/* Hero Section - Apresentação */}
-      <section className="relative py-20 lg:py-28 bg-gradient-to-br from-primary via-primary/95 to-green-800 overflow-hidden">
+      <section className="relative py-20 lg:py-28 bg-gradient-hero overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Photo Placeholder */}
+            {/* Retrato original de Marta Leni */}
             <div className="flex justify-center lg:order-2 animate-fade-up" style={{ animationDelay: '0.2s' }}>
               <div className="relative">
                 <div className="absolute inset-0 bg-gold/20 rounded-full blur-2xl scale-110" />
-                <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-primary-foreground/10 backdrop-blur-sm border-4 border-gold/30 flex items-center justify-center overflow-hidden">
-                  {/* Placeholder - será substituído pela foto */}
-                  <User className="w-32 h-32 lg:w-40 lg:h-40 text-primary-foreground/40" />
-                </div>
+                <img src="/brand/marta-leni.webp" alt="Marta Leni" width="800" height="996"
+                  className="marta-portrait relative w-64 lg:w-96 rounded-t-[10rem] rounded-b-2xl border border-cream/30 shadow-elevated" />
                 {/* Badge flutuante */}
                 <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-gold text-primary px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
                   CRF-SP 93119

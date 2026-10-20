@@ -28,8 +28,8 @@ const GuiasPillar = () => {
         <section className="prose prose-lg max-w-none mb-12">
           <h2>Como Escolhemos os Produtos</h2>
           <p>
-            Nossa equipe analisa dezenas de produtos em cada categoria, avaliando qualidade dos ingredientes, 
-            concentração de ativos, reputação da marca, certificações e relação custo-benefício.
+            Os guias reúnem características e critérios para comparação. Não apresentamos comprovação
+            de testes físicos dos produtos; confirme os dados atuais com o fabricante e a loja.
           </p>
           <p>
             <strong>Transparência:</strong> Este site é mantido através de comissões de afiliados. 

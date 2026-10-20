@@ -3,28 +3,28 @@ import { Truck, Shield, Leaf, Award, HeartHandshake, FlaskConical } from 'lucide
 const benefits = [
   {
     icon: Leaf,
-    title: '100% Natural',
-    description: 'Ingredientes puros e extratos padronizados de alta qualidade.',
+    title: 'Plantas Medicinais',
+    description: 'Conteúdo educativo organizado por plantas e temas de saúde.',
   },
   {
     icon: FlaskConical,
-    title: 'Base Científica',
-    description: 'Fórmulas desenvolvidas com respaldo de estudos clínicos.',
+    title: 'Informação para Consulta',
+    description: 'Artigos para apoiar suas perguntas ao profissional de saúde.',
   },
   {
     icon: Shield,
-    title: 'Segurança Garantida',
-    description: 'Rigoroso controle de qualidade e rastreabilidade completa.',
+    title: 'Limites do Conteúdo',
+    description: 'Informações gerais não substituem avaliação individual.',
   },
   {
     icon: Award,
-    title: 'Qualidade Premium',
-    description: 'Extratos padronizados com concentração garantida de ativos.',
+    title: 'Guias de Leitura',
+    description: 'Conheça termos e características citados em rótulos de suplementos.',
   },
   {
     icon: Truck,
-    title: 'Entrega Rápida',
-    description: 'Enviamos para todo o Brasil com total cuidado e agilidade.',
+    title: 'Lojas Parceiras',
+    description: 'Não fabricamos nem enviamos produtos. Compras e entregas são responsabilidade da loja.',
   },
   {
     icon: HeartHandshake,
@@ -42,7 +42,7 @@ export const BenefitsSection = () => {
             Por Que Escolher FitoPlantaMed?
           </h2>
           <p className="text-primary-foreground/80 max-w-2xl mx-auto text-lg">
-            Compromisso com excelência em cada detalhe, da seleção de ingredientes até a entrega em sua casa.
+            Um portal de informação, consultas e links de afiliados — não uma loja ou fabricante.
           </p>
         </div>
 

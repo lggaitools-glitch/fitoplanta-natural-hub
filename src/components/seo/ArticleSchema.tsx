@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import JsonLd from './JsonLd';
 
 interface ArticleSchemaProps {
   title: string;
@@ -20,18 +20,17 @@ const ArticleSchema = ({ title, description, image, author, publishedAt, slug, c
     "author": {
       "@type": "Person",
       "name": author,
-      "url": "https://fitoplantamed.com/sobre"
+      ...(author === "Marta Leni" ? { url: "https://fitoplantamed.com/sobre" } : {})
     },
     "publisher": {
       "@type": "Organization",
       "name": "FitoPlantaMed",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://fitoplantamed.com/favicon.png"
+        "url": "https://fitoplantamed.com/brand/brand-logo.webp"
       }
     },
     "datePublished": publishedAt,
-    "dateModified": publishedAt,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://fitoplantamed.com/artigos/${slug}`
@@ -40,25 +39,7 @@ const ArticleSchema = ({ title, description, image, author, publishedAt, slug, c
     "inLanguage": "pt-BR"
   };
 
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.id = 'article-schema';
-    script.textContent = JSON.stringify(schema);
-    
-    // Remove existing schema if present
-    const existing = document.getElementById('article-schema');
-    if (existing) existing.remove();
-    
-    document.head.appendChild(script);
-    
-    return () => {
-      const schemaScript = document.getElementById('article-schema');
-      if (schemaScript) schemaScript.remove();
-    };
-  }, [title, slug]);
-
-  return null;
+  return <JsonLd data={schema} />;
 };
 
 export default ArticleSchema;

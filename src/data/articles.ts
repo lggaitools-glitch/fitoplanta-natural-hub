@@ -630,7 +630,7 @@ Para quem busca uma abordagem natural ao estresse crônico, problemas de sono ou
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/ashwagandha.jpg",
+    image: "/og-image.jpg",
     category: "Suplementos Naturais",
     tags: ["ashwagandha", "adaptógenos", "estresse", "cortisol"],
     author: "Marta Leni, Farmacêutica Clínica",
@@ -780,7 +780,7 @@ Para condições inflamatórias crônicas como artrite, a suplementação com cu
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/curcuma.jpg",
+    image: "/og-image.jpg",
     category: "Plantas Medicinais",
     tags: ["cúrcuma", "curcumina", "anti-inflamatório", "piperina"],
     author: "Marta Leni, Farmacêutica Clínica",
@@ -966,7 +966,7 @@ A escolha entre natural e sintética deve basear-se em evidências, não em mark
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/melatonina.jpg",
+    image: "/og-image.jpg",
     category: "Suplementos Naturais",
     tags: ["melatonina", "sono", "suplementos", "natural vs sintético"],
     author: "Marta Leni, Farmacêutica Clínica",
@@ -1201,7 +1201,7 @@ Lembre-se: um chá bem preparado é medicina. Um chá mal feito é apenas água 
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/chas-medicinais.jpg",
+    image: "/og-image.jpg",
     category: "Fitoterapia",
     tags: ["chás", "infusão", "decocção", "preparo"],
     author: "Marta Leni, Farmacêutica Clínica",
@@ -1432,7 +1432,7 @@ Lembre-se: você não é apenas o que come — você é também o que suas bact�
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/probioticos.jpg",
+    image: "/og-image.jpg",
     category: "Bem-estar",
     tags: ["probióticos", "intestino", "microbioma", "fermentados"],
     author: "Marta Leni, Farmacêutica Clínica",
@@ -1497,7 +1497,7 @@ A espinheira-santa é um orgulho da fitoterapia brasileira — uma planta nativa
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/espinheira-santa.jpg",
+    image: "/og-image.jpg",
     category: "Plantas Medicinais",
     tags: ["espinheira-santa", "gastrite", "úlcera", "protetor gástrico", "planta brasileira"],
     author: "Dr. Rafael Mendes, Gastroenterologista Fitoterapeuta",
@@ -1564,7 +1564,7 @@ A passiflora é um dos fitoterápicos ansiolíticos mais bem estudados e seguros
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/passiflora.jpg",
+    image: "/og-image.jpg",
     category: "Plantas Medicinais",
     tags: ["passiflora", "ansiedade", "maracujá", "calmante natural", "GABA"],
     author: "Dra. Carolina Leite, Psiquiatra Integrativa",
@@ -1639,7 +1639,7 @@ A chave é usar extrato padronizado (EGb 761 ou equivalente), na dose correta, p
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/ginkgo-biloba.jpg",
+    image: "/og-image.jpg",
     category: "Suplementos Naturais",
     tags: ["ginkgo biloba", "memória", "cognição", "nootrópico", "circulação cerebral"],
     author: "Dr. Paulo Henrique Almeida, Neurologista",
@@ -1741,7 +1741,7 @@ Os adaptógenos representam uma categoria fascinante de plantas medicinais com c
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/adaptogenos.jpg",
+    image: "/og-image.jpg",
     category: "Fitoterapia",
     tags: ["adaptógenos", "ashwagandha", "ginseng", "rhodiola", "estresse", "cortisol"],
     author: "Dra. Fernanda Costa, Nutróloga",
@@ -1818,7 +1818,7 @@ A camomila merece muito mais respeito do que recebe. É uma verdadeira farmácia
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/camomila.jpg",
+    image: "/og-image.jpg",
     category: "Plantas Medicinais",
     tags: ["camomila", "chá", "ansiedade", "digestão", "anti-inflamatório", "pele"],
     author: "Dra. Ana Beatriz Moura, Dermatologista Integrativa",
@@ -1898,7 +1898,7 @@ O boldo é uma planta medicinal valiosa quando usada corretamente. Para desconfo
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/boldo.jpg",
+    image: "/og-image.jpg",
     category: "Plantas Medicinais",
     tags: ["boldo", "fígado", "digestão", "hepatoprotetor", "colerético"],
     author: "Dr. Marcos Vinicius Souza, Hepatologista",
@@ -2777,7 +2777,7 @@ O alecrim é um verdadeiro tesouro da fitoterapia — acessível, versátil e co
 
 *Este artigo tem caráter informativo e não substitui a consulta a um profissional de saúde qualificado.*
     `,
-    image: "/articles/alecrim.jpg",
+    image: "/og-image.jpg",
     category: "Plantas Medicinais",
     tags: ["alecrim", "alecrim benefícios", "chá de alecrim", "alecrim para memória", "rosmarinus officinalis", "ácido rosmarínico", "saúde cognitiva"],
     author: "Marta Leni, Farmacêutica Clínica",
