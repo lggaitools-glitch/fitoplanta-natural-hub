@@ -8,7 +8,8 @@ import { ReadingProgress } from '@/components/ui/reading-progress';
 import { ChevronLeft, Clock, User, Calendar, Share2, Facebook, Twitter, Linkedin, List } from 'lucide-react';
 import ArticleSchema from '@/components/seo/ArticleSchema';
 import SEOHead from '@/components/seo/SEOHead';
-import DOMPurify from 'dompurify';
+import NotFound from './NotFound';
+import { formatContent, generateSlug } from '@/lib/markdown';
 import { InArticleCTA } from '@/components/monetization/InArticleCTA';
 import { RelatedProducts } from '@/components/monetization/RelatedProducts';
 import { CrossSiloLinks } from '@/components/navigation/CrossSiloLinks';
@@ -17,21 +18,11 @@ const ArticleDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const article = getArticleBySlug(slug || '');
 
-  if (!article) {
-    return (
-      <Layout>
-        <div className="container mx-auto px-4 py-20 text-center">
-          <h1 className="font-display text-3xl font-bold mb-4">Artigo não encontrado</h1>
-          <Button asChild>
-            <Link to="/artigos">Ver Artigos</Link>
-          </Button>
-        </div>
-      </Layout>
-    );
-  }
+  if (!article) return <NotFound />;
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('pt-BR', {
+      timeZone: 'UTC',
       day: 'numeric',
       month: 'long',
       year: 'numeric',
@@ -56,6 +47,7 @@ const ArticleDetail = () => {
         title={article.title}
         description={article.excerpt}
         ogImage={article.image}
+        type="article"
       />
       <ArticleSchema
         title={article.title}
@@ -89,10 +81,10 @@ const ArticleDetail = () => {
             </h1>
             
             <div className="flex flex-wrap items-center gap-6 text-muted-foreground mb-8">
-              <Link to="/sobre" className="flex items-center gap-2 hover:text-primary transition-colors">
+              <div className="flex items-center gap-2">
                 <User className="w-4 h-4" />
-                <span className="underline underline-offset-2">{article.author}</span>
-              </Link>
+                {article.author === 'Marta Leni' ? <Link to="/sobre" className="underline underline-offset-2">{article.author}</Link> : <span>{article.author}</span>}
+              </div>
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
                 <span>{formatDate(article.publishedAt)}</span>
@@ -136,7 +128,7 @@ const ArticleDetail = () => {
                 prose-li:text-muted-foreground prose-li:my-1
                 prose-ul:list-disc prose-ul:pl-6 prose-ul:my-4 prose-ul:marker:text-primary prose-ul:marker:font-bold
                 prose-ol:list-decimal prose-ol:pl-6 prose-ol:my-4 prose-ol:marker:text-primary prose-ol:marker:font-bold"
-              dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(formatContent(article.content)) }}
+              dangerouslySetInnerHTML={{ __html: formatContent(article.content) }}
             />
 
             {/* Tags */}
@@ -205,18 +197,6 @@ const ArticleDetail = () => {
   );
 };
 
-// Helper to generate slug from heading text
-function generateSlug(text: string): string {
-  return text
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '') // Remove accents
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .trim();
-}
-
 // Table of Contents Component
 function TableOfContents({ content }: { content: string }) {
   const headings: { level: number; text: string; id: string }[] = [];
@@ -276,52 +256,6 @@ function TableOfContents({ content }: { content: string }) {
       </ul>
     </nav>
   );
-}
-
-// Helper function to format markdown-like content to HTML
-function formatContent(content: string): string {
-  let html = content
-    // Headers with IDs for anchor navigation (ordem importa - do maior para o menor)
-    .replace(/#### (.*)/g, (_, text) => `<h4>${text}</h4>`)
-    .replace(/### (.*)/g, (_, text) => `<h3 id="${generateSlug(text)}">${text}</h3>`)
-    .replace(/## (.*)/g, (_, text) => `<h2 id="${generateSlug(text)}">${text}</h2>`)
-    // Bold
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    // Italic (single asterisk, but not inside words)
-    .replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>')
-    // Horizontal rule
-    .replace(/^---$/gm, '<hr>');
-
-  // Processar listas não ordenadas (- item)
-  html = html.replace(/^- (.*)/gm, '<li class="ul-item">$1</li>');
-  
-  // Processar listas numeradas (1. item, 2. item, etc)
-  html = html.replace(/^\d+\. (.*)/gm, '<li class="ol-item">$1</li>');
-  
-  // Agrupar <li class="ul-item"> consecutivos em <ul>
-  html = html.replace(/(<li class="ul-item">.*?<\/li>\n?)+/g, (match) => {
-    const items = match.replace(/class="ul-item"/g, '');
-    return '<ul>' + items + '</ul>';
-  });
-  
-  // Agrupar <li class="ol-item"> consecutivos em <ol>
-  html = html.replace(/(<li class="ol-item">.*?<\/li>\n?)+/g, (match) => {
-    const items = match.replace(/class="ol-item"/g, '');
-    return '<ol>' + items + '</ol>';
-  });
-
-  // Line breaks para parágrafos
-  html = html.replace(/\n\n/g, '</p><p>');
-  
-  // Wrap em parágrafos
-  html = '<p>' + html + '</p>';
-  
-  // Limpar parágrafos vazios e corrigir estrutura
-  html = html.replace(/<p>\s*<\/p>/g, '');
-  html = html.replace(/<p>\s*(<h[2-4]|<ul|<ol|<hr)/g, '$1');
-  html = html.replace(/(<\/h[2-4]>|<\/ul>|<\/ol>|<hr>)\s*<\/p>/g, '$1');
-
-  return html;
 }
 
 export default ArticleDetail;

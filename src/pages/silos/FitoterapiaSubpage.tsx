@@ -24,6 +24,7 @@ const FitoterapiaSubpage = () => {
   return (
     <Layout>
       <SEOHead
+        type="article"
         title={subpage.title}
         description={subpage.description}
       />

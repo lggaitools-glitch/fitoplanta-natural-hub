@@ -39,6 +39,7 @@ const SupplementDetail = () => {
   return (
     <Layout>
       <SEOHead
+        type="article"
         title={`${supplement.name} - ${supplement.form}`}
         description={supplement.description}
       />
@@ -100,7 +101,7 @@ const SupplementDetail = () => {
                   Encontre as melhores opções de {supplement.name.toLowerCase()} em nossa análise de marcas.
                 </p>
                 <Button variant="gold" className="gap-2" asChild>
-                  <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow">
+                  <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow sponsored">
                     {AFFILIATE_CONFIG.ctaText} <ExternalLink className="w-4 h-4" />
                   </a>
                 </Button>

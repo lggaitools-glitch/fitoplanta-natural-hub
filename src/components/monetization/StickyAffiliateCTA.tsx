@@ -27,13 +27,13 @@ export const StickyAffiliateCTA = ({ productName }: StickyAffiliateCTAProps) => 
       <div className="container mx-auto flex items-center justify-between gap-4">
         <div className="hidden sm:block text-primary-foreground">
           <p className="font-medium text-sm">{productName}</p>
-          <p className="text-xs text-primary-foreground/70">Qualidade verificada • Entrega para todo Brasil</p>
+          <p className="text-xs text-primary-foreground/70">Link de afiliado para a loja — podemos receber comissão</p>
         </div>
         <div className="flex items-center gap-3 w-full sm:w-auto">
           <a
             href={AFFILIATE_CONFIG.mainLink}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer nofollow sponsored"
             className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-6 py-2.5 bg-accent text-primary rounded-lg font-semibold text-sm hover:bg-accent/90 transition-colors"
           >
             {AFFILIATE_CONFIG.ctaText}

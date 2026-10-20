@@ -25,6 +25,7 @@ const WellnessDetail = () => {
   return (
     <Layout>
       <SEOHead
+        type="article"
         title={topic.title}
         description={topic.description}
       />

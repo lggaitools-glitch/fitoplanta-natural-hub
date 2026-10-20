@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import JsonLd from './JsonLd';
 
 interface ProductSchemaProps {
   name: string;
@@ -9,59 +9,17 @@ interface ProductSchemaProps {
   category: string;
 }
 
-const ProductSchema = ({ name, description, image, slug, rating, category }: ProductSchemaProps) => {
+const ProductSchema = ({ name, description, image, slug }: ProductSchemaProps) => {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "WebPage",
     "name": name,
     "description": description,
-    "image": `https://fitoplantamed.com${image}`,
-    "brand": {
-      "@type": "Brand",
-      "name": "FitoPlantaMed"
-    },
-    "category": category,
-    "url": `https://fitoplantamed.com/produtos/${slug}`,
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": rating.toString(),
-      "bestRating": "5",
-      "worstRating": "1",
-      "ratingCount": "1"
-    },
-    "review": {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": rating.toString(),
-        "bestRating": "5"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Marta Leni",
-        "url": "https://fitoplantamed.com/sobre"
-      }
-    }
+    "image": new URL(image, 'https://fitoplantamed.com').href,
+    "url": `https://fitoplantamed.com/produtos/${slug}`
   };
 
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.id = 'product-schema';
-    script.textContent = JSON.stringify(schema);
-    
-    const existing = document.getElementById('product-schema');
-    if (existing) existing.remove();
-    
-    document.head.appendChild(script);
-    
-    return () => {
-      const schemaScript = document.getElementById('product-schema');
-      if (schemaScript) schemaScript.remove();
-    };
-  }, [name, slug]);
-
-  return null;
+  return <JsonLd data={schema} />;
 };
 
 export default ProductSchema;

@@ -28,6 +28,7 @@ const PlantDetail = () => {
   return (
     <Layout>
       <SEOHead
+        type="article"
         title={`${plant.name} - Benefícios, Como Usar e Efeitos Colaterais`}
         description={plant.description}
       />
@@ -59,7 +60,7 @@ const PlantDetail = () => {
                 <a 
                   href={AFFILIATE_CONFIG.mainLink} 
                   target="_blank" 
-                  rel="noopener noreferrer nofollow"
+                  rel="noopener noreferrer nofollow sponsored"
                 >
                   {AFFILIATE_CONFIG.plantCtaText}
                   <ExternalLink className="w-4 h-4 ml-2" />

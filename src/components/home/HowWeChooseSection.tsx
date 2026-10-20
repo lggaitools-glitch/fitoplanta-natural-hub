@@ -7,7 +7,7 @@ export const HowWeChooseSection = () => {
     "Qualidade dos ingredientes (extratos padronizados)",
     "Reputação e certificações da marca",
     "Custo-benefício e acessibilidade",
-    "Feedback real de usuários"
+    "Clareza das informações do rótulo"
   ];
 
   return (
@@ -23,9 +23,8 @@ export const HowWeChooseSection = () => {
               Como Escolhemos os Produtos que Recomendamos
             </h2>
             <p className="text-primary-foreground/80 leading-relaxed mb-8">
-              Nossa equipe analisa dezenas de produtos antes de recomendar. 
-              Priorizamos ciência, qualidade e transparência. Sem promessas milagrosas — 
-              apenas informação honesta baseada em evidências.
+              Nossos guias reúnem informações para comparação. Não apresentamos comprovação de
+              testes físicos dos produtos; consulte as limitações e a política de afiliados.
             </p>
             <Link
               to="/transparencia"

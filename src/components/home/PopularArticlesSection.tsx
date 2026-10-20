@@ -12,10 +12,10 @@ export const PopularArticlesSection = () => {
           <div>
             <div className="flex items-center gap-2 text-secondary mb-2">
               <TrendingUp className="w-5 h-5" />
-              <span className="text-sm font-medium">Mais Lidos</span>
+              <span className="text-sm font-medium">Explore os Temas</span>
             </div>
             <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground">
-              Artigos Populares
+              Artigos em Destaque
             </h2>
           </div>
           <Link

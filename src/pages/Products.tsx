@@ -101,10 +101,9 @@ const Products = () => {
               Como Escolhemos os Produtos
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Analisamos dezenas de produtos antes de recomendar. Nossos critérios incluem: 
-              evidências científicas, qualidade dos ingredientes, reputação da marca, 
-              custo-benefício e feedback de usuários reais. Priorizamos extratos padronizados 
-              e marcas com certificações de qualidade.
+              As páginas reúnem informações gerais para comparação, sem comprovação de testes
+              físicos ou de avaliações agregadas de consumidores. Confirme composição,
+              disponibilidade e condições diretamente com a loja.
             </p>
             <Link to="/transparencia" className="text-primary font-medium hover:underline">
               Saiba mais sobre nossa metodologia →

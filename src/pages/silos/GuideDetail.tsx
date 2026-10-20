@@ -43,6 +43,7 @@ const GuideDetail = () => {
   return (
     <Layout>
       <SEOHead
+        type="article"
         title={guide.title}
         description={guide.description}
       />
@@ -66,6 +67,11 @@ const GuideDetail = () => {
               <p className="text-xl text-muted-foreground">{guide.description}</p>
             </header>
 
+            <p className="text-sm text-muted-foreground mb-6">
+              Os botões levam à loja parceira por um link de afiliado que não aponta para um produto específico.
+              Podemos receber comissão; a presença de uma marca neste guia não confirma sua disponibilidade na loja.
+              Não apresentamos comprovação de testes físicos dos produtos.
+            </p>
             <div className="prose prose-lg max-w-none mb-8">
               <p>{renderInlineLinks(guide.introduction)}</p>
             </div>
@@ -100,7 +106,7 @@ const GuideDetail = () => {
                           <p className="text-muted-foreground">{product.brand}</p>
                         </div>
                         <Button variant="gold" size="sm" className="gap-2" asChild>
-                          <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow">
+                          <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow sponsored">
                             {AFFILIATE_CONFIG.ctaText} <ExternalLink className="w-4 h-4" />
                           </a>
                         </Button>
@@ -143,8 +149,8 @@ const GuideDetail = () => {
                 </h2>
                 <div className="p-4 rounded-lg bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800 mb-4">
                   <p className="text-sm text-blue-700 dark:text-blue-300">
-                    <strong>Nota sobre importação:</strong> Produtos internacionais podem ser importados 
-                    via sites como iHerb ou Amazon. Atenção às taxas de importação e limite de US$50 para isenção.
+                    <strong>Nota sobre importação:</strong> Este guia não confirma condições fiscais ou
+                    autorização de importação. Consulte as regras oficiais aplicáveis antes de comprar.
                   </p>
                 </div>
                 <div className="space-y-6">
@@ -158,7 +164,7 @@ const GuideDetail = () => {
                           <p className="text-muted-foreground">{product.brand}</p>
                         </div>
                         <Button variant="gold" size="sm" className="gap-2" asChild>
-                          <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow">
+                          <a href={AFFILIATE_CONFIG.mainLink} target="_blank" rel="noopener noreferrer nofollow sponsored">
                             {AFFILIATE_CONFIG.ctaText} <ExternalLink className="w-4 h-4" />
                           </a>
                         </Button>

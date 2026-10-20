@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import JsonLd from './JsonLd';
 
 const OrganizationSchema = () => {
   const schema = {
@@ -7,14 +7,7 @@ const OrganizationSchema = () => {
     "name": "FitoPlantaMed",
     "url": "https://fitoplantamed.com",
     "logo": "https://fitoplantamed.com/brand/brand-logo.webp",
-    "description": "Portal de informações sobre fitoterapia, plantas medicinais e suplementos naturais, com conteúdo revisado por profissionais de saúde.",
-    "founder": {
-      "@type": "Person",
-      "name": "Marta Leni",
-      "jobTitle": "Farmacêutica Clínica"
-    },
-    "foundingDate": "2024",
-    "sameAs": [],
+    "description": "Portal de informações sobre fitoterapia, plantas medicinais e suplementos naturais.",
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
@@ -27,24 +20,7 @@ const OrganizationSchema = () => {
     }
   };
 
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.id = 'organization-schema';
-    script.textContent = JSON.stringify(schema);
-    
-    const existing = document.getElementById('organization-schema');
-    if (existing) existing.remove();
-    
-    document.head.appendChild(script);
-    
-    return () => {
-      const schemaScript = document.getElementById('organization-schema');
-      if (schemaScript) schemaScript.remove();
-    };
-  }, []);
-
-  return null;
+  return <JsonLd data={schema} />;
 };
 
 export default OrganizationSchema;

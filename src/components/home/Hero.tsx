@@ -61,19 +61,19 @@ export const Hero = () => {
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <Shield className="w-5 h-5" />
                 </div>
-                <span className="text-sm">Conteúdo Verificado</span>
+                <span className="text-sm">Conteúdo Educativo</span>
               </div>
               <div className="flex items-center gap-2 text-foreground/80">
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <FlaskConical className="w-5 h-5" />
                 </div>
-                <span className="text-sm">Base Científica</span>
+                <span className="text-sm">Fitoterapia</span>
               </div>
               <div className="flex items-center gap-2 text-foreground/80">
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <Leaf className="w-5 h-5" />
                 </div>
-                <span className="text-sm">100% Natural</span>
+                <span className="text-sm">Plantas Medicinais</span>
               </div>
             </div>
           </div>
