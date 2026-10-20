@@ -1,47 +1,39 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Leaf, Shield, FlaskConical, BookOpen } from 'lucide-react';
-import logo from '@/assets/logo.png';
 
 export const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-hero min-h-[80vh] flex items-center">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 bg-leaf-pattern opacity-30" />
-      
-      {/* Decorative Elements */}
-      <div className="absolute top-20 right-10 w-72 h-72 bg-secondary/20 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
-
+    <section className="botanical-hero relative overflow-hidden flex items-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content */}
-          <div className="text-primary-foreground animate-fade-up">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-foreground/10 backdrop-blur-sm rounded-full text-sm mb-6">
+          <div className="text-foreground animate-fade-up">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 backdrop-blur-sm rounded-full text-sm mb-6">
               <BookOpen className="w-4 h-4" />
               <span>Portal de Conteúdo sobre Fitoterapia</span>
             </div>
             
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-normal leading-tight mb-6">
               Fitoterapia, Ciência e{' '}
-              <span className="text-gradient-gold bg-clip-text text-transparent bg-gradient-to-r from-gold to-gold-light">
+              <span className="text-muted-foreground italic">
                 Saúde Natural
               </span>
             </h1>
             
-            <p className="text-lg sm:text-xl text-primary-foreground/80 mb-8 max-w-xl leading-relaxed">
+            <p className="text-lg sm:text-xl text-foreground/80 mb-8 max-w-xl leading-relaxed">
               Informação confiável para quem busca alternativas naturais com segurança. 
               Conteúdo educativo baseado em evidências científicas.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="xl" variant="heroOutline" asChild className="group">
+              <Button size="lg" variant="default" asChild className="group">
                 <Link to="/artigos">
                   Explorar Artigos
                   <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>
-              <Button size="xl" variant="ghost" asChild className="text-primary-foreground hover:bg-primary-foreground/10">
+              <Button size="lg" variant="ghost" asChild className="text-foreground hover:bg-primary/10">
                 <Link to="/produtos">
                   Produtos Recomendados
                 </Link>
@@ -50,35 +42,35 @@ export const Hero = () => {
 
             {/* Quick Access Links for SEO */}
             <div className="flex flex-wrap gap-3 mb-8">
-              <Link to="/fitoterapia" className="text-sm text-primary-foreground/70 hover:text-primary-foreground underline underline-offset-2">
+              <Link to="/fitoterapia" className="text-sm text-foreground/70 hover:text-foreground underline underline-offset-2">
                 O que é Fitoterapia?
               </Link>
-              <span className="text-primary-foreground/40">•</span>
-              <Link to="/plantas-medicinais" className="text-sm text-primary-foreground/70 hover:text-primary-foreground underline underline-offset-2">
+              <span className="text-foreground/40">•</span>
+              <Link to="/plantas-medicinais" className="text-sm text-foreground/70 hover:text-foreground underline underline-offset-2">
                 Plantas Medicinais
               </Link>
-              <span className="text-primary-foreground/40">•</span>
-              <Link to="/guias" className="text-sm text-primary-foreground/70 hover:text-primary-foreground underline underline-offset-2">
+              <span className="text-foreground/40">•</span>
+              <Link to="/guias" className="text-sm text-foreground/70 hover:text-foreground underline underline-offset-2">
                 Guias de Compra
               </Link>
             </div>
 
             {/* Trust Badges */}
             <div className="flex flex-wrap gap-6">
-              <div className="flex items-center gap-2 text-primary-foreground/80">
-                <div className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center">
+              <div className="flex items-center gap-2 text-foreground/80">
+                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <Shield className="w-5 h-5" />
                 </div>
                 <span className="text-sm">Conteúdo Verificado</span>
               </div>
-              <div className="flex items-center gap-2 text-primary-foreground/80">
-                <div className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center">
+              <div className="flex items-center gap-2 text-foreground/80">
+                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <FlaskConical className="w-5 h-5" />
                 </div>
                 <span className="text-sm">Base Científica</span>
               </div>
-              <div className="flex items-center gap-2 text-primary-foreground/80">
-                <div className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center">
+              <div className="flex items-center gap-2 text-foreground/80">
+                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                   <Leaf className="w-5 h-5" />
                 </div>
                 <span className="text-sm">100% Natural</span>
@@ -86,16 +78,12 @@ export const Hero = () => {
             </div>
           </div>
 
-          {/* Logo */}
-          <div className="hidden lg:flex justify-center lg:justify-end">
-            <div className="relative">
-              <div className="absolute inset-0 bg-primary-foreground/5 rounded-full blur-3xl scale-110" />
-              <img 
-                src={logo} 
-                alt="FitoPlantaMed Logo" 
-                className="relative w-72 h-72 xl:w-96 xl:h-96 object-contain animate-float drop-shadow-2xl"
-              />
+          {/* Botanical illustration cropped directly from the supplied logo. */}
+          <div className="mx-auto w-full max-w-md">
+            <div className="botanical-art">
+              <img src="/brand/brand-emblem.webp" alt="Planta medicinal com raízes acolhida por mãos" width="640" height="654" />
             </div>
+            <p className="botanical-caption">Fitoterapia Clínica · Cuidado Natural</p>
           </div>
         </div>
       </div>

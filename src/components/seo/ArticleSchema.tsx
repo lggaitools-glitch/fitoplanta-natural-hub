@@ -27,7 +27,7 @@ const ArticleSchema = ({ title, description, image, author, publishedAt, slug, c
       "name": "FitoPlantaMed",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://fitoplantamed.com/favicon.png"
+        "url": "https://fitoplantamed.com/brand/brand-logo.webp"
       }
     },
     "datePublished": publishedAt,

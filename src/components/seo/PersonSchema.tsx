@@ -8,7 +8,7 @@ const PersonSchema = () => {
     "jobTitle": "Farmacêutica Clínica",
     "description": "Farmacêutica Clínica especializada em Fitoterapia e Prescrição de Fitoterápicos, com Mestrado em Biotecnologia pela UFSCar e mais de 20 anos de experiência na área da saúde.",
     "url": "https://fitoplantamed.com/sobre",
-    "image": "https://fitoplantamed.com/sobre/marta-leni.jpg",
+    "image": "https://fitoplantamed.com/brand/marta-leni.webp",
     "sameAs": [],
     "alumniOf": [
       {

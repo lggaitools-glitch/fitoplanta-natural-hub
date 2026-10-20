@@ -1,4 +1,4 @@
-import { Calendar, Video, Clock, MessageCircle, User, Mail } from 'lucide-react';
+import { Calendar, Video, Clock, MessageCircle, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export const ConsultationBooking = () => {
@@ -35,9 +35,8 @@ export const ConsultationBooking = () => {
                 {/* Professional Info */}
                 <div>
                   <div className="flex items-center gap-4 mb-6">
-                    <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-gold/20 rounded-full flex items-center justify-center border-2 border-gold/30">
-                      <User className="w-10 h-10 text-primary" />
-                    </div>
+                    <img src="/brand/marta-leni.webp" alt="Marta Leni" width="80" height="100" loading="lazy"
+                      className="marta-portrait w-20 h-24 shrink-0 rounded-t-full rounded-b-xl object-cover object-top border border-border" />
                     <div>
                       <h3 className="font-display text-xl font-bold text-foreground">
                         Marta Leni
@@ -92,7 +91,7 @@ export const ConsultationBooking = () => {
                       href={whatsappLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-3 w-full py-4 px-6 bg-[#25D366] hover:bg-[#20BD5A] text-white font-medium rounded-xl transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-xl"
+                      className="flex items-center justify-center gap-3 w-full py-4 px-6 bg-primary hover:bg-primary/90 text-primary-foreground font-medium rounded-xl transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-xl"
                     >
                       <MessageCircle className="w-5 h-5" />
                       Agendar via WhatsApp

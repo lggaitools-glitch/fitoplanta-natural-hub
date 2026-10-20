@@ -1,118 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    /* FitoPlantaMed Premium Natural Palette */
-    --background: 40 33% 94%; /* Cream #F5F2E8 */
-    --foreground: 156 60% 15%; /* Deep green text */
+    /* Botanical palette sampled from the original artwork: forest, sage, cream, hands. */
+    --background: 45 43% 97%; /* Warm paper */
+    --foreground: 134 27% 19%; /* Deep green text */
 
-    --card: 40 30% 97%;
-    --card-foreground: 156 60% 15%;
+    --card: 44 45% 98%;
+    --card-foreground: 134 27% 19%;
 
-    --popover: 40 30% 97%;
-    --popover-foreground: 156 60% 15%;
+    --popover: 44 45% 98%;
+    --popover-foreground: 134 27% 19%;
 
-    --primary: 156 60% 15%; /* Deep green #0F3D2E */
-    --primary-foreground: 40 33% 94%;
+    --primary: 134 27% 19%; /* Forest */
+    --primary-foreground: 45 43% 97%;
 
-    --secondary: 136 30% 60%; /* Light green #7FBF8F */
-    --secondary-foreground: 156 60% 15%;
+    --secondary: 95 22% 68%; /* Sage */
+    --secondary-foreground: 134 27% 19%;
 
     --muted: 40 20% 90%;
-    --muted-foreground: 156 30% 35%;
+    --muted-foreground: 113 12% 36%;
 
-    --accent: 38 45% 60%; /* Soft gold #C9A86A */
-    --accent-foreground: 156 60% 15%;
+    --accent: 34 44% 77%; /* Beige hands */
+    --accent-foreground: 134 27% 19%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 40 33% 94%;
+    --destructive-foreground: 45 43% 97%;
 
-    --border: 156 20% 80%;
-    --input: 156 20% 85%;
-    --ring: 156 60% 15%;
+    --border: 90 14% 81%;
+    --input: 90 14% 81%;
+    --ring: 134 27% 19%;
 
     --radius: 0.75rem;
 
     /* Custom Design Tokens */
-    --gold: 38 45% 60%;
-    --gold-light: 38 50% 75%;
-    --green-deep: 156 60% 15%;
-    --green-light: 136 30% 60%;
-    --green-soft: 136 25% 85%;
-    --cream: 40 33% 94%;
-    --cream-dark: 40 25% 88%;
+    --gold: 34 44% 77%;
+    --gold-light: 36 49% 87%;
+    --green-deep: 134 27% 19%;
+    --green-light: 95 22% 68%;
+    --green-soft: 90 21% 88%;
+    --cream: 45 43% 97%;
+    --cream-dark: 38 29% 88%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(156 60% 15%) 0%, hsl(156 50% 25%) 100%);
-    --gradient-card: linear-gradient(180deg, hsl(40 30% 97%) 0%, hsl(40 25% 93%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(38 45% 60%) 0%, hsl(38 55% 70%) 100%);
-    --gradient-nature: linear-gradient(180deg, hsl(136 25% 92%) 0%, hsl(40 33% 94%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(134 27% 19%) 0%, hsl(113 22% 30%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(44 45% 98%) 0%, hsl(40 25% 93%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(34 44% 77%) 0%, hsl(36 49% 87%) 100%);
+    --gradient-nature: linear-gradient(180deg, hsl(136 25% 92%) 0%, hsl(45 43% 97%) 100%);
 
     /* Shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(156 60% 15% / 0.08);
-    --shadow-card: 0 8px 30px -8px hsl(156 60% 15% / 0.12);
-    --shadow-elevated: 0 20px 50px -15px hsl(156 60% 15% / 0.15);
-    --shadow-gold: 0 4px 20px -4px hsl(38 45% 60% / 0.3);
+    --shadow-soft: 0 4px 20px -4px hsl(134 27% 19% / 0.08);
+    --shadow-card: 0 8px 30px -8px hsl(134 27% 19% / 0.12);
+    --shadow-elevated: 0 20px 50px -15px hsl(134 27% 19% / 0.15);
+    --shadow-gold: 0 4px 20px -4px hsl(34 44% 77% / 0.3);
 
     /* Typography */
-    --font-display: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+    --font-display: Georgia, 'Times New Roman', serif;
+    --font-body: 'Segoe UI', system-ui, sans-serif;
 
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 
-    --sidebar-background: 40 30% 97%;
-    --sidebar-foreground: 156 60% 15%;
-    --sidebar-primary: 156 60% 15%;
-    --sidebar-primary-foreground: 40 33% 94%;
+    --sidebar-background: 44 45% 98%;
+    --sidebar-foreground: 134 27% 19%;
+    --sidebar-primary: 134 27% 19%;
+    --sidebar-primary-foreground: 45 43% 97%;
     --sidebar-accent: 136 25% 90%;
-    --sidebar-accent-foreground: 156 60% 15%;
-    --sidebar-border: 156 20% 85%;
-    --sidebar-ring: 156 60% 15%;
+    --sidebar-accent-foreground: 134 27% 19%;
+    --sidebar-border: 90 14% 81%;
+    --sidebar-ring: 134 27% 19%;
   }
 
   .dark {
     --background: 156 60% 8%;
-    --foreground: 40 33% 94%;
+    --foreground: 45 43% 97%;
 
     --card: 156 50% 12%;
-    --card-foreground: 40 33% 94%;
+    --card-foreground: 45 43% 97%;
 
     --popover: 156 50% 12%;
-    --popover-foreground: 40 33% 94%;
+    --popover-foreground: 45 43% 97%;
 
-    --primary: 40 33% 94%;
-    --primary-foreground: 156 60% 15%;
+    --primary: 45 43% 97%;
+    --primary-foreground: 134 27% 19%;
 
     --secondary: 136 30% 25%;
-    --secondary-foreground: 40 33% 94%;
+    --secondary-foreground: 45 43% 97%;
 
     --muted: 156 40% 18%;
     --muted-foreground: 40 20% 70%;
 
     --accent: 38 45% 50%;
-    --accent-foreground: 40 33% 94%;
+    --accent-foreground: 45 43% 97%;
 
     --destructive: 0 62% 30%;
-    --destructive-foreground: 40 33% 94%;
+    --destructive-foreground: 45 43% 97%;
 
     --border: 156 30% 20%;
     --input: 156 30% 20%;
-    --ring: 40 33% 94%;
+    --ring: 45 43% 97%;
 
     --sidebar-background: 156 50% 10%;
-    --sidebar-foreground: 40 33% 94%;
-    --sidebar-primary: 38 45% 60%;
-    --sidebar-primary-foreground: 156 60% 15%;
+    --sidebar-foreground: 45 43% 97%;
+    --sidebar-primary: 34 44% 77%;
+    --sidebar-primary-foreground: 134 27% 19%;
     --sidebar-accent: 156 40% 15%;
-    --sidebar-accent-foreground: 40 33% 94%;
+    --sidebar-accent-foreground: 45 43% 97%;
     --sidebar-border: 156 30% 18%;
-    --sidebar-ring: 38 45% 60%;
+    --sidebar-ring: 34 44% 77%;
   }
 }
 
@@ -225,4 +223,67 @@
   .delay-300 { animation-delay: 300ms; }
   .delay-400 { animation-delay: 400ms; }
   .delay-500 { animation-delay: 500ms; }
+}
+
+/* Shared identity, used by every route through Layout and semantic tokens. */
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 7rem; }
+  body { line-height: 1.65; }
+  h1, h2, h3 { letter-spacing: -0.035em; text-wrap: balance; }
+  ::selection { background: hsl(var(--secondary)); color: hsl(var(--foreground)); }
+  :focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 4px; }
+}
+@layer components {
+  .brand-lockup { display: inline-flex; align-items: center; gap: .65rem; width: 280px; max-width: 100%; }
+  .brand-emblem { width: 48px; height: 52px; object-fit: contain; mix-blend-mode: multiply; flex-shrink: 0; }
+  .brand-name { display: flex; flex-direction: column; gap: .35rem; min-width: 0; }
+  .brand-name img { width: 220px; height: auto; mix-blend-mode: multiply; }
+  .brand-name span { color: hsl(var(--foreground)); font-size: .62rem; letter-spacing: .035em; white-space: nowrap; }
+  .botanical-hero { background: hsl(var(--background)); border-bottom: 1px solid hsl(var(--border)); padding: clamp(2.5rem, 6vw, 6rem) 0; }
+  .botanical-art { border: 1px solid hsl(var(--border)); border-radius: 48% 48% 1.5rem 1.5rem; background: #fefcf6; padding: 2.5rem; }
+  .botanical-art img { width: 100%; height: auto; }
+  .botanical-caption { font-family: var(--font-display); text-align: center; color: hsl(var(--muted-foreground)); margin-top: 1.5rem; font-size: 1.1rem; }
+  .marta-portrait { object-position: center top; }
+  footer { border-top: 6px solid hsl(var(--accent)); }
+  footer .brand-lockup { width: 240px; }
+  footer .brand-emblem { width: 40px; }
+  .bg-card { box-shadow: 0 2px 0 hsl(var(--primary) / .025); }
+  /* Beige accents are decorative; text needs a darker earth tone on paper. */
+  .text-gold { color: #78613c; }
+  .bg-primary .text-gold, [class*="from-primary"] .text-gold { color: hsl(var(--gold)); }
+}
+@media (max-width: 639px) {
+  .brand-lockup { width: 248px; gap: .5rem; }
+  .brand-emblem { width: 42px; height: 46px; }
+  .brand-name span { font-size: .56rem; }
+  .botanical-art { max-width: 280px; padding: 1.5rem; margin: 0 auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0ms !important; transition-duration: .01ms !important; animation-iteration-count: 1 !important; }
+}
+
+@layer components {
+  .site-navigation { display: none; padding: .75rem 0 1.25rem; max-height: calc(100dvh - 6rem); overflow-y: auto; }
+  .site-navigation.is-open { display: block; }
+  .nav-link { display: block; padding: .65rem .75rem; font-size: .875rem; color: hsl(var(--muted-foreground)); border-radius: .5rem; flex: 1; }
+  .nav-link:hover, .nav-link.is-active { color: hsl(var(--primary)); background: hsl(var(--secondary) / .2); }
+  .submenu-toggle { display: grid; place-items: center; min-width: 44px; min-height: 44px; border-radius: .5rem; }
+  .submenu-toggle:hover { background: hsl(var(--muted)); }
+  .nav-submenu { padding: .5rem; background: hsl(var(--card)); border: 1px solid hsl(var(--border)); border-radius: .75rem; }
+  @media (min-width: 1280px) {
+    .site-navigation, .site-navigation.is-open { display: flex; align-items: center; padding: 0; overflow: visible; }
+    .nav-group { position: relative; }
+    .nav-link { padding-inline: .65rem; }
+    .submenu-toggle { min-width: 28px; }
+    .nav-submenu { position: absolute; top: 100%; left: 0; width: 250px; max-height: min(70vh, 560px); overflow-y: auto; box-shadow: var(--shadow-elevated); }
+  }
+}
+
+@layer utilities {
+  .text-accent, .text-gold { color: #78613c; }
+  .text-secondary { color: #536849; }
+  .bg-primary .text-accent, .bg-primary .text-gold,
+  .bg-gradient-hero .text-accent, .bg-gradient-hero .text-gold,
+  [class*="from-primary"] .text-accent, [class*="from-primary"] .text-gold { color: hsl(var(--accent)); }
 }

@@ -6,7 +6,7 @@ const OrganizationSchema = () => {
     "@type": "Organization",
     "name": "FitoPlantaMed",
     "url": "https://fitoplantamed.com",
-    "logo": "https://fitoplantamed.com/favicon.png",
+    "logo": "https://fitoplantamed.com/brand/brand-logo.webp",
     "description": "Portal de informações sobre fitoterapia, plantas medicinais e suplementos naturais, com conteúdo revisado por profissionais de saúde.",
     "founder": {
       "@type": "Person",
